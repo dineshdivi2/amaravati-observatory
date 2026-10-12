@@ -1,0 +1,7 @@
+*.log
+.local-server.pid
+__pycache__/
+data/raw/
+.agents/
+.env
+.env.*

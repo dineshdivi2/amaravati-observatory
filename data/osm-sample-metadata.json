@@ -1,0 +1,12 @@
+{
+  "raw_file": "data\\raw\\20261012T094822Z\\osm-buildings.json",
+  "features": 300,
+  "skipped_nonclosed_ways": [],
+  "coverage": "Core bounding box; maximum 300 building ways, not complete city coverage",
+  "query": "[out:json][timeout:10][maxsize:8388608];way[building](16.48,80.48,16.55,80.55);out tags geom 300;",
+  "retrieved_at": "2026-10-12T09:48:22.987296+00:00",
+  "osm_timestamp": "2026-10-12T09:46:39Z",
+  "license": "ODbL 1.0; attribution OpenStreetMap contributors",
+  "height_tags": 0,
+  "floor_tags": 0
+}

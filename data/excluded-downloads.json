@@ -1,0 +1,54 @@
+[
+  {
+    "file": "data\\raw\\20261012T094449Z\\layer-12.geojson",
+    "reason": "{'code': 400, 'message': 'Failed to execute query.', 'details': []}"
+  },
+  {
+    "file": "data\\raw\\20261012T094449Z\\layer-13.geojson",
+    "reason": "{'code': 400, 'message': 'Failed to execute query.', 'details': []}"
+  },
+  {
+    "file": "data\\raw\\20261012T094449Z\\layer-15.geojson",
+    "reason": "{'code': 400, 'message': 'Failed to execute query.', 'details': []}"
+  },
+  {
+    "file": "data\\raw\\20261012T094449Z\\layer-17.geojson",
+    "reason": "{'code': 400, 'message': 'Failed to execute query.', 'details': []}"
+  },
+  {
+    "file": "data\\raw\\20261012T094449Z\\layer-19.geojson",
+    "reason": "{'code': 400, 'message': 'Failed to execute query.', 'details': []}"
+  },
+  {
+    "file": "data\\raw\\20261012T094449Z\\layer-21.geojson",
+    "reason": "{'code': 400, 'message': 'Failed to execute query.', 'details': []}"
+  },
+  {
+    "file": "data\\raw\\20261012T094449Z\\layer-23.geojson",
+    "reason": "{'code': 400, 'message': 'Failed to execute query.', 'details': []}"
+  },
+  {
+    "file": "data\\raw\\20261012T094449Z\\layer-35.geojson",
+    "reason": "{'code': 400, 'message': 'Failed to execute query.', 'details': []}"
+  },
+  {
+    "file": "data\\raw\\20261012T094449Z\\layer-37.geojson",
+    "reason": "{'code': 400, 'message': 'Failed to execute query.', 'details': []}"
+  },
+  {
+    "file": "data\\raw\\20261012T094449Z\\layer-41.geojson",
+    "reason": "{'code': 400, 'message': 'Failed to execute query.', 'details': []}"
+  },
+  {
+    "file": "data\\raw\\20261012T094449Z\\layer-42.geojson",
+    "reason": "{'code': 400, 'message': 'Failed to execute query.', 'details': []}"
+  },
+  {
+    "file": "data\\raw\\20261012T094449Z\\layer-43.geojson",
+    "reason": "{'code': 400, 'message': 'Failed to execute query.', 'details': []}"
+  },
+  {
+    "file": "data\\raw\\20261012T094449Z\\layer-44.geojson",
+    "reason": "{'code': 400, 'message': 'Failed to execute query.', 'details': []}"
+  }
+]

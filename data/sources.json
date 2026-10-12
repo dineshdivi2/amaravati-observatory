@@ -1,0 +1,262 @@
+[
+  {
+    "id": "apcrda",
+    "title": "APCRDA",
+    "url": "https://crda.ap.gov.in/Apcrdav2/Views/Home.aspx",
+    "kind": "official",
+    "published_on": null,
+    "checked_on": "2026-10-12",
+    "access": "page_or_search_excerpt_reviewed",
+    "raw_snapshot": "See data/raw manifests where downloaded"
+  },
+  {
+    "id": "agicl",
+    "title": "AGICL tender listings",
+    "url": "https://www.agicl.org/",
+    "kind": "official",
+    "published_on": null,
+    "checked_on": "2026-10-12",
+    "access": "page_or_search_excerpt_reviewed",
+    "raw_snapshot": "See data/raw manifests where downloaded"
+  },
+  {
+    "id": "tenders",
+    "title": "APCRDA tender notices",
+    "url": "https://crda.ap.gov.in/APCRDAV2/Views/NotificationsView.aspx",
+    "kind": "official",
+    "published_on": null,
+    "checked_on": "2026-10-12",
+    "access": "page_or_search_excerpt_reviewed",
+    "raw_snapshot": "See data/raw manifests where downloaded"
+  },
+  {
+    "id": "lps",
+    "title": "APCRDA LPS GIS",
+    "url": "https://gis.apcrda.org/server/rest/services/LPS_Portal/MapServer",
+    "kind": "official_spatial",
+    "published_on": null,
+    "checked_on": "2026-10-12",
+    "access": "page_or_search_excerpt_reviewed",
+    "raw_snapshot": "See data/raw manifests where downloaded"
+  },
+  {
+    "id": "smartgis",
+    "title": "APCRDA SmartCityInfra GIS",
+    "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer",
+    "kind": "official_spatial",
+    "published_on": null,
+    "checked_on": "2026-10-12",
+    "access": "page_or_search_excerpt_reviewed",
+    "raw_snapshot": "See data/raw manifests where downloaded"
+  },
+  {
+    "id": "bbas",
+    "title": "BIM approval portal",
+    "url": "https://uat.bbas.ap.gov.in/",
+    "kind": "official_system_description",
+    "published_on": null,
+    "checked_on": "2026-10-12",
+    "access": "page_or_search_excerpt_reviewed",
+    "raw_snapshot": "See data/raw manifests where downloaded"
+  },
+  {
+    "id": "smartprojects",
+    "title": "ASSCCL project descriptions",
+    "url": "https://assccl.ap.gov.in/ASSCCL/Projects",
+    "kind": "official",
+    "published_on": null,
+    "checked_on": "2026-10-12",
+    "access": "page_or_search_excerpt_reviewed",
+    "raw_snapshot": "See data/raw manifests where downloaded"
+  },
+  {
+    "id": "review",
+    "title": "Capital works review reporting",
+    "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/cm-pushes-for-speedy-amaravati-capital-works-1987300",
+    "kind": "news",
+    "published_on": "2026-09-13",
+    "checked_on": "2026-10-12",
+    "access": "page_or_search_excerpt_reviewed",
+    "raw_snapshot": "See data/raw manifests where downloaded"
+  },
+  {
+    "id": "latest",
+    "title": "Latest minister review reporting",
+    "url": "https://timesofindia.indiatimes.com/city/vijayawada/polls-to-be-deferred-in-amaravati-villages-under-land-pooling-narayana/amp_articleshow/134857896.cms",
+    "kind": "news",
+    "published_on": "2026-10-10",
+    "checked_on": "2026-10-12",
+    "access": "page_or_search_excerpt_reviewed",
+    "raw_snapshot": "See data/raw manifests where downloaded"
+  },
+  {
+    "id": "seed",
+    "title": "Access road opening and housing handover reporting",
+    "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/naidu-inaugurates-seed-access-road-bridge-connecting-amaravati-1978818",
+    "kind": "news",
+    "published_on": "2026-08-13",
+    "checked_on": "2026-10-12",
+    "access": "page_or_search_excerpt_reviewed",
+    "raw_snapshot": "See data/raw manifests where downloaded"
+  },
+  {
+    "id": "ibm",
+    "title": "IBM Quantum Valley construction update",
+    "url": "https://www.ibm.com/quantum/blog/quantum-education-india",
+    "kind": "project_partner",
+    "published_on": "2026-02-07",
+    "checked_on": "2026-10-12",
+    "access": "page_or_search_excerpt_reviewed",
+    "raw_snapshot": "See data/raw manifests where downloaded"
+  },
+  {
+    "id": "quantumtarget",
+    "title": "Quantum operations target reporting",
+    "url": "https://www.theweek.in/news/biz-tech/2026/10/04/andhra-pradesh-quantum-computing-launch.html",
+    "kind": "news",
+    "published_on": "2026-10-04",
+    "checked_on": "2026-10-12",
+    "access": "page_or_search_excerpt_reviewed",
+    "raw_snapshot": "See data/raw manifests where downloaded"
+  },
+  {
+    "id": "nielit",
+    "title": "Quantum and AI university MoU",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2231125&lang=1&reg=1",
+    "kind": "official",
+    "published_on": "2026-02-20",
+    "checked_on": "2026-10-12",
+    "access": "page_or_search_excerpt_reviewed",
+    "raw_snapshot": "See data/raw manifests where downloaded"
+  },
+  {
+    "id": "rail",
+    "title": "Rail line approval",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2067967&lang=2&reg=48",
+    "kind": "official",
+    "published_on": "2024-10-24",
+    "checked_on": "2026-10-12",
+    "access": "page_or_search_excerpt_reviewed",
+    "raw_snapshot": "See data/raw manifests where downloaded"
+  },
+  {
+    "id": "railupdate",
+    "title": "Rail package 4 tender reporting",
+    "url": "https://telugu.oneindia.com/news/andhra-pradesh/amaravati-railway-development-tenders-for-package-4-of-errupalem-namburu-railway-line-at-rs-599-cro-509181.html",
+    "kind": "news",
+    "published_on": "2026-10-04",
+    "checked_on": "2026-10-12",
+    "access": "page_or_search_excerpt_reviewed",
+    "raw_snapshot": "See data/raw manifests where downloaded"
+  },
+  {
+    "id": "orrlead",
+    "title": "ORR tender register discovery lead",
+    "url": "https://www.pedaparimi.com/infrastructure/outer-ring-road-tenders",
+    "kind": "commercial_secondary_lead",
+    "published_on": "2026-10-02",
+    "checked_on": "2026-10-12",
+    "access": "page_or_search_excerpt_reviewed",
+    "raw_snapshot": "See data/raw manifests where downloaded"
+  },
+  {
+    "id": "orrnews",
+    "title": "ORR tender reporting",
+    "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/nhai-invites-tenders-for-amaravati-outer-ring-road-1563703.html",
+    "kind": "news",
+    "published_on": "2026-10-03",
+    "checked_on": "2026-10-12",
+    "access": "page_or_search_excerpt_reviewed",
+    "raw_snapshot": "See data/raw manifests where downloaded"
+  },
+  {
+    "id": "wb",
+    "title": "World Bank financing approval",
+    "url": "https://www.worldbank.org/en/news/press-release/2024/12/20/world-bank-supports-inclusive-and-sustainable-development-of-amaravati-city",
+    "kind": "official",
+    "published_on": "2024-12-20",
+    "checked_on": "2026-10-12",
+    "access": "page_or_search_excerpt_reviewed",
+    "raw_snapshot": "See data/raw manifests where downloaded"
+  },
+  {
+    "id": "wbplan",
+    "title": "World Bank city planning factsheet",
+    "url": "https://www.worldbank.org/en/brief/2024/12/20/world-bank-support-for-amaravati-as-a-growth-hub-in-andhra-pradesh",
+    "kind": "official",
+    "published_on": "2024-12-20",
+    "checked_on": "2026-10-12",
+    "access": "page_or_search_excerpt_reviewed",
+    "raw_snapshot": "See data/raw manifests where downloaded"
+  },
+  {
+    "id": "flood",
+    "title": "Flood infrastructure program document",
+    "url": "https://documents1.worldbank.org/curated/en/099010925161598187/pdf/P507508-34c45692-031e-4b34-a52c-db2db81ff1ac.pdf",
+    "kind": "official_document_search_excerpt",
+    "published_on": null,
+    "checked_on": "2026-10-12",
+    "access": "page_or_search_excerpt_reviewed",
+    "raw_snapshot": "See data/raw manifests where downloaded"
+  },
+  {
+    "id": "ttd",
+    "title": "TTD Venkatapalem construction inspection",
+    "url": "https://news.tirumala.org/ttd-jeo-reviews-construction-works-at-venkatpalem-srivari-temple-_-%E0%B0%B5%E0%B1%87%E0%B0%97%E0%B0%82%E0%B0%97%E0%B0%BE-%E0%B0%B8%E0%B0%BE%E0%B0%97%E0%B1%81%E0%B0%A4%E0%B1%81%E0%B0%A8%E0%B1%8D/",
+    "kind": "official",
+    "published_on": "2026-08-31",
+    "checked_on": "2026-10-12",
+    "access": "page_or_search_excerpt_reviewed",
+    "raw_snapshot": "See data/raw manifests where downloaded"
+  },
+  {
+    "id": "architect",
+    "title": "Foster and Partners masterplan reference",
+    "url": "https://www.fosterandpartners.com/projects/amaravati-masterplan",
+    "kind": "architect_reference_page",
+    "published_on": null,
+    "checked_on": "2026-10-12",
+    "access": "page_or_search_excerpt_reviewed",
+    "raw_snapshot": "See data/raw manifests where downloaded"
+  },
+  {
+    "id": "overture",
+    "title": "Building schema",
+    "url": "https://docs.overturemaps.org/schema/reference/buildings/building/",
+    "kind": "technical_primary",
+    "published_on": null,
+    "checked_on": "2026-10-12",
+    "access": "page_or_search_excerpt_reviewed",
+    "raw_snapshot": "See data/raw manifests where downloaded"
+  },
+  {
+    "id": "osm",
+    "title": "OSM attribution and licence",
+    "url": "https://www.openstreetmap.org/copyright/en?locale=en-GB",
+    "kind": "technical_primary",
+    "published_on": null,
+    "checked_on": "2026-10-12",
+    "access": "page_or_search_excerpt_reviewed",
+    "raw_snapshot": "See data/raw manifests where downloaded"
+  },
+  {
+    "id": "sentinel",
+    "title": "Sentinel-2 data specification",
+    "url": "https://dataspace.copernicus.eu/data-collections/copernicus-sentinel-missions/sentinel-2",
+    "kind": "technical_primary",
+    "published_on": null,
+    "checked_on": "2026-10-12",
+    "access": "page_or_search_excerpt_reviewed",
+    "raw_snapshot": "See data/raw manifests where downloaded"
+  },
+  {
+    "id": "dem",
+    "title": "DEM current access requirements",
+    "url": "https://documentation.dataspace.copernicus.eu/APIs/SentinelHub/Data/DEM.html",
+    "kind": "technical_primary",
+    "published_on": null,
+    "checked_on": "2026-10-12",
+    "access": "page_or_search_excerpt_reviewed",
+    "raw_snapshot": "See data/raw manifests where downloaded"
+  }
+]

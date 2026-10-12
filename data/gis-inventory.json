@@ -1,0 +1,619 @@
+[
+  {
+    "file": "data/raw/20261012T093801Z/layer-13.geojson",
+    "features": 115,
+    "sha256": "b35c92ca2520f614e71f9cea4bbf45fa318b04705a61fdffbcc6cbae672493b4",
+    "bbox": [
+      80.42521263136484,
+      16.419800271924938,
+      80.55966582924172,
+      16.55479653738266
+    ],
+    "geometry_types": [
+      "MultiPolygon",
+      "Polygon"
+    ],
+    "fields": [
+      "Area_Ac",
+      "Category",
+      "Colony",
+      "FID",
+      "FSI",
+      "Name",
+      "Remarks",
+      "Sector_Num",
+      "Text",
+      "Theme_City",
+      "Township",
+      "Zoning"
+    ],
+    "redistribution": "Permission not established; research snapshot only"
+  },
+  {
+    "file": "data/raw/20261012T093801Z/layer-3.geojson",
+    "features": 1,
+    "sha256": "b07f9aa9413b78058781043f79fc0d820f7f9305fd7a7ca52e559b81a86f96d6",
+    "bbox": [
+      80.48474730891708,
+      16.497629365381464,
+      80.49427317339924,
+      16.5624134728888
+    ],
+    "geometry_types": [
+      "Polygon"
+    ],
+    "fields": [
+      "FID",
+      "Layer",
+      "Name"
+    ],
+    "redistribution": "Permission not established; research snapshot only"
+  },
+  {
+    "file": "data/raw/20261012T093801Z/layer-4.geojson",
+    "features": 152,
+    "sha256": "38fd14b4bfe4a52b58dc8628b079518bb60d4e6881b5f648d775cc854ee58182",
+    "bbox": [
+      80.4848138364674,
+      16.498013005549907,
+      80.49418599635835,
+      16.557751499182572
+    ],
+    "geometry_types": [
+      "MultiPolygon",
+      "Polygon"
+    ],
+    "fields": [
+      "Area_Acres",
+      "Category",
+      "Colony",
+      "FID",
+      "FSI",
+      "Sector_Num",
+      "Theme_Citi",
+      "Township",
+      "lu_desc",
+      "zoning"
+    ],
+    "redistribution": "Permission not established; research snapshot only"
+  },
+  {
+    "file": "data/raw/20261012T093801Z/layer-5.geojson",
+    "features": 1,
+    "sha256": "d63fd161d89811b1b04245a157541e64b9b66f1c910daefd282b055f609cb6df",
+    "bbox": [
+      80.49459168244658,
+      16.52926781648688,
+      80.53633007160231,
+      16.560267645968608
+    ],
+    "geometry_types": [
+      "Polygon"
+    ],
+    "fields": [
+      "Area_Ac",
+      "Category",
+      "FID",
+      "Layer"
+    ],
+    "redistribution": "Permission not established; research snapshot only"
+  },
+  {
+    "file": "data/raw/20261012T093801Z/layer-6-retry.geojson",
+    "features": 51,
+    "sha256": "d2dde63cca6ec9535f1d61863bfe8d72a96e945c05e4c48b960a55b7191d8965",
+    "bbox": [
+      80.49459385041813,
+      16.534669142267386,
+      80.52211839922792,
+      16.559785846214965
+    ],
+    "geometry_types": [
+      "MultiPolygon",
+      "Polygon"
+    ],
+    "fields": [
+      "Area_Acres",
+      "Category",
+      "Colony",
+      "FID",
+      "FSI",
+      "Sector_Num",
+      "Theme_Citi",
+      "Township",
+      "lu_desc",
+      "zoning"
+    ],
+    "redistribution": "Permission not established; research snapshot only"
+  },
+  {
+    "file": "data/raw/20261012T093801Z/layer-7-retry.geojson",
+    "features": 21,
+    "sha256": "7ebc5d9210a0797a5200c4434633917b77d7d3511ad8e21e2fcdd6408a1d050b",
+    "bbox": [
+      80.48479738713777,
+      16.50277136086444,
+      80.49417416288166,
+      16.54461197589397
+    ],
+    "geometry_types": [
+      "Polygon"
+    ],
+    "fields": [
+      "Area",
+      "Attribute",
+      "Block",
+      "Category",
+      "Colony",
+      "FAR",
+      "FID",
+      "Layer",
+      "Level",
+      "Sector_Num",
+      "Theme_Citi",
+      "Township"
+    ],
+    "redistribution": "Permission not established; research snapshot only"
+  },
+  {
+    "file": "data/raw/20261012T094053Z/layer-0.geojson",
+    "features": 1,
+    "sha256": "292d543645f48bdff29ef8acf2136d1264caf033ab16385f6478fa49dec2165f",
+    "bbox": [
+      80.40737391872499,
+      16.41390499840152,
+      80.60406096456553,
+      16.58963382434071
+    ],
+    "geometry_types": [
+      "Polygon"
+    ],
+    "fields": [
+      "id",
+      "name",
+      "objectid",
+      "st_area(shape)",
+      "st_length(shape)"
+    ],
+    "redistribution": "Permission not established; research snapshot only"
+  },
+  {
+    "file": "data/raw/20261012T094053Z/layer-81.geojson",
+    "features": 102,
+    "sha256": "39aebfb80a42a70e3f53f7e2db44f008bb9a08ebb1d7e9708fa111fbeedd118a",
+    "bbox": [
+      80.42536171835101,
+      16.45229145918513,
+      80.60381356097437,
+      16.589173211837505
+    ],
+    "geometry_types": [
+      "MultiPolygon",
+      "Polygon"
+    ],
+    "fields": [
+      "aadhar_no",
+      "ablock",
+      "alloted_ex",
+      "allotmenti",
+      "applicatio",
+      "area_sqm",
+      "block",
+      "blockchain",
+      "build_area",
+      "cat_desc",
+      "centroid",
+      "code",
+      "colony",
+      "datetime",
+      "dist_code",
+      "district",
+      "extn_sqyrd",
+      "farmer_n",
+      "fsi",
+      "gisfeatsta",
+      "globalid",
+      "gp",
+      "gp_code",
+      "institute",
+      "keyfieldna",
+      "keyfieldva",
+      "lottery",
+      "lpsvill_co",
+      "lpsvillage",
+      "lu_code",
+      "lu_desc",
+      "mandal",
+      "mdl_code",
+      "nat_site",
+      "nat_site_c",
+      "nbr",
+      "objectid",
+      "objectid_1",
+      "plot_categ",
+      "plot_code",
+      "plot_code_",
+      "plot_no",
+      "plot_type",
+      "plotcoord",
+      "plotstatus",
+      "polylength",
+      "polywidth",
+      "rd_categ",
+      "rd_categ_c",
+      "rd_width_m",
+      "reg_date",
+      "reg_doc_no",
+      "reg_year",
+      "regcode",
+      "regcode_e",
+      "regcode_n",
+      "regcode_ne",
+      "regcode_nw",
+      "regcode_s",
+      "regcode_se",
+      "regcode_sw",
+      "regcode_w",
+      "rs_no",
+      "rsvillage",
+      "sector",
+      "soil",
+      "st_area(shape)",
+      "st_length(shape)",
+      "st_shape_a",
+      "st_shape_l",
+      "std_sqmts",
+      "sym",
+      "symbology",
+      "tblid",
+      "township",
+      "vill_code",
+      "village",
+      "zone",
+      "zoning"
+    ],
+    "redistribution": "Permission not established; research snapshot only"
+  },
+  {
+    "file": "data/raw/20261012T094131Z/layer-10.geojson",
+    "features": 3,
+    "sha256": "f2e1885e177060c891f3b38b9cf97de00a48ff06c4395c988b0f4181f2f546f0",
+    "bbox": [
+      80.50384518451439,
+      16.47846574643733,
+      80.57232598619885,
+      16.481613105128933
+    ],
+    "geometry_types": [
+      "LineString"
+    ],
+    "fields": [
+      "objectid"
+    ],
+    "redistribution": "Permission not established; research snapshot only"
+  },
+  {
+    "file": "data/raw/20261012T094131Z/layer-11.geojson",
+    "features": 1,
+    "sha256": "18fb0bcd1b233b3bbe1ca5c3f478162fc47add34a7415bb20086b7c317f694a9",
+    "bbox": [
+      80.504497039887,
+      16.468967209997327,
+      80.56235614854033,
+      16.469114018086348
+    ],
+    "geometry_types": [
+      "LineString"
+    ],
+    "fields": [
+      "objectid"
+    ],
+    "redistribution": "Permission not established; research snapshot only"
+  },
+  {
+    "file": "data/raw/20261012T094131Z/layer-18.geojson",
+    "features": 7,
+    "sha256": "8c12d09509c096fae7504bcb07e56016439293763646e6763cbd60ac474b8880",
+    "bbox": [
+      80.44453092696168,
+      16.545544452728745,
+      80.4943706771517,
+      16.555099518504306
+    ],
+    "geometry_types": [
+      "LineString"
+    ],
+    "fields": [
+      "objectid"
+    ],
+    "redistribution": "Permission not established; research snapshot only"
+  },
+  {
+    "file": "data/raw/20261012T094131Z/layer-27.geojson",
+    "features": 2,
+    "sha256": "274b6a52aff22abb0461345e2fde59444ad98f11c03a92497c94d012f7868b38",
+    "bbox": [
+      80.47496180789679,
+      16.481051520463982,
+      80.4751789471395,
+      16.561446982540858
+    ],
+    "geometry_types": [
+      "LineString"
+    ],
+    "fields": [
+      "objectid"
+    ],
+    "redistribution": "Permission not established; research snapshot only"
+  },
+  {
+    "file": "data/raw/20261012T094131Z/layer-29.geojson",
+    "features": 3,
+    "sha256": "5e3120cbf33215f17f211edf9b87c91f1c87575df53c1b242ac9fb51192afbd5",
+    "bbox": [
+      80.49435787683827,
+      16.481751048320945,
+      80.4945614276608,
+      16.56000826494941
+    ],
+    "geometry_types": [
+      "LineString"
+    ],
+    "fields": [
+      "objectid"
+    ],
+    "redistribution": "Permission not established; research snapshot only"
+  },
+  {
+    "file": "data/raw/20261012T094131Z/layer-30.geojson",
+    "features": 2,
+    "sha256": "fd09e2482cedf9b7247abf15095247931308cd2b212d69f89c7e989ec7814afe",
+    "bbox": [
+      80.46417541428654,
+      16.486052212334354,
+      80.46438155277731,
+      16.560826918917446
+    ],
+    "geometry_types": [
+      "LineString"
+    ],
+    "fields": [
+      "objectid"
+    ],
+    "redistribution": "Permission not established; research snapshot only"
+  },
+  {
+    "file": "data/raw/20261012T094131Z/layer-33.geojson",
+    "features": 3,
+    "sha256": "f8231f75e5adabd2d9e4619eae1fe1fe9535e62d931fc0e5d17e770046b7f239",
+    "bbox": [
+      80.43638468660244,
+      16.480884440175785,
+      80.43657011552875,
+      16.544871696213036
+    ],
+    "geometry_types": [
+      "LineString"
+    ],
+    "fields": [
+      "objectid"
+    ],
+    "redistribution": "Permission not established; research snapshot only"
+  },
+  {
+    "file": "data/raw/20261012T094131Z/layer-38.geojson",
+    "features": 2,
+    "sha256": "316cc49f9332107eda3a005275042806c7bd80fd0e7585c5b7d852b0923d5d0c",
+    "bbox": [
+      80.56296257454227,
+      16.44914728072728,
+      80.56302855181141,
+      16.47859880527944
+    ],
+    "geometry_types": [
+      "LineString"
+    ],
+    "fields": [
+      "objectid"
+    ],
+    "redistribution": "Permission not established; research snapshot only"
+  },
+  {
+    "file": "data/raw/20261012T094131Z/layer-39.geojson",
+    "features": 6,
+    "sha256": "3998b13f898c58c585019ac52ead90324a60146a089a10c3ea66d0145a5808dd",
+    "bbox": [
+      80.5530693211105,
+      16.45155825398132,
+      80.55689930546419,
+      16.51273313939006
+    ],
+    "geometry_types": [
+      "LineString"
+    ],
+    "fields": [
+      "objectid"
+    ],
+    "redistribution": "Permission not established; research snapshot only"
+  },
+  {
+    "file": "data/raw/20261012T094449Z/layer-14.geojson",
+    "features": 3,
+    "sha256": "8d6d78b6a3b50268b44fdfb0a6b614d478645c1df5ff1c4396b31514797f7341",
+    "bbox": [
+      80.499389027936,
+      16.459471722227935,
+      80.56300511963613,
+      16.459614040640112
+    ],
+    "geometry_types": [
+      "LineString"
+    ],
+    "fields": [
+      "objectid"
+    ],
+    "redistribution": "Permission not established; research snapshot only"
+  },
+  {
+    "file": "data/raw/20261012T094449Z/layer-16.geojson",
+    "features": 2,
+    "sha256": "0718b71fbb258dca1e26a5c5594468ebab06b9662ac8c94314e0eb07a5f905d0",
+    "bbox": [
+      80.50398988374897,
+      16.421515707671293,
+      80.54581692618375,
+      16.421610343047544
+    ],
+    "geometry_types": [
+      "LineString"
+    ],
+    "fields": [
+      "objectid"
+    ],
+    "redistribution": "Permission not established; research snapshot only"
+  },
+  {
+    "file": "data/raw/20261012T094449Z/layer-22.geojson",
+    "features": 11,
+    "sha256": "4c3a3dfd99242c286de8dead2bc03c05794a46eb3bfab48c9b1a4e504bbf2cc8",
+    "bbox": [
+      80.43036117593032,
+      16.506753520883894,
+      80.51360434898984,
+      16.516455445649942
+    ],
+    "geometry_types": [
+      "LineString"
+    ],
+    "fields": [
+      "objectid"
+    ],
+    "redistribution": "Permission not established; research snapshot only"
+  },
+  {
+    "file": "data/raw/20261012T094449Z/layer-24.geojson",
+    "features": 1,
+    "sha256": "bc8c7c5ed18e64e8f836b5b19fa6ce1bca68ed876e112975abd55be2492d20f2",
+    "bbox": [
+      80.41935124216086,
+      16.49723160713311,
+      80.54279739465032,
+      16.49753792613068
+    ],
+    "geometry_types": [
+      "LineString"
+    ],
+    "fields": [
+      "objectid"
+    ],
+    "redistribution": "Permission not established; research snapshot only"
+  },
+  {
+    "file": "data/raw/20261012T094449Z/layer-25.geojson",
+    "features": 2,
+    "sha256": "5641d7479df708268b5191acc56abacf657473f25c2b5d3f898c824cd9eb085c",
+    "bbox": [
+      80.4209091071831,
+      16.485936422189315,
+      80.55310766127695,
+      16.48626051047158
+    ],
+    "geometry_types": [
+      "LineString"
+    ],
+    "fields": [
+      "objectid"
+    ],
+    "redistribution": "Permission not established; research snapshot only"
+  },
+  {
+    "file": "data/raw/20261012T094449Z/layer-28.geojson",
+    "features": 2,
+    "sha256": "22441668e7ed77a99a3ec6b605845ce7f180d8426e0764dbf78ecb7afd6aa344",
+    "bbox": [
+      80.48451546624092,
+      16.482369589544675,
+      80.48472242148259,
+      16.560413790288703
+    ],
+    "geometry_types": [
+      "LineString"
+    ],
+    "fields": [
+      "objectid"
+    ],
+    "redistribution": "Permission not established; research snapshot only"
+  },
+  {
+    "file": "data/raw/20261012T094449Z/layer-31.geojson",
+    "features": 6,
+    "sha256": "18cbcdefa12cb3397453ddf36479a8473160f9eedf5a7be77400ee4d13b4e764",
+    "bbox": [
+      80.456215787913,
+      16.487047021021294,
+      80.46011256594524,
+      16.56271965740223
+    ],
+    "geometry_types": [
+      "LineString"
+    ],
+    "fields": [
+      "objectid"
+    ],
+    "redistribution": "Permission not established; research snapshot only"
+  },
+  {
+    "file": "data/raw/20261012T094449Z/layer-32.geojson",
+    "features": 1,
+    "sha256": "ff892178be8b4d0bef8a727b975e57c9ee784350942ef7d36535442d0ddb3c8a",
+    "bbox": [
+      80.44454077023295,
+      16.4805105328324,
+      80.44472211596172,
+      16.544218387409213
+    ],
+    "geometry_types": [
+      "LineString"
+    ],
+    "fields": [
+      "objectid"
+    ],
+    "redistribution": "Permission not established; research snapshot only"
+  },
+  {
+    "file": "data/raw/20261012T094449Z/layer-36.geojson",
+    "features": 5,
+    "sha256": "40a64edfb6700e2a53bb2bb5bffaef91ba94a40e6a39133082f0817cb9cc7c21",
+    "bbox": [
+      80.57232002191145,
+      16.481600267288723,
+      80.57278732544835,
+      16.504119192220234
+    ],
+    "geometry_types": [
+      "LineString"
+    ],
+    "fields": [
+      "objectid"
+    ],
+    "redistribution": "Permission not established; research snapshot only"
+  },
+  {
+    "file": "data/raw/20261012T094449Z/layer-40.geojson",
+    "features": 10,
+    "sha256": "653078531589c1abbef2a8d904f21ecbbd81014dbac03a82de0ee8f7eb46e434",
+    "bbox": [
+      80.54347889171991,
+      16.431495376440083,
+      80.54881011144353,
+      16.49754728806758
+    ],
+    "geometry_types": [
+      "LineString"
+    ],
+    "fields": [
+      "objectid"
+    ],
+    "redistribution": "Permission not established; research snapshot only"
+  }
+]
