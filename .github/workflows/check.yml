@@ -1,0 +1,27 @@
+name: Check
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate curated data, geometry, privacy allowlists and stats
+        run: python scripts/build_site.py --check
+      - name: Syntax-check site modules and imports
+        run: node scripts/check-js.mjs
+      - name: Smoke-test the local server
+        run: |
+          node server.mjs 4300 & sleep 1
+          for path in / /js/main.js /data/projects.json /data/stats.json /data/buildings.bin /vendor/three.module.min.js; do
+            code=$(curl -s -o /dev/null -w '%{http_code}' "http://127.0.0.1:4300$path"); echo "$path $code"; test "$code" = 200
+          done

@@ -1,5 +1,12 @@
 # Amaravati: data and evidence brief
 
+> **Update, 12 October 2026 (0.2):** The coverage counts below are from the first snapshot and have been superseded.
+> - All 35 road layers now download. The earlier failures were server-side reprojection errors, fixed by reprojecting locally.
+> - The 300-building sample has been replaced by full OSM coverage inside the capital boundary.
+> - Added land allotments, land programmes, road polygons, bunds, the Krishna river, land use, roads and rail.
+>
+> Current counts are in `data/layer-manifest.json`, `data/osm-manifest.json` and `site/data/stats.json`.
+
 Checked 12 October 2026. This pack establishes the starting geography and a major-project watchlist for a cinematic city explorer. It separates published claims from observed physical progress and leaves missing measurements null.
 
 Validation result: 27 official GIS GeoJSON files, 516 planning features, 18 major project groups and 26 source references. A separate OSM sample contains 300 closed building polygons. This sample has **zero height tags and zero floor-count tags**. All downloaded polygon coordinates were checked for longitude/latitude range; this is structural validation, not a positional-accuracy survey.

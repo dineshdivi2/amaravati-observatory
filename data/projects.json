@@ -1,370 +1,1211 @@
 {
-  "as_of": "2026-10-12",
-  "coverage": "Starter major-project registry; not exhaustive",
-  "projects": [
+ "as_of": "2026-10-12",
+ "coverage": "Starter major-project registry; not exhaustive",
+ "projects": [
+  {
+   "id": "secretariat",
+   "name": "Secretariat and HoD towers",
+   "category": "government",
+   "status": "construction_reported",
+   "evidence_date": "2026-09-13",
+   "checked_on": "2026-10-12",
+   "summary": "Tower structural work is reported; official listings separately describe MEP and facade procurement.",
+   "sources": [
+    "review",
+    "agicl"
+   ],
+   "announced_target": {
+    "date": "2028-09",
+    "announced_on": "2026-09-13",
+    "source": "review",
+    "confidence": "medium",
+    "note": "Two-year target for GAD/HoD towers and Assembly; month derived"
+   },
+   "physical_progress_pct": null,
+   "observed_height_m": null,
+   "model_file": null,
+   "spatial_match": {
+    "service": "LPS_Portal",
+    "layer": 7,
+    "attribute": "SEC-HOD",
+    "kind": "planning_parcel"
+   },
+   "remaining_verification": "Latest dated site images, per-tower stages, drawings, heights and completion schedule.",
+   "contractor": {
+    "value": "NCC Ltd (GAD tower); Shapoorji Pallonji & Co (Towers 1-2); Larsen & Toubro (Towers 3-4)",
+    "source_id": "go629-2025",
+    "confidence": "high"
+   },
+   "value": {
+    "inr_crore": 3673.43,
+    "measures": "awarded contract value, civil/structure, three packages, excl. taxes",
+    "source_id": "go629-2025",
+    "confidence": "high",
+    "note": "GAD 882.47 + T1-2 1,487.11 + T3-4 1,303.85 crore; L1 bids approved June 2025"
+   },
+   "value_alternates": [
     {
-      "id": "secretariat",
-      "name": "Secretariat and HoD towers",
-      "category": "government",
-      "status": "construction_reported",
-      "evidence_date": "2026-09-13",
-      "checked_on": "2026-10-12",
-      "summary": "Tower structural work is reported; official listings separately describe MEP and facade procurement.",
-      "sources": [
-        "review",
-        "agicl"
-      ],
-      "announced_target": null,
-      "physical_progress_pct": null,
-      "observed_height_m": null,
-      "model_file": null,
-      "spatial_match": {
-        "service": "LPS_Portal",
-        "layer": 7,
-        "attribute": "SEC-HOD",
-        "kind": "planning_parcel"
-      },
-      "remaining_verification": "Latest dated site images, per-tower stages, drawings, heights and completion schedule."
+     "inr_crore": 4688,
+     "measures": "estimated cost, five towers (Dec 2024 approval)",
+     "source_id": "tsf-24276",
+     "confidence": "medium"
     },
     {
-      "id": "assembly",
-      "name": "Permanent Legislative Assembly",
-      "category": "government",
-      "status": "construction_reported",
-      "evidence_date": "2026-09-13",
-      "checked_on": "2026-10-12",
-      "summary": "Assembly works are reported in progress; official listings include building services procurement.",
-      "sources": [
-        "review",
-        "agicl"
-      ],
-      "announced_target": null,
-      "physical_progress_pct": null,
-      "observed_height_m": null,
-      "model_file": null,
-      "spatial_match": {
-        "service": "LPS_Portal",
-        "layer": 7,
-        "attribute": "Assembly",
-        "kind": "planning_parcel"
-      },
-      "remaining_verification": "Current spire/design approval, measured progress, precise building footprint and licensed model."
-    },
-    {
-      "id": "highcourt",
-      "name": "Permanent High Court complex",
-      "category": "government",
-      "status": "procurement_evidence",
-      "evidence_date": "2026-05-08",
-      "checked_on": "2026-10-12",
-      "summary": "Official listing includes MEP procurement for the permanent High Court.",
-      "sources": [
-        "agicl"
-      ],
-      "announced_target": null,
-      "physical_progress_pct": null,
-      "observed_height_m": null,
-      "model_file": null,
-      "spatial_match": {
-        "service": "LPS_Portal",
-        "layer": 7,
-        "attribute": "Judicial Complex",
-        "kind": "planning_parcel"
-      },
-      "remaining_verification": "Current physical progress, design dimensions and revised handover date; distinguish the existing court."
-    },
-    {
-      "id": "mlahousing",
-      "name": "MLA and MLC housing",
-      "category": "housing",
-      "status": "handover_reported",
-      "evidence_date": "2026-08-13",
-      "checked_on": "2026-10-12",
-      "summary": "The residential complex was reported handed over to GAD.",
-      "sources": [
-        "seed"
-      ],
-      "announced_target": null,
-      "physical_progress_pct": null,
-      "observed_height_m": null,
-      "model_file": null,
-      "spatial_match": {
-        "service": "LPS_Portal",
-        "layer": 7,
-        "attribute": "MLA / MLC Housing",
-        "kind": "planning_parcel"
-      },
-      "remaining_verification": "Primary handover document, occupancy and per-tower footprint verification."
-    },
-    {
-      "id": "officerhousing",
-      "name": "Officer and employee housing",
-      "category": "housing",
-      "status": "procurement_evidence",
-      "evidence_date": "2026-06-06",
-      "checked_on": "2026-10-12",
-      "summary": "Amenities and services procurement appears for GO, NGO and Group D housing.",
-      "sources": [
-        "agicl"
-      ],
-      "announced_target": null,
-      "physical_progress_pct": null,
-      "observed_height_m": null,
-      "model_file": null,
-      "spatial_match": null,
-      "remaining_verification": "Track each housing package independently; one completed complex does not establish all housing completion."
-    },
-    {
-      "id": "seedroad",
-      "name": "E3 Seed Access Road",
-      "category": "transport",
-      "status": "partial_opening_reported",
-      "evidence_date": "2026-08-13",
-      "checked_on": "2026-10-12",
-      "summary": "Road and steel bridges inaugurated; a further highway extension was described separately.",
-      "sources": [
-        "seed"
-      ],
-      "announced_target": null,
-      "physical_progress_pct": null,
-      "observed_height_m": null,
-      "model_file": null,
-      "spatial_match": {
-        "service": "SmartCityInfra",
-        "layer": 19,
-        "kind": "planned_centreline"
-      },
-      "remaining_verification": "Exact opened section, operational lanes and subsequent phase verification."
-    },
-    {
-      "id": "trunkroads",
-      "name": "Capital road grid and utility corridors",
-      "category": "transport",
-      "status": "construction_reported",
-      "evidence_date": "2026-10-10",
-      "checked_on": "2026-10-12",
-      "summary": "Review reporting calls for faster road and plot infrastructure work.",
-      "sources": [
-        "latest",
-        "smartgis"
-      ],
-      "announced_target": null,
-      "physical_progress_pct": null,
-      "observed_height_m": null,
-      "model_file": null,
-      "spatial_match": null,
-      "remaining_verification": "Package-level physical progress, as-built alignment and commissioning; road-map geometry is planning evidence."
-    },
-    {
-      "id": "orr",
-      "name": "Outer Ring Road",
-      "category": "regional_transport",
-      "status": "tendering_reported",
-      "evidence_date": "2026-10-02",
-      "checked_on": "2026-10-12",
-      "summary": "Four procurement packages reported; government search indexed package 2, but the detail link expired on opening.",
-      "sources": [
-        "orrlead",
-        "orrnews"
-      ],
-      "announced_target": null,
-      "physical_progress_pct": null,
-      "observed_height_m": null,
-      "model_file": null,
-      "spatial_match": null,
-      "remaining_verification": "Retrieve live tender documents and corrigenda using IDs; do not show an operating road."
-    },
-    {
-      "id": "irr",
-      "name": "Inner Ring Road",
-      "category": "regional_transport",
-      "status": "dpr_consultancy_listing",
-      "evidence_date": "2026-09-15",
-      "checked_on": "2026-10-12",
-      "summary": "Official listing requests revalidation and updating of the 2019 DPR.",
-      "sources": [
-        "agicl"
-      ],
-      "announced_target": null,
-      "physical_progress_pct": null,
-      "observed_height_m": null,
-      "model_file": null,
-      "spatial_match": null,
-      "remaining_verification": "Final approved alignment, awards and appointed dates; do not infer a settled route."
-    },
-    {
-      "id": "railway",
-      "name": "Errupalem-Amaravati-Namburu railway",
-      "category": "regional_transport",
-      "status": "tendering_reported",
-      "evidence_date": "2026-10-04",
-      "checked_on": "2026-10-12",
-      "summary": "Official project approval is available; more recent package 4 tender activity is reported.",
-      "sources": [
-        "rail",
-        "railupdate"
-      ],
-      "announced_target": null,
-      "physical_progress_pct": null,
-      "observed_height_m": null,
-      "model_file": null,
-      "spatial_match": null,
-      "remaining_verification": "Primary package 4 tender, alignment and station geometry; source lengths differ and should retain their scope."
-    },
-    {
-      "id": "quantum",
-      "name": "Quantum Valley and twin office towers",
-      "category": "technology",
-      "status": "construction_evidence",
-      "evidence_date": "2026-10-04",
-      "checked_on": "2026-10-12",
-      "summary": "IBM confirms construction began; the official corporation lists twin tower procurement. Operations date is a reported target.",
-      "sources": [
-        "ibm",
-        "agicl",
-        "quantumtarget"
-      ],
-      "announced_target": {
-        "date": "2027-02-03",
-        "type": "reported_government_target",
-        "source": "quantumtarget"
-      },
-      "physical_progress_pct": null,
-      "observed_height_m": null,
-      "model_file": null,
-      "spatial_match": null,
-      "remaining_verification": "Primary commissioning schedule, current photographs and approved building geometry."
-    },
-    {
-      "id": "nielitcampus",
-      "name": "NIELIT Quantum and AI university campus",
-      "category": "education",
-      "status": "mou_announced",
-      "evidence_date": "2026-02-20",
-      "checked_on": "2026-10-12",
-      "summary": "PIB reports an MoU for a dedicated university campus.",
-      "sources": [
-        "nielit"
-      ],
-      "announced_target": null,
-      "physical_progress_pct": null,
-      "observed_height_m": null,
-      "model_file": null,
-      "spatial_match": null,
-      "remaining_verification": "Land handover, construction award, location and opening schedule; an MoU is not construction completion."
-    },
-    {
-      "id": "floodnetwork",
-      "name": "Flood mitigation and blue network",
-      "category": "resilience",
-      "status": "program_and_planning_evidence",
-      "evidence_date": null,
-      "checked_on": "2026-10-12",
-      "summary": "Program documents cover flood infrastructure; official GIS has a blue-network layer.",
-      "sources": [
-        "flood",
-        "smartgis"
-      ],
-      "announced_target": null,
-      "physical_progress_pct": null,
-      "observed_height_m": null,
-      "model_file": null,
-      "spatial_match": {
-        "service": "SmartCityInfra",
-        "layer": 81,
-        "kind": "planning_geometry"
-      },
-      "remaining_verification": "Reservoir/canal/pump package progress and commissioning; no engineering flood-safety claim from a visual."
-    },
-    {
-      "id": "districtcooling",
-      "name": "Government complex district cooling",
-      "category": "utilities",
-      "status": "rfp_listed",
-      "evidence_date": "2026-08-28",
-      "checked_on": "2026-10-12",
-      "summary": "APCRDA lists a PPP district-cooling RFP.",
-      "sources": [
-        "tenders"
-      ],
-      "announced_target": null,
-      "physical_progress_pct": null,
-      "observed_height_m": null,
-      "model_file": null,
-      "spatial_match": null,
-      "remaining_verification": "Current corrigenda, award and construction; published tender schedules may have changed."
-    },
-    {
-      "id": "riverfront",
-      "name": "Krishna riverfront development",
-      "category": "public_realm",
-      "status": "consultancy_listing",
-      "evidence_date": "2026-04-04",
-      "checked_on": "2026-10-12",
-      "summary": "Official listing requests masterplan design and management consultancy.",
-      "sources": [
-        "agicl"
-      ],
-      "announced_target": null,
-      "physical_progress_pct": null,
-      "observed_height_m": null,
-      "model_file": null,
-      "spatial_match": null,
-      "remaining_verification": "Approved design, boundaries, tender award and delivery date; artistic waterfront is a scenario."
-    },
-    {
-      "id": "hotels",
-      "name": "Hotel development plots",
-      "category": "commercial",
-      "status": "plot_procurement_listed",
-      "evidence_date": "2026-07-15",
-      "checked_on": "2026-10-12",
-      "summary": "APCRDA lists conditional plot allotments for hotel development.",
-      "sources": [
-        "tenders"
-      ],
-      "announced_target": null,
-      "physical_progress_pct": null,
-      "observed_height_m": null,
-      "model_file": null,
-      "spatial_match": null,
-      "remaining_verification": "Operator-specific land, approvals, foundation work and opening dates before showing named finished hotels."
-    },
-    {
-      "id": "ttdtemple",
-      "name": "Venkatapalem Srivari temple expansion",
-      "category": "culture",
-      "status": "official_inspection_reported",
-      "evidence_date": "2026-08-31",
-      "checked_on": "2026-10-12",
-      "summary": "TTD published a construction inspection update.",
-      "sources": [
-        "ttd"
-      ],
-      "announced_target": null,
-      "physical_progress_pct": null,
-      "observed_height_m": null,
-      "model_file": null,
-      "spatial_match": null,
-      "remaining_verification": "Dated photos and precise expansion footprint; keep existing temple and new works separate."
-    },
-    {
-      "id": "sportscity",
-      "name": "International Sports City",
-      "category": "sports",
-      "status": "land_pooling_reported",
-      "evidence_date": "2026-10-10",
-      "checked_on": "2026-10-12",
-      "summary": "Latest review reporting describes ongoing land pooling.",
-      "sources": [
-        "latest"
-      ],
-      "announced_target": null,
-      "physical_progress_pct": null,
-      "observed_height_m": null,
-      "model_file": null,
-      "spatial_match": null,
-      "remaining_verification": "Final boundaries, venue designs, contracts and construction; no fabricated completed stadium."
+     "inr_crore": 4890,
+     "measures": "estimated cost, 2018 design",
+     "source_id": "tnm-secretariat-2018",
+     "confidence": "medium",
+     "note": "Pre-2019 figure; scope may differ"
     }
-  ]
+   ],
+   "target_history": [
+    {
+     "announced_on": "2024-12",
+     "target": "2027-12",
+     "source_id": "nbmcw-three-years",
+     "confidence": "medium",
+     "note": "Minister: capital core works within three years"
+    },
+    {
+     "announced_on": "2026-09-13",
+     "target": "2028-09",
+     "source_id": "review",
+     "confidence": "medium",
+     "note": "Two-year target for GAD/HoD towers and Assembly; month derived"
+    }
+   ],
+   "milestones": [
+    {
+     "date": "2018-12-27",
+     "event": "Raft foundation laid for five-tower secretariat (first attempt, pre-2019 pause)",
+     "source_id": "tnm-secretariat-2018",
+     "confidence": "high"
+    },
+    {
+     "date": "2025-06-02",
+     "event": "48th APCRDA meeting approved L1 bids for GAD tower and Towers 1-4",
+     "source_id": "go629-2025",
+     "confidence": "high"
+    },
+    {
+     "date": "2025-06-26",
+     "event": "Government authorised award of three secretariat packages (GO Rt 629)",
+     "source_id": "go629-2025",
+     "confidence": "high"
+    },
+    {
+     "date": "2026-09",
+     "event": "Steel diagrid works reported progressing on the five towers",
+     "source_id": "review",
+     "confidence": "medium"
+    }
+   ],
+   "map": {
+    "dataset": "parcels",
+    "where": {
+     "Attribute": "SEC-HOD"
+    },
+    "landmark": true
+   }
+  },
+  {
+   "id": "assembly",
+   "name": "Permanent Legislative Assembly",
+   "category": "government",
+   "status": "construction_reported",
+   "evidence_date": "2026-09-13",
+   "checked_on": "2026-10-12",
+   "summary": "Assembly works are reported in progress; official listings include building services procurement.",
+   "sources": [
+    "review",
+    "agicl"
+   ],
+   "announced_target": {
+    "date": "2028-09",
+    "announced_on": "2026-09-13",
+    "source": "review",
+    "confidence": "medium",
+    "note": "Two-year target for iconic buildings; month derived"
+   },
+   "physical_progress_pct": null,
+   "observed_height_m": null,
+   "model_file": null,
+   "spatial_match": {
+    "service": "LPS_Portal",
+    "layer": 7,
+    "attribute": "Assembly",
+    "kind": "planning_parcel"
+   },
+   "remaining_verification": "Current spire/design approval, measured progress, precise building footprint and licensed model.",
+   "contractor": {
+    "value": "Larsen & Toubro Ltd (civil structure)",
+    "source_id": "go315-2025",
+    "confidence": "high"
+   },
+   "value": {
+    "inr_crore": 617.34,
+    "measures": "awarded contract value, civil structure, excl. taxes",
+    "source_id": "go315-2025",
+    "confidence": "high",
+    "note": "4.48% over ECV of 590.87 crore"
+   },
+   "value_alternates": [
+    {
+     "inr_crore": 424.34,
+     "measures": "administrative sanction, MEP works (separate package)",
+     "source_id": "go223-2026",
+     "confidence": "high"
+    }
+   ],
+   "target_history": [
+    {
+     "announced_on": "2024-12",
+     "target": "2027-12",
+     "source_id": "nbmcw-three-years",
+     "confidence": "medium",
+     "note": "Assembly, secretariat, HC within three years"
+    },
+    {
+     "announced_on": "2026-09-13",
+     "target": "2028-09",
+     "source_id": "review",
+     "confidence": "medium",
+     "note": "Two-year target for iconic buildings; month derived"
+    }
+   ],
+   "milestones": [
+    {
+     "date": "2025-04-04",
+     "event": "L&T reported as L1 for Assembly; NCC for High Court",
+     "source_id": "m9-assembly-hc-award",
+     "confidence": "medium"
+    },
+    {
+     "date": "2025-04-05",
+     "event": "46th APCRDA meeting approved L&T L1 bid",
+     "source_id": "go315-2025",
+     "confidence": "high"
+    },
+    {
+     "date": "2025-04-17",
+     "event": "Government authorised LoA to L&T (GO Rt 315)",
+     "source_id": "go315-2025",
+     "confidence": "high"
+    },
+    {
+     "date": "2026-02-27",
+     "event": "Administrative sanction for Assembly MEP works",
+     "source_id": "go223-2026",
+     "confidence": "high"
+    },
+    {
+     "date": "2026-09",
+     "event": "Spire works reported to begin within a week",
+     "source_id": "review",
+     "confidence": "medium"
+    }
+   ],
+   "map": {
+    "dataset": "parcels",
+    "where": {
+     "Attribute": "Assembly"
+    },
+    "landmark": true
+   }
+  },
+  {
+   "id": "highcourt",
+   "name": "Permanent High Court complex",
+   "category": "government",
+   "status": "procurement_evidence",
+   "evidence_date": "2026-05-08",
+   "checked_on": "2026-10-12",
+   "summary": "Official listing includes MEP procurement for the permanent High Court.",
+   "sources": [
+    "agicl"
+   ],
+   "announced_target": {
+    "date": "2027-12",
+    "announced_on": "2025-12-26",
+    "source": "siasat-hc-raft",
+    "confidence": "high",
+    "note": "Target: end of 2027"
+   },
+   "physical_progress_pct": null,
+   "observed_height_m": null,
+   "model_file": null,
+   "spatial_match": {
+    "service": "LPS_Portal",
+    "layer": 7,
+    "attribute": "Judicial Complex",
+    "kind": "planning_parcel"
+   },
+   "remaining_verification": "Current physical progress, design dimensions and revised handover date; distinguish the existing court.",
+   "contractor": {
+    "value": "NCC Ltd (civil structure)",
+    "source_id": "go315-2025",
+    "confidence": "high",
+    "note": "2019 contract was with Shapoorji Pallonji before the pause"
+   },
+   "value": {
+    "inr_crore": 786.06,
+    "measures": "awarded contract value, civil structure, excl. taxes",
+    "source_id": "go315-2025",
+    "confidence": "high",
+    "note": "4.52% over ECV of 752.06 crore"
+   },
+   "value_alternates": [
+    {
+     "inr_crore": 1048,
+     "measures": "estimated cost (Dec 2024 approval)",
+     "source_id": "tsf-24276",
+     "confidence": "medium"
+    },
+    {
+     "inr_crore": 556,
+     "measures": "administrative sanction, MEP works",
+     "source_id": "go224-2026",
+     "confidence": "high"
+    },
+    {
+     "inr_crore": 732,
+     "measures": "estimated cost, 2019 permanent complex",
+     "source_id": "tnm-hc-foundation-2019",
+     "confidence": "medium"
+    }
+   ],
+   "target_history": [
+    {
+     "announced_on": "2019-02",
+     "target": "2021-02",
+     "source_id": "tnm-hc-foundation-2019",
+     "confidence": "medium",
+     "note": "Two years from 2019 foundation; month derived"
+    },
+    {
+     "announced_on": "2024-12",
+     "target": "2027-12",
+     "source_id": "nbmcw-three-years",
+     "confidence": "medium"
+    },
+    {
+     "announced_on": "2025-12-26",
+     "target": "2027-12",
+     "source_id": "siasat-hc-raft",
+     "confidence": "high",
+     "note": "Target: end of 2027"
+    }
+   ],
+   "milestones": [
+    {
+     "date": "2019-02-03",
+     "event": "CJI laid foundation stone for permanent High Court",
+     "source_id": "tnm-hc-foundation-2019",
+     "confidence": "high"
+    },
+    {
+     "date": "2025-04-17",
+     "event": "Government authorised LoA to NCC (GO Rt 315)",
+     "source_id": "go315-2025",
+     "confidence": "high"
+    },
+    {
+     "date": "2025-12-25",
+     "event": "Raft foundation works inaugurated",
+     "source_id": "siasat-hc-raft",
+     "confidence": "high"
+    },
+    {
+     "date": "2026-02-27",
+     "event": "Administrative sanction for High Court MEP works",
+     "source_id": "go224-2026",
+     "confidence": "high"
+    }
+   ],
+   "map": {
+    "dataset": "parcels",
+    "where": {
+     "Attribute": "Judicial Complex"
+    },
+    "landmark": true
+   }
+  },
+  {
+   "id": "mlahousing",
+   "name": "MLA and MLC housing",
+   "category": "housing",
+   "status": "handover_reported",
+   "evidence_date": "2026-08-13",
+   "checked_on": "2026-10-12",
+   "summary": "The residential complex was reported handed over to GAD.",
+   "sources": [
+    "seed"
+   ],
+   "announced_target": {
+    "date": "2026-08-15",
+    "announced_on": "2026-07-22",
+    "source": "dc-trunk-2027",
+    "confidence": "high",
+    "note": "MLC quarters handover"
+   },
+   "physical_progress_pct": null,
+   "observed_height_m": null,
+   "model_file": null,
+   "spatial_match": {
+    "service": "LPS_Portal",
+    "layer": 7,
+    "attribute": "MLA / MLC Housing",
+    "kind": "planning_parcel"
+   },
+   "remaining_verification": "Primary handover document, occupancy and per-tower footprint verification.",
+   "value": {
+    "inr_crore": 524.7,
+    "measures": "administrative sanction, balance works for 18 towers (MLA, MLC, AIS officers)",
+    "source_id": "go676-2025",
+    "confidence": "high",
+    "note": "432 units; covers more than the MLA/MLC complex handed over"
+   },
+   "target_history": [
+    {
+     "announced_on": "2026-07-22",
+     "target": "2026-07-25",
+     "source_id": "dc-trunk-2027",
+     "confidence": "high",
+     "note": "MLA quarters handover"
+    },
+    {
+     "announced_on": "2026-07-22",
+     "target": "2026-08-15",
+     "source_id": "dc-trunk-2027",
+     "confidence": "high",
+     "note": "MLC quarters handover"
+    }
+   ],
+   "milestones": [
+    {
+     "date": "2025-07-13",
+     "event": "Balance-works sanction issued (GO Rt 676)",
+     "source_id": "go676-2025",
+     "confidence": "high"
+    },
+    {
+     "date": "2026-08-06",
+     "event": "MLA and MLC quarters reported completed",
+     "source_id": "tnm-4000-homes",
+     "confidence": "medium"
+    },
+    {
+     "date": "2026-08-13",
+     "event": "MLA/MLC complex at Rayapudi (12 towers, 288 flats) handed to GAD",
+     "source_id": "seed",
+     "confidence": "high"
+    }
+   ],
+   "map": {
+    "dataset": "parcels",
+    "where": {
+     "Attribute": "MLA / MLC Housing"
+    },
+    "landmark": true
+   }
+  },
+  {
+   "id": "officerhousing",
+   "name": "Officer and employee housing",
+   "category": "housing",
+   "status": "procurement_evidence",
+   "evidence_date": "2026-06-06",
+   "checked_on": "2026-10-12",
+   "summary": "Amenities and services procurement appears for GO, NGO and Group D housing.",
+   "sources": [
+    "agicl"
+   ],
+   "announced_target": {
+    "date": "2026-12",
+    "announced_on": "2026-08-06",
+    "source": "tnm-4000-homes",
+    "confidence": "medium",
+    "note": "Nearly 4,000 homes to be handed over; package split not given"
+   },
+   "physical_progress_pct": null,
+   "observed_height_m": null,
+   "model_file": null,
+   "spatial_match": null,
+   "remaining_verification": "Track each housing package independently; one completed complex does not establish all housing completion.",
+   "contractor": {
+    "value": "Larsen & Toubro (NGO towers final-phase works only)",
+    "source_id": "propnews-ngo-lt",
+    "confidence": "medium",
+    "note": "Other packages' contractors not confirmed"
+   },
+   "value": {
+    "inr_crore": 1732.31,
+    "measures": "tenders approved at 47th APCRDA meeting, staff housing and related works",
+    "source_id": "tsf-1732",
+    "confidence": "medium"
+   },
+   "value_alternates": [
+    {
+     "inr_crore": 83.99,
+     "measures": "awarded contract value, NGO towers STP/compound/finishing",
+     "source_id": "propnews-ngo-lt",
+     "confidence": "medium"
+    }
+   ],
+   "target_history": [
+    {
+     "announced_on": "2026-08-06",
+     "target": "2026-12",
+     "source_id": "tnm-4000-homes",
+     "confidence": "medium",
+     "note": "Nearly 4,000 homes to be handed over; package split not given"
+    }
+   ],
+   "milestones": [
+    {
+     "date": "2024-12-10",
+     "event": "Balance-works sanctions approved for gazetted (14 towers) and NGO (12 + 9 towers) housing",
+     "source_id": "go968-2024",
+     "confidence": "high"
+    },
+    {
+     "date": "2025-05-06",
+     "event": "APCRDA approved staff housing tenders",
+     "source_id": "theweek-staff-housing",
+     "confidence": "high"
+    },
+    {
+     "date": "2026-07",
+     "event": "L&T awarded NGO towers final-phase works",
+     "source_id": "propnews-ngo-lt",
+     "confidence": "medium"
+    }
+   ],
+   "map": {
+    "dataset": "parcels",
+    "where": {
+     "Attribute": [
+      "GO Apartments Type 1 and 2",
+      "NGO Apartments",
+      "Group D Housing"
+     ]
+    },
+    "landmark": true
+   }
+  },
+  {
+   "id": "seedroad",
+   "name": "E3 Seed Access Road",
+   "category": "transport",
+   "status": "partial_opening_reported",
+   "evidence_date": "2026-08-13",
+   "checked_on": "2026-10-12",
+   "summary": "Road and steel bridges inaugurated; a further highway extension was described separately.",
+   "sources": [
+    "seed"
+   ],
+   "announced_target": null,
+   "physical_progress_pct": null,
+   "observed_height_m": null,
+   "model_file": null,
+   "spatial_match": {
+    "service": "SmartCityInfra",
+    "layer": 19,
+    "kind": "planned_centreline"
+   },
+   "remaining_verification": "Exact opened section, operational lanes and subsequent phase verification.",
+   "value": {
+    "inr_crore": 1519,
+    "measures": "estimated cost, full E3 corridor in three phases",
+    "source_id": "swarajya-e3",
+    "confidence": "medium"
+   },
+   "milestones": [
+    {
+     "date": "2026-08-13",
+     "event": "Phase 2 (3.92 km, Venkatapalem to Undavalli) and two steel bridges inaugurated",
+     "source_id": "swarajya-e3",
+     "confidence": "high",
+     "note": "Bridges cost Rs 82 crore combined"
+    },
+    {
+     "date": "2026-08-13",
+     "event": "Phase 3 extension to NH-16 at Tadepalli described as next",
+     "source_id": "seed",
+     "confidence": "medium"
+    }
+   ],
+   "map": {
+    "dataset": "roadsurfaces",
+    "where": {
+     "road": "E 3"
+    },
+    "fallback": {
+     "dataset": "roads",
+     "where": {
+      "road": "E3"
+     }
+    },
+    "basis": "APCRDA road layer E3, recorded in this registry as the seed access road alignment"
+   }
+  },
+  {
+   "id": "trunkroads",
+   "name": "Capital road grid and utility corridors",
+   "category": "transport",
+   "status": "construction_reported",
+   "evidence_date": "2026-10-10",
+   "checked_on": "2026-10-12",
+   "summary": "Review reporting calls for faster road and plot infrastructure work.",
+   "sources": [
+    "latest",
+    "smartgis"
+   ],
+   "announced_target": {
+    "date": "2027-12",
+    "announced_on": "2026-07-22",
+    "source": "dc-trunk-2027",
+    "confidence": "high",
+    "note": "LPS layouts by end-2027"
+   },
+   "physical_progress_pct": null,
+   "observed_height_m": null,
+   "model_file": null,
+   "spatial_match": null,
+   "remaining_verification": "Package-level physical progress, as-built alignment and commissioning; road-map geometry is planning evidence.",
+   "value": {
+    "inr_crore": 7794,
+    "measures": "estimated cost, trunk roads within Amaravati (Dec 2024 approval)",
+    "source_id": "tsf-24276",
+    "confidence": "medium"
+   },
+   "target_history": [
+    {
+     "announced_on": "2026-07-22",
+     "target": "2027-03",
+     "source_id": "dc-trunk-2027",
+     "confidence": "high",
+     "note": "350 km trunk road"
+    },
+    {
+     "announced_on": "2026-07-22",
+     "target": "2027-12",
+     "source_id": "dc-trunk-2027",
+     "confidence": "high",
+     "note": "LPS layouts by end-2027"
+    }
+   ],
+   "milestones": [
+    {
+     "date": "2024-12-10",
+     "event": "Admin approval for trunk packages IV-IX and LPS layout works (GO Rt 968)",
+     "source_id": "go968-2024",
+     "confidence": "high"
+    }
+   ],
+   "map": {
+    "dataset": "roadsurfaces",
+    "where": {},
+    "basis": "All APCRDA planned trunk-road polygons (E1-E16, N1-N18)"
+   }
+  },
+  {
+   "id": "orr",
+   "name": "Outer Ring Road",
+   "category": "regional_transport",
+   "status": "tendering_reported",
+   "evidence_date": "2026-10-02",
+   "checked_on": "2026-10-12",
+   "summary": "Four procurement packages reported; government search indexed package 2, but the detail link expired on opening.",
+   "sources": [
+    "orrlead",
+    "orrnews"
+   ],
+   "announced_target": null,
+   "physical_progress_pct": null,
+   "observed_height_m": null,
+   "model_file": null,
+   "spatial_match": null,
+   "remaining_verification": "Retrieve live tender documents and corrigenda using IDs; do not show an operating road.",
+   "contractor": {
+    "value": "National Highways Authority of India (executing agency)",
+    "source_id": "hans-orr-cost",
+    "confidence": "high"
+   },
+   "value": {
+    "inr_crore": 10595.7,
+    "measures": "estimated civil works cost",
+    "source_id": "hans-orr-cost",
+    "confidence": "medium",
+    "note": "Total incl. land/HAM interest Rs 30,491 crore; tender value reported Rs 13,091.75 crore"
+   },
+   "milestones": [
+    {
+     "date": "2025-01",
+     "event": "Centre approved ORR after MoRTH committee clearance",
+     "source_id": "indinfra-orr-approval",
+     "confidence": "medium"
+    },
+    {
+     "date": "2026-10-03",
+     "event": "NHAI tenders for four packages reported; bids due 2026-11-18",
+     "source_id": "orrnews",
+     "confidence": "medium",
+     "note": "Three-year construction period stated"
+    }
+   ]
+  },
+  {
+   "id": "irr",
+   "name": "Inner Ring Road",
+   "category": "regional_transport",
+   "status": "dpr_consultancy_listing",
+   "evidence_date": "2026-09-15",
+   "checked_on": "2026-10-12",
+   "summary": "Official listing requests revalidation and updating of the 2019 DPR.",
+   "sources": [
+    "agicl"
+   ],
+   "announced_target": null,
+   "physical_progress_pct": null,
+   "observed_height_m": null,
+   "model_file": null,
+   "spatial_match": null,
+   "remaining_verification": "Final approved alignment, awards and appointed dates; do not infer a settled route.",
+   "milestones": [
+    {
+     "date": "2025-12-01",
+     "event": "Cabinet-approved land pooling reported to include IRR land",
+     "source_id": "nbmcw-landpool-16000",
+     "confidence": "medium"
+    },
+    {
+     "date": "2026-08-04",
+     "event": "APCRDA approved 2,340 acres at Mothadaka for IRR and railway line",
+     "source_id": "dc-quantum-1205",
+     "confidence": "medium"
+    }
+   ]
+  },
+  {
+   "id": "railway",
+   "name": "Errupalem-Amaravati-Namburu railway",
+   "category": "regional_transport",
+   "status": "tendering_reported",
+   "evidence_date": "2026-10-04",
+   "checked_on": "2026-10-12",
+   "summary": "Official project approval is available; more recent package 4 tender activity is reported.",
+   "sources": [
+    "rail",
+    "railupdate"
+   ],
+   "announced_target": {
+    "date": "2.5 years from package 4 award",
+    "announced_on": "2026-10-04",
+    "source": "railupdate",
+    "confidence": "medium",
+    "note": "Not a calendar date"
+   },
+   "physical_progress_pct": null,
+   "observed_height_m": null,
+   "model_file": null,
+   "spatial_match": null,
+   "remaining_verification": "Primary package 4 tender, alignment and station geometry; source lengths differ and should retain their scope.",
+   "contractor": {
+    "value": "Indian Railways",
+    "source_id": "railupdate",
+    "confidence": "medium"
+   },
+   "value": {
+    "inr_crore": 2245,
+    "measures": "sanctioned cost (Union Cabinet approval)",
+    "source_id": "rail",
+    "confidence": "high"
+   },
+   "value_alternates": [
+    {
+     "inr_crore": 599.33,
+     "measures": "tender value, package 4 (Vaddamanu-Namburu, 28.35 km)",
+     "source_id": "railupdate",
+     "confidence": "medium"
+    }
+   ],
+   "target_history": [
+    {
+     "announced_on": "2024-10-24",
+     "target": "2028-10",
+     "source_id": "rail",
+     "confidence": "medium",
+     "note": "Four-year completion reported at approval; month derived"
+    },
+    {
+     "announced_on": "2026-10-04",
+     "target": "2.5 years from package 4 award",
+     "source_id": "railupdate",
+     "confidence": "medium",
+     "note": "Not a calendar date"
+    }
+   ],
+   "milestones": [
+    {
+     "date": "2024-10-24",
+     "event": "Union Cabinet approved 57 km line incl. 3.2 km Krishna bridge",
+     "source_id": "rail",
+     "confidence": "high"
+    },
+    {
+     "date": "2026-10-04",
+     "event": "Package 4 tender reported; packages 1-3 already tendered; bids due 2026-11-23",
+     "source_id": "railupdate",
+     "confidence": "medium"
+    }
+   ]
+  },
+  {
+   "id": "quantum",
+   "name": "Quantum Valley and twin office towers",
+   "category": "technology",
+   "status": "construction_evidence",
+   "evidence_date": "2026-10-04",
+   "checked_on": "2026-10-12",
+   "summary": "IBM confirms construction began; the official corporation lists twin tower procurement. Operations date is a reported target.",
+   "sources": [
+    "ibm",
+    "agicl",
+    "quantumtarget"
+   ],
+   "announced_target": {
+    "date": "2027-02-03",
+    "type": "reported_government_target",
+    "source": "quantumtarget",
+    "announced_on": "2026-10-04",
+    "confidence": "medium"
+   },
+   "physical_progress_pct": null,
+   "observed_height_m": null,
+   "model_file": null,
+   "spatial_match": null,
+   "remaining_verification": "Primary commissioning schedule, current photographs and approved building geometry.",
+   "contractor": {
+    "value": "Larsen & Toubro (twin towers)",
+    "source_id": "dc-quantum-1205",
+    "confidence": "high"
+   },
+   "value": {
+    "inr_crore": 1205,
+    "measures": "approved cost, two 18-storey towers",
+    "source_id": "dc-quantum-1205",
+    "confidence": "low",
+    "note": "Next-day report gives Rs 1,280 crore; conflict unresolved"
+   },
+   "value_alternates": [
+    {
+     "inr_crore": 1280,
+     "measures": "contract value, quantum facility",
+     "source_id": "dc-quantum-1280",
+     "confidence": "low"
+    }
+   ],
+   "target_history": [
+    {
+     "announced_on": "2025-06-30",
+     "target": "2026-01-01",
+     "source_id": "theweek-quantum-2026",
+     "confidence": "high",
+     "note": "CM: quantum centre operations"
+    },
+    {
+     "announced_on": "2026-07-03",
+     "target": "2026-09",
+     "source_id": "qcr-ibm-sept2026",
+     "confidence": "medium",
+     "note": "IBM System Two commissioning"
+    },
+    {
+     "announced_on": "2026-10-04",
+     "target": "2027-02-03",
+     "source_id": "quantumtarget",
+     "confidence": "medium",
+     "note": "Operations start per CM"
+    }
+   ],
+   "milestones": [
+    {
+     "date": "2026-02",
+     "event": "Ground-breaking for Quantum Valley Tech Park reported by IBM",
+     "source_id": "ibm",
+     "confidence": "high",
+     "note": "Blog dated 2026-02-07: 'this week'"
+    },
+    {
+     "date": "2026-08-04",
+     "event": "APCRDA cleared twin towers; L&T contractor",
+     "source_id": "dc-quantum-1205",
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "id": "nielitcampus",
+   "name": "NIELIT Quantum and AI university campus",
+   "category": "education",
+   "status": "mou_announced",
+   "evidence_date": "2026-02-20",
+   "checked_on": "2026-10-12",
+   "summary": "PIB reports an MoU for a dedicated university campus.",
+   "sources": [
+    "nielit"
+   ],
+   "announced_target": {
+    "date": "2031",
+    "announced_on": "2026-08-27",
+    "source": "dc-nielit-730",
+    "confidence": "low",
+    "note": "Permanent campus over five years; year derived"
+   },
+   "physical_progress_pct": null,
+   "observed_height_m": null,
+   "model_file": null,
+   "spatial_match": null,
+   "remaining_verification": "Land handover, construction award, location and opening schedule; an MoU is not construction completion.",
+   "contractor": {
+    "value": "NIELIT Deemed-to-be University (MeitY)",
+    "source_id": "dc-nielit-730",
+    "confidence": "high"
+   },
+   "value": {
+    "inr_crore": 730.7,
+    "measures": "project cost, GoI grant-funded",
+    "source_id": "dc-nielit-730",
+    "confidence": "high"
+   },
+   "target_history": [
+    {
+     "announced_on": "2026-08-27",
+     "target": "2026-09",
+     "source_id": "dc-nielit-730",
+     "confidence": "high",
+     "note": "Classes at temporary ANU Guntur campus, not Amaravati"
+    },
+    {
+     "announced_on": "2026-08-27",
+     "target": "2031",
+     "source_id": "dc-nielit-730",
+     "confidence": "low",
+     "note": "Permanent campus over five years; year derived"
+    }
+   ],
+   "milestones": [
+    {
+     "date": "2026-02-20",
+     "event": "MoU signed between AP government and NIELIT",
+     "source_id": "nielit",
+     "confidence": "high"
+    },
+    {
+     "date": "2026-08-27",
+     "event": "CM approved Rs 730.70 crore campus on 8.5 acres",
+     "source_id": "dc-nielit-730",
+     "confidence": "high"
+    }
+   ]
+  },
+  {
+   "id": "floodnetwork",
+   "name": "Flood mitigation and blue network",
+   "category": "resilience",
+   "status": "program_and_planning_evidence",
+   "evidence_date": "2026-08-14",
+   "checked_on": "2026-10-12",
+   "summary": "Program documents cover flood infrastructure; official GIS has a blue-network layer.",
+   "sources": [
+    "flood",
+    "smartgis",
+    "dc-fps2-stone"
+   ],
+   "announced_target": {
+    "date": "2028-02",
+    "announced_on": "2026-08-14",
+    "source": "dc-fps2-stone",
+    "confidence": "medium",
+    "note": "Pumping Station-2 operational"
+   },
+   "physical_progress_pct": null,
+   "observed_height_m": null,
+   "model_file": null,
+   "spatial_match": {
+    "service": "SmartCityInfra",
+    "layer": 81,
+    "kind": "planning_geometry"
+   },
+   "remaining_verification": "Reservoir/canal/pump package progress and commissioning; no engineering flood-safety claim from a visual.",
+   "contractor": {
+    "value": "Amaravati Development Corporation Ltd (ADCL) implementing",
+    "source_id": "go184-2026",
+    "confidence": "high"
+   },
+   "value": {
+    "inr_crore": 1585.95,
+    "measures": "administrative approval, balance flood mitigation packages I-III",
+    "source_id": "go968-2024",
+    "confidence": "high",
+    "note": "Kondaveeti/Pala vagu widening, gravity canal, three reservoirs"
+   },
+   "value_alternates": [
+    {
+     "inr_crore": 595.01,
+     "measures": "administrative sanction, Flood Pumping Station-2 incl. 15-yr O&M",
+     "source_id": "go184-2026",
+     "confidence": "high"
+    }
+   ],
+   "target_history": [
+    {
+     "announced_on": "2026-08-14",
+     "target": "2028-02",
+     "source_id": "dc-fps2-stone",
+     "confidence": "medium",
+     "note": "Pumping Station-2 operational"
+    }
+   ],
+   "milestones": [
+    {
+     "date": "2024-12-10",
+     "event": "Balance flood mitigation works approved (GO Rt 968)",
+     "source_id": "go968-2024",
+     "confidence": "high"
+    },
+    {
+     "date": "2025-11-12",
+     "event": "Sanction for Flood Pumping Station-2 at Undavalli, 8,400 cusecs",
+     "source_id": "go184-2026",
+     "confidence": "high"
+    },
+    {
+     "date": "2026-08-14",
+     "event": "Foundation stone for Pumping Station-2 reported",
+     "source_id": "dc-fps2-stone",
+     "confidence": "high"
+    },
+    {
+     "date": "2026-10-02",
+     "event": "Minister described canals and 22,500-cusec pumping system as in place/ongoing",
+     "source_id": "dc-flood-safest",
+     "confidence": "medium"
+    }
+   ],
+   "map": {
+    "dataset": "water",
+    "where": {},
+    "also": {
+     "dataset": "bunds",
+     "where": {}
+    },
+    "basis": "APCRDA blue-network planning layer and bund alignments"
+   }
+  },
+  {
+   "id": "districtcooling",
+   "name": "Government complex district cooling",
+   "category": "utilities",
+   "status": "rfp_listed",
+   "evidence_date": "2026-08-28",
+   "checked_on": "2026-10-12",
+   "summary": "APCRDA lists a PPP district-cooling RFP.",
+   "sources": [
+    "tenders"
+   ],
+   "announced_target": null,
+   "physical_progress_pct": null,
+   "observed_height_m": null,
+   "model_file": null,
+   "spatial_match": null,
+   "remaining_verification": "Current corrigenda, award and construction; published tender schedules may have changed.",
+   "contractor": {
+    "value": "Tabreed (2019 PPP concession, 20,000 RT)",
+    "source_id": "pvmag-tabreed",
+    "confidence": "low",
+    "note": "2026 RFP listing suggests re-procurement; current status unclear"
+   },
+   "milestones": [
+    {
+     "date": "2019",
+     "event": "APCRDA signed district cooling PPP with Tabreed",
+     "source_id": "pvmag-tabreed",
+     "confidence": "medium"
+    }
+   ]
+  },
+  {
+   "id": "riverfront",
+   "name": "Krishna riverfront development",
+   "category": "public_realm",
+   "status": "consultancy_listing",
+   "evidence_date": "2026-04-04",
+   "checked_on": "2026-10-12",
+   "summary": "Official listing requests masterplan design and management consultancy.",
+   "sources": [
+    "agicl"
+   ],
+   "announced_target": {
+    "date": "2028",
+    "announced_on": "2026-06-29",
+    "source": "infrappp-riverfront",
+    "confidence": "medium",
+    "note": "1-km marina pilot before Krishna Pushkarams 2028"
+   },
+   "physical_progress_pct": null,
+   "observed_height_m": null,
+   "model_file": null,
+   "spatial_match": null,
+   "remaining_verification": "Approved design, boundaries, tender award and delivery date; artistic waterfront is a scenario.",
+   "contractor": {
+    "value": "AGICL (implementing agency; PPP)",
+    "source_id": "infrappp-riverfront",
+    "confidence": "medium"
+   },
+   "target_history": [
+    {
+     "announced_on": "2026-06-29",
+     "target": "2028",
+     "source_id": "infrappp-riverfront",
+     "confidence": "medium",
+     "note": "1-km marina pilot before Krishna Pushkarams 2028"
+    }
+   ],
+   "milestones": [
+    {
+     "date": "2026-06-29",
+     "event": "DPR tender for 27 km riverfront reported; Amaravati Eye wheel ~Rs 120 cr",
+     "source_id": "infrappp-riverfront",
+     "confidence": "medium"
+    }
+   ]
+  },
+  {
+   "id": "hotels",
+   "name": "Hotel development plots",
+   "category": "commercial",
+   "status": "plot_procurement_listed",
+   "evidence_date": "2026-07-15",
+   "checked_on": "2026-10-12",
+   "summary": "APCRDA lists conditional plot allotments for hotel development.",
+   "sources": [
+    "tenders"
+   ],
+   "announced_target": null,
+   "physical_progress_pct": null,
+   "observed_height_m": null,
+   "model_file": null,
+   "spatial_match": null,
+   "remaining_verification": "Operator-specific land, approvals, foundation work and opening dates before showing named finished hotels.",
+   "milestones": [
+    {
+     "date": "2026-03-18",
+     "event": "Land sale agreement with Kandhari Hotels, 1 acre at Thulluru, three-star",
+     "source_id": "propnews-kandhari",
+     "confidence": "medium",
+     "note": "Investment about Rs 80 crore reported"
+    }
+   ],
+   "map": {
+    "dataset": "allotments",
+    "where": {
+     "category": "Hotels"
+    },
+    "basis": "APCRDA land allotments (Feb 2025), category Hotels"
+   }
+  },
+  {
+   "id": "ttdtemple",
+   "name": "Venkatapalem Srivari temple expansion",
+   "category": "culture",
+   "status": "official_inspection_reported",
+   "evidence_date": "2026-08-31",
+   "checked_on": "2026-10-12",
+   "summary": "TTD published a construction inspection update.",
+   "sources": [
+    "ttd"
+   ],
+   "announced_target": {
+    "date": "2028-05",
+    "announced_on": "2025-11-27",
+    "source": "ap7am-ttd-260",
+    "confidence": "low",
+    "note": "CM asked for completion in 2.5 years; month derived"
+   },
+   "physical_progress_pct": null,
+   "observed_height_m": null,
+   "model_file": null,
+   "spatial_match": null,
+   "remaining_verification": "Dated photos and precise expansion footprint; keep existing temple and new works separate.",
+   "contractor": {
+    "value": "Tirumala Tirupati Devasthanams (TTD)",
+    "source_id": "ap7am-ttd-260",
+    "confidence": "high"
+   },
+   "value": {
+    "inr_crore": 260,
+    "measures": "estimated cost, two phases (140 + 120 crore)",
+    "source_id": "ap7am-ttd-260",
+    "confidence": "medium"
+   },
+   "target_history": [
+    {
+     "announced_on": "2025-11-27",
+     "target": "2028-05",
+     "source_id": "ap7am-ttd-260",
+     "confidence": "low",
+     "note": "CM asked for completion in 2.5 years; month derived"
+    }
+   ],
+   "milestones": [
+    {
+     "date": "2025-11-27",
+     "event": "CM laid foundation stone for expansion",
+     "source_id": "ap7am-ttd-260",
+     "confidence": "high"
+    }
+   ],
+   "map": {
+    "dataset": "allotments",
+    "where": {
+     "name": "Tirumala Tirupathi Devasthanam (TTD)"
+    },
+    "basis": "APCRDA land allotment to TTD (Feb 2025)"
+   }
+  },
+  {
+   "id": "sportscity",
+   "name": "International Sports City",
+   "category": "sports",
+   "status": "land_pooling_reported",
+   "evidence_date": "2026-10-10",
+   "checked_on": "2026-10-12",
+   "summary": "Latest review reporting describes ongoing land pooling.",
+   "sources": [
+    "latest"
+   ],
+   "announced_target": null,
+   "physical_progress_pct": null,
+   "observed_height_m": null,
+   "model_file": null,
+   "spatial_match": null,
+   "remaining_verification": "Final boundaries, venue designs, contracts and construction; no fabricated completed stadium.",
+   "milestones": [
+    {
+     "date": "2025-12-01",
+     "event": "Sports city enlarged from 70 to 2,500 acres in land-pooling plan",
+     "source_id": "nbmcw-landpool-16000",
+     "confidence": "medium"
+    }
+   ]
+  }
+ ],
+ "research_additions": "research/additions-2026-10.json",
+ "capital_target": {
+  "date": "2028-10",
+  "source": "review",
+  "note": "Broader government target for the capital reported in the latest review; not a guaranteed complete city."
+ }
 }

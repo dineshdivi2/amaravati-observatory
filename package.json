@@ -1,0 +1,22 @@
+{
+  "name": "amaravati-observatory",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Evidence-first 3D observatory of Amaravati, the Andhra Pradesh capital under construction.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.mjs",
+    "vendor": "node scripts/vendor.mjs",
+    "data:apcrda": "python3 scripts/fetch_apcrda.py",
+    "data:osm": "python3 scripts/fetch_osm.py",
+    "build": "python3 scripts/build_site.py",
+    "check": "python3 scripts/build_site.py --check && node scripts/check-js.mjs"
+  },
+  "devDependencies": {
+    "three": "0.184.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

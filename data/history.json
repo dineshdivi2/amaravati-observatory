@@ -1,0 +1,95 @@
+{
+ "as_of": "2026-10-12",
+ "events": [
+  {
+   "date": "2014-09-04",
+   "event": "CM told Assembly the new capital would be sited around Vijayawada",
+   "source_id": "tnm-2014-capital",
+   "confidence": "high"
+  },
+  {
+   "date": "2014-12-06",
+   "event": "CM targeted first phase of capital by 2019",
+   "source_id": "tnm-2019-target",
+   "confidence": "medium"
+  },
+  {
+   "date": "2015-01-01",
+   "event": "Land pooling notification issued",
+   "source_id": "tsf-30months",
+   "confidence": "medium"
+  },
+  {
+   "date": "2015-10-22",
+   "event": "PM Modi laid Amaravati foundation stone at Uddandarayunipalem",
+   "source_id": "bs-foundation-2015",
+   "confidence": "high"
+  },
+  {
+   "date": "2018-12-27",
+   "event": "Raft foundation laid for permanent secretariat towers",
+   "source_id": "tnm-secretariat-2018",
+   "confidence": "high"
+  },
+  {
+   "date": "2019-02-03",
+   "event": "Foundation for permanent High Court; HC began at interim complex",
+   "source_id": "tnm-hc-foundation-2019",
+   "confidence": "high"
+  },
+  {
+   "date": "2020-07-31",
+   "event": "Governor assented to three-capitals and CRDA repeal bills",
+   "source_id": "tnm-3cap-assent",
+   "confidence": "high"
+  },
+  {
+   "date": "2021-11-22",
+   "event": "Assembly repealed the three-capitals law",
+   "source_id": "onmanorama-repeal",
+   "confidence": "high"
+  },
+  {
+   "date": "2022-03-03",
+   "event": "AP High Court ordered Amaravati developed per master plan in six months",
+   "source_id": "dh-hc-verdict-2022",
+   "confidence": "high"
+  },
+  {
+   "date": "2022-11-28",
+   "event": "Supreme Court stayed the six-month deadline",
+   "source_id": "tsf-sc-stay",
+   "confidence": "high"
+  },
+  {
+   "date": "2024-06-16",
+   "event": "New government promised capital works within 30 months",
+   "source_id": "tsf-30months",
+   "confidence": "high"
+  },
+  {
+   "date": "2024-07-23",
+   "event": "Union Budget announced Rs 15,000 crore support via multilateral agencies",
+   "source_id": "dc-budget-15000",
+   "confidence": "high"
+  },
+  {
+   "date": "2024-12-20",
+   "event": "World Bank approved USD 800 million; ADB loan approved 2024-12-12",
+   "source_id": "wb",
+   "confidence": "high"
+  },
+  {
+   "date": "2025-05-02",
+   "event": "PM Modi relaunched capital works; projects worth Rs 58,000 crore",
+   "source_id": "theweek-relaunch",
+   "confidence": "high"
+  },
+  {
+   "date": "2026-04-01",
+   "event": "Lok Sabha passed bill naming Amaravati the capital, effective 2024-06-02",
+   "source_id": "tsf-ls-capital-bill",
+   "confidence": "high"
+  }
+ ]
+}

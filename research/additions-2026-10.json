@@ -1,0 +1,1367 @@
+{
+  "as_of": "2026-10-12",
+  "projects": {
+    "secretariat": {
+      "contractor": {
+        "value": "NCC Ltd (GAD tower); Shapoorji Pallonji & Co (Towers 1-2); Larsen & Toubro (Towers 3-4)",
+        "source_id": "go629-2025",
+        "confidence": "high"
+      },
+      "value": {
+        "inr_crore": 3673.43,
+        "measures": "awarded contract value, civil/structure, three packages, excl. taxes",
+        "source_id": "go629-2025",
+        "confidence": "high",
+        "note": "GAD 882.47 + T1-2 1,487.11 + T3-4 1,303.85 crore; L1 bids approved June 2025"
+      },
+      "value_alternates": [
+        {
+          "inr_crore": 4688,
+          "measures": "estimated cost, five towers (Dec 2024 approval)",
+          "source_id": "tsf-24276",
+          "confidence": "medium"
+        },
+        {
+          "inr_crore": 4890,
+          "measures": "estimated cost, 2018 design",
+          "source_id": "tnm-secretariat-2018",
+          "confidence": "medium",
+          "note": "Pre-2019 figure; scope may differ"
+        }
+      ],
+      "target_history": [
+        {
+          "announced_on": "2024-12",
+          "target": "2027-12",
+          "source_id": "nbmcw-three-years",
+          "confidence": "medium",
+          "note": "Minister: capital core works within three years"
+        },
+        {
+          "announced_on": "2026-09-13",
+          "target": "2028-09",
+          "source_id": "review",
+          "confidence": "medium",
+          "note": "Two-year target for GAD/HoD towers and Assembly; month derived"
+        }
+      ],
+      "milestones": [
+        {
+          "date": "2018-12-27",
+          "event": "Raft foundation laid for five-tower secretariat (first attempt, pre-2019 pause)",
+          "source_id": "tnm-secretariat-2018",
+          "confidence": "high"
+        },
+        {
+          "date": "2025-06-02",
+          "event": "48th APCRDA meeting approved L1 bids for GAD tower and Towers 1-4",
+          "source_id": "go629-2025",
+          "confidence": "high"
+        },
+        {
+          "date": "2025-06-26",
+          "event": "Government authorised award of three secretariat packages (GO Rt 629)",
+          "source_id": "go629-2025",
+          "confidence": "high"
+        },
+        {
+          "date": "2026-09",
+          "event": "Steel diagrid works reported progressing on the five towers",
+          "source_id": "review",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "assembly": {
+      "contractor": {
+        "value": "Larsen & Toubro Ltd (civil structure)",
+        "source_id": "go315-2025",
+        "confidence": "high"
+      },
+      "value": {
+        "inr_crore": 617.34,
+        "measures": "awarded contract value, civil structure, excl. taxes",
+        "source_id": "go315-2025",
+        "confidence": "high",
+        "note": "4.48% over ECV of 590.87 crore"
+      },
+      "value_alternates": [
+        {
+          "inr_crore": 424.34,
+          "measures": "administrative sanction, MEP works (separate package)",
+          "source_id": "go223-2026",
+          "confidence": "high"
+        }
+      ],
+      "target_history": [
+        {
+          "announced_on": "2024-12",
+          "target": "2027-12",
+          "source_id": "nbmcw-three-years",
+          "confidence": "medium",
+          "note": "Assembly, secretariat, HC within three years"
+        },
+        {
+          "announced_on": "2026-09-13",
+          "target": "2028-09",
+          "source_id": "review",
+          "confidence": "medium",
+          "note": "Two-year target for iconic buildings; month derived"
+        }
+      ],
+      "milestones": [
+        {
+          "date": "2025-04-04",
+          "event": "L&T reported as L1 for Assembly; NCC for High Court",
+          "source_id": "m9-assembly-hc-award",
+          "confidence": "medium"
+        },
+        {
+          "date": "2025-04-05",
+          "event": "46th APCRDA meeting approved L&T L1 bid",
+          "source_id": "go315-2025",
+          "confidence": "high"
+        },
+        {
+          "date": "2025-04-17",
+          "event": "Government authorised LoA to L&T (GO Rt 315)",
+          "source_id": "go315-2025",
+          "confidence": "high"
+        },
+        {
+          "date": "2026-02-27",
+          "event": "Administrative sanction for Assembly MEP works",
+          "source_id": "go223-2026",
+          "confidence": "high"
+        },
+        {
+          "date": "2026-09",
+          "event": "Spire works reported to begin within a week",
+          "source_id": "review",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "highcourt": {
+      "contractor": {
+        "value": "NCC Ltd (civil structure)",
+        "source_id": "go315-2025",
+        "confidence": "high",
+        "note": "2019 contract was with Shapoorji Pallonji before the pause"
+      },
+      "value": {
+        "inr_crore": 786.06,
+        "measures": "awarded contract value, civil structure, excl. taxes",
+        "source_id": "go315-2025",
+        "confidence": "high",
+        "note": "4.52% over ECV of 752.06 crore"
+      },
+      "value_alternates": [
+        {
+          "inr_crore": 1048,
+          "measures": "estimated cost (Dec 2024 approval)",
+          "source_id": "tsf-24276",
+          "confidence": "medium"
+        },
+        {
+          "inr_crore": 556,
+          "measures": "administrative sanction, MEP works",
+          "source_id": "go224-2026",
+          "confidence": "high"
+        },
+        {
+          "inr_crore": 732,
+          "measures": "estimated cost, 2019 permanent complex",
+          "source_id": "tnm-hc-foundation-2019",
+          "confidence": "medium"
+        }
+      ],
+      "target_history": [
+        {
+          "announced_on": "2019-02",
+          "target": "2021-02",
+          "source_id": "tnm-hc-foundation-2019",
+          "confidence": "medium",
+          "note": "Two years from 2019 foundation; month derived"
+        },
+        {
+          "announced_on": "2024-12",
+          "target": "2027-12",
+          "source_id": "nbmcw-three-years",
+          "confidence": "medium"
+        },
+        {
+          "announced_on": "2025-12-26",
+          "target": "2027-12",
+          "source_id": "siasat-hc-raft",
+          "confidence": "high",
+          "note": "Target: end of 2027"
+        }
+      ],
+      "milestones": [
+        {
+          "date": "2019-02-03",
+          "event": "CJI laid foundation stone for permanent High Court",
+          "source_id": "tnm-hc-foundation-2019",
+          "confidence": "high"
+        },
+        {
+          "date": "2025-04-17",
+          "event": "Government authorised LoA to NCC (GO Rt 315)",
+          "source_id": "go315-2025",
+          "confidence": "high"
+        },
+        {
+          "date": "2025-12-25",
+          "event": "Raft foundation works inaugurated",
+          "source_id": "siasat-hc-raft",
+          "confidence": "high"
+        },
+        {
+          "date": "2026-02-27",
+          "event": "Administrative sanction for High Court MEP works",
+          "source_id": "go224-2026",
+          "confidence": "high"
+        }
+      ]
+    },
+    "mlahousing": {
+      "value": {
+        "inr_crore": 524.7,
+        "measures": "administrative sanction, balance works for 18 towers (MLA, MLC, AIS officers)",
+        "source_id": "go676-2025",
+        "confidence": "high",
+        "note": "432 units; covers more than the MLA/MLC complex handed over"
+      },
+      "target_history": [
+        {
+          "announced_on": "2026-07-22",
+          "target": "2026-07-25",
+          "source_id": "dc-trunk-2027",
+          "confidence": "high",
+          "note": "MLA quarters handover"
+        },
+        {
+          "announced_on": "2026-07-22",
+          "target": "2026-08-15",
+          "source_id": "dc-trunk-2027",
+          "confidence": "high",
+          "note": "MLC quarters handover"
+        }
+      ],
+      "milestones": [
+        {
+          "date": "2025-07-13",
+          "event": "Balance-works sanction issued (GO Rt 676)",
+          "source_id": "go676-2025",
+          "confidence": "high"
+        },
+        {
+          "date": "2026-08-06",
+          "event": "MLA and MLC quarters reported completed",
+          "source_id": "tnm-4000-homes",
+          "confidence": "medium"
+        },
+        {
+          "date": "2026-08-13",
+          "event": "MLA/MLC complex at Rayapudi (12 towers, 288 flats) handed to GAD",
+          "source_id": "seed",
+          "confidence": "high"
+        }
+      ]
+    },
+    "officerhousing": {
+      "contractor": {
+        "value": "Larsen & Toubro (NGO towers final-phase works only)",
+        "source_id": "propnews-ngo-lt",
+        "confidence": "medium",
+        "note": "Other packages' contractors not confirmed"
+      },
+      "value": {
+        "inr_crore": 1732.31,
+        "measures": "tenders approved at 47th APCRDA meeting, staff housing and related works",
+        "source_id": "tsf-1732",
+        "confidence": "medium"
+      },
+      "value_alternates": [
+        {
+          "inr_crore": 83.99,
+          "measures": "awarded contract value, NGO towers STP/compound/finishing",
+          "source_id": "propnews-ngo-lt",
+          "confidence": "medium"
+        }
+      ],
+      "target_history": [
+        {
+          "announced_on": "2026-08-06",
+          "target": "2026-12",
+          "source_id": "tnm-4000-homes",
+          "confidence": "medium",
+          "note": "Nearly 4,000 homes to be handed over; package split not given"
+        }
+      ],
+      "milestones": [
+        {
+          "date": "2024-12-10",
+          "event": "Balance-works sanctions approved for gazetted (14 towers) and NGO (12 + 9 towers) housing",
+          "source_id": "go968-2024",
+          "confidence": "high"
+        },
+        {
+          "date": "2025-05-06",
+          "event": "APCRDA approved staff housing tenders",
+          "source_id": "theweek-staff-housing",
+          "confidence": "high"
+        },
+        {
+          "date": "2026-07",
+          "event": "L&T awarded NGO towers final-phase works",
+          "source_id": "propnews-ngo-lt",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "seedroad": {
+      "value": {
+        "inr_crore": 1519,
+        "measures": "estimated cost, full E3 corridor in three phases",
+        "source_id": "swarajya-e3",
+        "confidence": "medium"
+      },
+      "milestones": [
+        {
+          "date": "2026-08-13",
+          "event": "Phase 2 (3.92 km, Venkatapalem to Undavalli) and two steel bridges inaugurated",
+          "source_id": "swarajya-e3",
+          "confidence": "high",
+          "note": "Bridges cost Rs 82 crore combined"
+        },
+        {
+          "date": "2026-08-13",
+          "event": "Phase 3 extension to NH-16 at Tadepalli described as next",
+          "source_id": "seed",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "trunkroads": {
+      "value": {
+        "inr_crore": 7794,
+        "measures": "estimated cost, trunk roads within Amaravati (Dec 2024 approval)",
+        "source_id": "tsf-24276",
+        "confidence": "medium"
+      },
+      "target_history": [
+        {
+          "announced_on": "2026-07-22",
+          "target": "2027-03",
+          "source_id": "dc-trunk-2027",
+          "confidence": "high",
+          "note": "350 km trunk road"
+        },
+        {
+          "announced_on": "2026-07-22",
+          "target": "2027-12",
+          "source_id": "dc-trunk-2027",
+          "confidence": "high",
+          "note": "LPS layouts by end-2027"
+        }
+      ],
+      "milestones": [
+        {
+          "date": "2024-12-10",
+          "event": "Admin approval for trunk packages IV-IX and LPS layout works (GO Rt 968)",
+          "source_id": "go968-2024",
+          "confidence": "high"
+        }
+      ]
+    },
+    "orr": {
+      "contractor": {
+        "value": "National Highways Authority of India (executing agency)",
+        "source_id": "hans-orr-cost",
+        "confidence": "high"
+      },
+      "value": {
+        "inr_crore": 10595.7,
+        "measures": "estimated civil works cost",
+        "source_id": "hans-orr-cost",
+        "confidence": "medium",
+        "note": "Total incl. land/HAM interest Rs 30,491 crore; tender value reported Rs 13,091.75 crore"
+      },
+      "milestones": [
+        {
+          "date": "2025-01",
+          "event": "Centre approved ORR after MoRTH committee clearance",
+          "source_id": "indinfra-orr-approval",
+          "confidence": "medium"
+        },
+        {
+          "date": "2026-10-03",
+          "event": "NHAI tenders for four packages reported; bids due 2026-11-18",
+          "source_id": "orrnews",
+          "confidence": "medium",
+          "note": "Three-year construction period stated"
+        }
+      ]
+    },
+    "irr": {
+      "milestones": [
+        {
+          "date": "2025-12-01",
+          "event": "Cabinet-approved land pooling reported to include IRR land",
+          "source_id": "nbmcw-landpool-16000",
+          "confidence": "medium"
+        },
+        {
+          "date": "2026-08-04",
+          "event": "APCRDA approved 2,340 acres at Mothadaka for IRR and railway line",
+          "source_id": "dc-quantum-1205",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "railway": {
+      "contractor": {
+        "value": "Indian Railways",
+        "source_id": "railupdate",
+        "confidence": "medium"
+      },
+      "value": {
+        "inr_crore": 2245,
+        "measures": "sanctioned cost (Union Cabinet approval)",
+        "source_id": "rail",
+        "confidence": "high"
+      },
+      "value_alternates": [
+        {
+          "inr_crore": 599.33,
+          "measures": "tender value, package 4 (Vaddamanu-Namburu, 28.35 km)",
+          "source_id": "railupdate",
+          "confidence": "medium"
+        }
+      ],
+      "target_history": [
+        {
+          "announced_on": "2024-10-24",
+          "target": "2028-10",
+          "source_id": "rail",
+          "confidence": "medium",
+          "note": "Four-year completion reported at approval; month derived"
+        },
+        {
+          "announced_on": "2026-10-04",
+          "target": "2.5 years from package 4 award",
+          "source_id": "railupdate",
+          "confidence": "medium",
+          "note": "Not a calendar date"
+        }
+      ],
+      "milestones": [
+        {
+          "date": "2024-10-24",
+          "event": "Union Cabinet approved 57 km line incl. 3.2 km Krishna bridge",
+          "source_id": "rail",
+          "confidence": "high"
+        },
+        {
+          "date": "2026-10-04",
+          "event": "Package 4 tender reported; packages 1-3 already tendered; bids due 2026-11-23",
+          "source_id": "railupdate",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "quantum": {
+      "contractor": {
+        "value": "Larsen & Toubro (twin towers)",
+        "source_id": "dc-quantum-1205",
+        "confidence": "high"
+      },
+      "value": {
+        "inr_crore": 1205,
+        "measures": "approved cost, two 18-storey towers",
+        "source_id": "dc-quantum-1205",
+        "confidence": "low",
+        "note": "Next-day report gives Rs 1,280 crore; conflict unresolved"
+      },
+      "value_alternates": [
+        {
+          "inr_crore": 1280,
+          "measures": "contract value, quantum facility",
+          "source_id": "dc-quantum-1280",
+          "confidence": "low"
+        }
+      ],
+      "target_history": [
+        {
+          "announced_on": "2025-06-30",
+          "target": "2026-01-01",
+          "source_id": "theweek-quantum-2026",
+          "confidence": "high",
+          "note": "CM: quantum centre operations"
+        },
+        {
+          "announced_on": "2026-07-03",
+          "target": "2026-09",
+          "source_id": "qcr-ibm-sept2026",
+          "confidence": "medium",
+          "note": "IBM System Two commissioning"
+        },
+        {
+          "announced_on": "2026-10-04",
+          "target": "2027-02-03",
+          "source_id": "quantumtarget",
+          "confidence": "medium",
+          "note": "Operations start per CM"
+        }
+      ],
+      "milestones": [
+        {
+          "date": "2026-02",
+          "event": "Ground-breaking for Quantum Valley Tech Park reported by IBM",
+          "source_id": "ibm",
+          "confidence": "high",
+          "note": "Blog dated 2026-02-07: 'this week'"
+        },
+        {
+          "date": "2026-08-04",
+          "event": "APCRDA cleared twin towers; L&T contractor",
+          "source_id": "dc-quantum-1205",
+          "confidence": "high"
+        }
+      ]
+    },
+    "nielitcampus": {
+      "contractor": {
+        "value": "NIELIT Deemed-to-be University (MeitY)",
+        "source_id": "dc-nielit-730",
+        "confidence": "high"
+      },
+      "value": {
+        "inr_crore": 730.7,
+        "measures": "project cost, GoI grant-funded",
+        "source_id": "dc-nielit-730",
+        "confidence": "high"
+      },
+      "target_history": [
+        {
+          "announced_on": "2026-08-27",
+          "target": "2026-09",
+          "source_id": "dc-nielit-730",
+          "confidence": "high",
+          "note": "Classes at temporary ANU Guntur campus, not Amaravati"
+        },
+        {
+          "announced_on": "2026-08-27",
+          "target": "2031",
+          "source_id": "dc-nielit-730",
+          "confidence": "low",
+          "note": "Permanent campus over five years; year derived"
+        }
+      ],
+      "milestones": [
+        {
+          "date": "2026-02-20",
+          "event": "MoU signed between AP government and NIELIT",
+          "source_id": "nielit",
+          "confidence": "high"
+        },
+        {
+          "date": "2026-08-27",
+          "event": "CM approved Rs 730.70 crore campus on 8.5 acres",
+          "source_id": "dc-nielit-730",
+          "confidence": "high"
+        }
+      ]
+    },
+    "floodnetwork": {
+      "contractor": {
+        "value": "Amaravati Development Corporation Ltd (ADCL) implementing",
+        "source_id": "go184-2026",
+        "confidence": "high"
+      },
+      "value": {
+        "inr_crore": 1585.95,
+        "measures": "administrative approval, balance flood mitigation packages I-III",
+        "source_id": "go968-2024",
+        "confidence": "high",
+        "note": "Kondaveeti/Pala vagu widening, gravity canal, three reservoirs"
+      },
+      "value_alternates": [
+        {
+          "inr_crore": 595.01,
+          "measures": "administrative sanction, Flood Pumping Station-2 incl. 15-yr O&M",
+          "source_id": "go184-2026",
+          "confidence": "high"
+        }
+      ],
+      "target_history": [
+        {
+          "announced_on": "2026-08-14",
+          "target": "2028-02",
+          "source_id": "dc-fps2-stone",
+          "confidence": "medium",
+          "note": "Pumping Station-2 operational"
+        }
+      ],
+      "milestones": [
+        {
+          "date": "2024-12-10",
+          "event": "Balance flood mitigation works approved (GO Rt 968)",
+          "source_id": "go968-2024",
+          "confidence": "high"
+        },
+        {
+          "date": "2025-11-12",
+          "event": "Sanction for Flood Pumping Station-2 at Undavalli, 8,400 cusecs",
+          "source_id": "go184-2026",
+          "confidence": "high"
+        },
+        {
+          "date": "2026-08-14",
+          "event": "Foundation stone for Pumping Station-2 reported",
+          "source_id": "dc-fps2-stone",
+          "confidence": "high"
+        },
+        {
+          "date": "2026-10-02",
+          "event": "Minister described canals and 22,500-cusec pumping system as in place/ongoing",
+          "source_id": "dc-flood-safest",
+          "confidence": "medium"
+        }
+      ],
+      "evidence_date_suggestion": {
+        "date": "2026-10-02",
+        "source_id": "dc-flood-safest",
+        "note": "Latest dated item; 2026-08-14 foundation is firmer physical evidence"
+      }
+    },
+    "districtcooling": {
+      "contractor": {
+        "value": "Tabreed (2019 PPP concession, 20,000 RT)",
+        "source_id": "pvmag-tabreed",
+        "confidence": "low",
+        "note": "2026 RFP listing suggests re-procurement; current status unclear"
+      },
+      "milestones": [
+        {
+          "date": "2019",
+          "event": "APCRDA signed district cooling PPP with Tabreed",
+          "source_id": "pvmag-tabreed",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "riverfront": {
+      "contractor": {
+        "value": "AGICL (implementing agency; PPP)",
+        "source_id": "infrappp-riverfront",
+        "confidence": "medium"
+      },
+      "target_history": [
+        {
+          "announced_on": "2026-06-29",
+          "target": "2028",
+          "source_id": "infrappp-riverfront",
+          "confidence": "medium",
+          "note": "1-km marina pilot before Krishna Pushkarams 2028"
+        }
+      ],
+      "milestones": [
+        {
+          "date": "2026-06-29",
+          "event": "DPR tender for 27 km riverfront reported; Amaravati Eye wheel ~Rs 120 cr",
+          "source_id": "infrappp-riverfront",
+          "confidence": "medium"
+        }
+      ]
+    },
+    "hotels": {
+      "milestones": [
+        {
+          "date": "2026-03-18",
+          "event": "Land sale agreement with Kandhari Hotels, 1 acre at Thulluru, three-star",
+          "source_id": "propnews-kandhari",
+          "confidence": "medium",
+          "note": "Investment about Rs 80 crore reported"
+        }
+      ]
+    },
+    "ttdtemple": {
+      "contractor": {
+        "value": "Tirumala Tirupati Devasthanams (TTD)",
+        "source_id": "ap7am-ttd-260",
+        "confidence": "high"
+      },
+      "value": {
+        "inr_crore": 260,
+        "measures": "estimated cost, two phases (140 + 120 crore)",
+        "source_id": "ap7am-ttd-260",
+        "confidence": "medium"
+      },
+      "target_history": [
+        {
+          "announced_on": "2025-11-27",
+          "target": "2028-05",
+          "source_id": "ap7am-ttd-260",
+          "confidence": "low",
+          "note": "CM asked for completion in 2.5 years; month derived"
+        }
+      ],
+      "milestones": [
+        {
+          "date": "2025-11-27",
+          "event": "CM laid foundation stone for expansion",
+          "source_id": "ap7am-ttd-260",
+          "confidence": "high"
+        }
+      ]
+    },
+    "sportscity": {
+      "milestones": [
+        {
+          "date": "2025-12-01",
+          "event": "Sports city enlarged from 70 to 2,500 acres in land-pooling plan",
+          "source_id": "nbmcw-landpool-16000",
+          "confidence": "medium"
+        }
+      ]
+    }
+  },
+  "funding": [
+    {
+      "lender": "World Bank (IBRD)",
+      "amount": 800,
+      "currency": "USD",
+      "unit": "million",
+      "status": "approved",
+      "as_of": "2024-12-20",
+      "source_id": "wb",
+      "confidence": "high"
+    },
+    {
+      "lender": "World Bank (IBRD)",
+      "amount": 340,
+      "currency": "USD",
+      "unit": "million",
+      "status": "disbursed",
+      "as_of": "2026-04-12",
+      "source_id": "etv-wb-340",
+      "confidence": "medium"
+    },
+    {
+      "lender": "Asian Development Bank",
+      "amount": 788.8,
+      "currency": "USD",
+      "unit": "million",
+      "status": "approved",
+      "as_of": "2024-12-12",
+      "source_id": "adb-loan",
+      "confidence": "high",
+      "note": "Results-based loan in yen"
+    },
+    {
+      "lender": "HUDCO",
+      "amount": 11000,
+      "currency": "INR",
+      "unit": "crore",
+      "status": "board approved",
+      "as_of": "2025-01-22",
+      "source_id": "tsf-hudco-approve",
+      "confidence": "medium"
+    },
+    {
+      "lender": "HUDCO",
+      "amount": 11000,
+      "currency": "INR",
+      "unit": "crore",
+      "status": "agreement signed",
+      "as_of": "2025-03-16",
+      "source_id": "angelone-hudco-sign",
+      "confidence": "medium",
+      "note": "Board approval 2025-01-22 per tsf-hudco-approve"
+    },
+    {
+      "lender": "KfW",
+      "amount": 5000,
+      "currency": "INR",
+      "unit": "crore",
+      "status": "state cabinet approved borrowing; signing unconfirmed",
+      "as_of": "2024-12-19",
+      "source_id": "tsf-kfw-cabinet",
+      "confidence": "low"
+    },
+    {
+      "lender": "Government of India (via MDBs)",
+      "amount": 15000,
+      "currency": "INR",
+      "unit": "crore",
+      "status": "announced in Union Budget",
+      "as_of": "2024-07-23",
+      "source_id": "dc-budget-15000",
+      "confidence": "high",
+      "note": "Arranged through multilateral agencies, not a direct grant"
+    },
+    {
+      "lender": "All lenders (aggregate)",
+      "amount": 41187.7,
+      "currency": "INR",
+      "unit": "crore",
+      "status": "loans mobilised (reported)",
+      "as_of": "2026-09-13",
+      "source_id": "review",
+      "confidence": "medium",
+      "note": "Spent since 2024: Rs 12,731.13 crore"
+    }
+  ],
+  "history": [
+    {
+      "date": "2014-09-04",
+      "event": "CM told Assembly the new capital would be sited around Vijayawada",
+      "source_id": "tnm-2014-capital",
+      "confidence": "high"
+    },
+    {
+      "date": "2014-12-06",
+      "event": "CM targeted first phase of capital by 2019",
+      "source_id": "tnm-2019-target",
+      "confidence": "medium"
+    },
+    {
+      "date": "2015-01-01",
+      "event": "Land pooling notification issued",
+      "source_id": "tsf-30months",
+      "confidence": "medium"
+    },
+    {
+      "date": "2015-10-22",
+      "event": "PM Modi laid Amaravati foundation stone at Uddandarayunipalem",
+      "source_id": "bs-foundation-2015",
+      "confidence": "high"
+    },
+    {
+      "date": "2018-12-27",
+      "event": "Raft foundation laid for permanent secretariat towers",
+      "source_id": "tnm-secretariat-2018",
+      "confidence": "high"
+    },
+    {
+      "date": "2019-02-03",
+      "event": "Foundation for permanent High Court; HC began at interim complex",
+      "source_id": "tnm-hc-foundation-2019",
+      "confidence": "high"
+    },
+    {
+      "date": "2020-07-31",
+      "event": "Governor assented to three-capitals and CRDA repeal bills",
+      "source_id": "tnm-3cap-assent",
+      "confidence": "high"
+    },
+    {
+      "date": "2021-11-22",
+      "event": "Assembly repealed the three-capitals law",
+      "source_id": "onmanorama-repeal",
+      "confidence": "high"
+    },
+    {
+      "date": "2022-03-03",
+      "event": "AP High Court ordered Amaravati developed per master plan in six months",
+      "source_id": "dh-hc-verdict-2022",
+      "confidence": "high"
+    },
+    {
+      "date": "2022-11-28",
+      "event": "Supreme Court stayed the six-month deadline",
+      "source_id": "tsf-sc-stay",
+      "confidence": "high"
+    },
+    {
+      "date": "2024-06-16",
+      "event": "New government promised capital works within 30 months",
+      "source_id": "tsf-30months",
+      "confidence": "high"
+    },
+    {
+      "date": "2024-07-23",
+      "event": "Union Budget announced Rs 15,000 crore support via multilateral agencies",
+      "source_id": "dc-budget-15000",
+      "confidence": "high"
+    },
+    {
+      "date": "2024-12-20",
+      "event": "World Bank approved USD 800 million; ADB loan approved 2024-12-12",
+      "source_id": "wb",
+      "confidence": "high"
+    },
+    {
+      "date": "2025-05-02",
+      "event": "PM Modi relaunched capital works; projects worth Rs 58,000 crore",
+      "source_id": "theweek-relaunch",
+      "confidence": "high"
+    },
+    {
+      "date": "2026-04-01",
+      "event": "Lok Sabha passed bill naming Amaravati the capital, effective 2024-06-02",
+      "source_id": "tsf-ls-capital-bill",
+      "confidence": "high"
+    }
+  ],
+  "new_sources": [
+    {
+      "id": "go315-2025",
+      "title": "GO Rt 315: L1 bids for Assembly and High Court buildings",
+      "url": "https://crda.ap.gov.in/APCRDADOCS/GOSACTSRULES/APCRDA/01~20432025MAUD_RT315_E.pdf",
+      "kind": "official",
+      "published_on": "2025-04-17",
+      "checked_on": "2026-10-12",
+      "access": "page_or_search_excerpt_reviewed"
+    },
+    {
+      "id": "go629-2025",
+      "title": "GO Rt 629: L1 bids for Secretariat GAD tower and Towers 1-4",
+      "url": "https://crda.ap.gov.in/APCRDADOCS/GOSACTSRULES/Service Matters/01~16492025MAUD_37224_RT629_E.pdf",
+      "kind": "official",
+      "published_on": "2025-06-26",
+      "checked_on": "2026-10-12",
+      "access": "page_or_search_excerpt_reviewed"
+    },
+    {
+      "id": "go223-2026",
+      "title": "GO Rt 223: Assembly building MEP administrative sanction",
+      "url": "https://crda.ap.gov.in/APCRDADOCS/GOSACTSRULES/APCRDA/01~13082026MAUD_40678_RT223_E.pdf",
+      "kind": "official",
+      "published_on": "2026-02-27",
+      "checked_on": "2026-10-12",
+      "access": "page_or_search_excerpt_reviewed"
+    },
+    {
+      "id": "go224-2026",
+      "title": "GO Rt 224: High Court building MEP administrative sanction",
+      "url": "https://crda.ap.gov.in/APCRDADOCS/GOSACTSRULES/APCRDA/01~13072026MAUD_40679_RT224_E.pdf",
+      "kind": "official",
+      "published_on": "2026-02-27",
+      "checked_on": "2026-10-12",
+      "access": "page_or_search_excerpt_reviewed"
+    },
+    {
+      "id": "go968-2024",
+      "title": "GO Rt 968: approval of 20 engineering works (Rs 11,467.27 cr)",
+      "url": "https://crda.ap.gov.in/APCRDADOCS/GOSACTSRULES/APCRDA/01~11572024MAUD_34525_RT968.pdf",
+      "kind": "official",
+      "published_on": "2024-12-10",
+      "checked_on": "2026-10-12",
+      "access": "page_or_search_excerpt_reviewed"
+    },
+    {
+      "id": "go676-2025",
+      "title": "GO Rt 676: MLA/MLC/AIS quarters balance works sanction",
+      "url": "https://crda.ap.gov.in/APCRDADOCS/GOSACTSRULES/Capital%20City/01~16472025MAUD_RT676_E.pdf",
+      "kind": "official",
+      "published_on": "2025-07-13",
+      "checked_on": "2026-10-12",
+      "access": "page_or_search_excerpt_reviewed"
+    },
+    {
+      "id": "go184-2026",
+      "title": "GO Rt 184: Flood Pumping Station-2 Undavalli finance concurrence",
+      "url": "https://crda.ap.gov.in/APCRDADOCS/GOSACTSRULES/APCRDA/01~13042026MAUD_40486_RT184_E.pdf",
+      "kind": "official",
+      "published_on": "2026-02-16",
+      "checked_on": "2026-10-12",
+      "access": "page_or_search_excerpt_reviewed"
+    },
+    {
+      "id": "m9-assembly-hc-award",
+      "title": "Amaravati Assembly to L&T, High Court to NCC",
+      "url": "https://www.m9.news/politics/amaravati-assembly-to-lt-high-court-to-ncc/",
+      "kind": "news",
+      "published_on": "2025-04-04",
+      "checked_on": "2026-10-12",
+      "access": "page_or_search_excerpt_reviewed"
+    },
+    {
+      "id": "tsf-24276",
+      "title": "CRDA to take up Amaravati development with Rs 24,276 crore",
+      "url": "https://thesouthfirst.com/andhrapradesh/crda-to-take-up-amaravati-development-with-rs-24276-crore/",
+      "kind": "news",
+      "published_on": "2024-12-17",
+      "checked_on": "2026-10-12",
+      "access": "page_or_search_excerpt_reviewed"
+    },
+    {
+      "id": "nbmcw-three-years",
+      "title": "Amaravati's construction to be completed in three years",
+      "url": "https://www.nbmcw.com/news/amaravatis-construction-to-be-completed-in-three-years.html",
+      "kind": "news",
+      "published_on": "2024-12-18",
+      "checked_on": "2026-10-12",
+      "access": "page_or_search_excerpt_reviewed"
+    },
+    {
+      "id": "tnm-hc-foundation-2019",
+      "title": "CJI Ranjan Gogoi lays foundation stone for Andhra High Court in Amaravati",
+      "url": "https://www.thenewsminute.com/article/chief-justice-ranjan-gogoi-lays-foundation-stone-andhra-high-court-amaravati-96162",
+      "kind": "news",
+      "published_on": "2019-02-04",
+      "checked_on": "2026-10-12",
+      "access": "page_or_search_excerpt_reviewed"
+    },
+    {
+      "id": "tnm-secretariat-2018",
+      "title": "Foundation for permanent Andhra Secretariat to be laid on Dec 27",
+      "url": "https://www.thenewsminute.com/article/foundation-permanent-andhra-secretariat-be-laid-amaravati-dec-27-93986",
+      "kind": "news",
+      "published_on": "2018-12-26",
+      "checked_on": "2026-10-12",
+      "access": "page_or_search_excerpt_reviewed"
+    },
+    {
+      "id": "siasat-hc-raft",
+      "title": "Andhra Pradesh High Court work commences in Amaravati",
+      "url": "https://www.siasat.com/andhra-pradesh-high-court-work-commences-in-amaravati-3316470/",
+      "kind": "news",
+      "published_on": "2025-12-26",
+      "checked_on": "2026-10-12",
+      "access": "page_or_search_excerpt_reviewed"
+    },
+    {
+      "id": "dc-trunk-2027",
+      "title": "Amaravati: trunk road, layouts to be completed by 2027, says Narayana",
+      "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/amaravati-trunk-road-layouts-to-be-completed-by-2027-says-narayana-1973011",
+      "kind": "news",
+      "published_on": "2026-07-22",
+      "checked_on": "2026-10-12",
+      "access": "page_or_search_excerpt_reviewed"
+    },
+    {
+      "id": "tnm-4000-homes",
+      "title": "Amaravati to deliver 4,000 homes by December, says Home Minister",
+      "url": "https://thenewsminute.com/andhra-pradesh/amaravati-to-deliver-4000-homes-by-december-says-andhra-home-minister",
+      "kind": "news",
+      "published_on": "2026-08-06",
+      "checked_on": "2026-10-12",
+      "access": "page_or_search_excerpt_reviewed"
+    },
+    {
+      "id": "tsf-1732",
+      "title": "APCRDA clears tenders worth Rs 1,732 crore for residential towers",
+      "url": "https://thesouthfirst.com/andhrapradesh/amaravati-revival-apcrda-clears-tenders-worth-₹1732-crore-for-residential-towers-institutions-and-infrastructure/",
+      "kind": "news",
+      "published_on": "2025-05-06",
+      "checked_on": "2026-10-12",
+      "access": "page_or_search_excerpt_reviewed"
+    },
+    {
+      "id": "theweek-staff-housing",
+      "title": "Tenders worth Rs 1,700 cr approved for Amaravati staff housing",
+      "url": "https://www.theweek.in/wire-updates/national/2025/05/06/mes24-ap-staff-housing-approval.html",
+      "kind": "news",
+      "published_on": "2025-05-06",
+      "checked_on": "2026-10-12",
+      "access": "page_or_search_excerpt_reviewed"
+    },
+    {
+      "id": "propnews-ngo-lt",
+      "title": "AGICL awards Rs 83.99 crore contract to L&T for final phase of NGO housing towers",
+      "url": "https://propnewstime.com/latestnewsstories/MzM3NDg=/agicl-awards-inr-83-99-crore-contract-to-l-t-for-final-phase-of-amaravati-ngo-housing-towers",
+      "kind": "news",
+      "published_on": "2026-07-28",
+      "checked_on": "2026-10-12",
+      "access": "page_or_search_excerpt_reviewed"
+    },
+    {
+      "id": "swarajya-e3",
+      "title": "Rs 1,519 crore Amaravati E-3 corridor: CM opens Phase 2",
+      "url": "https://swarajyamag.com/news-brief/rs-1519-crore-amaravati-e-3-corridor-takes-major-step-as-cm-naidu-opens-phase-2",
+      "kind": "news",
+      "published_on": "2026-08-13",
+      "checked_on": "2026-10-12",
+      "access": "page_or_search_excerpt_reviewed"
+    },
+    {
+      "id": "hans-orr-cost",
+      "title": "Rs 30,491-cr Amaravati ORR takes shape",
+      "url": "https://www.thehansindia.com/news/cities/amaravati/rs-30491-cr-amaravati-orr-takes-shape-1126336",
+      "kind": "news",
+      "published_on": "2026-09-28",
+      "checked_on": "2026-10-12",
+      "access": "page_or_search_excerpt_reviewed"
+    },
+    {
+      "id": "indinfra-orr-approval",
+      "title": "Centre approves Amaravati Outer Ring-Road project",
+      "url": "https://indianinfrastructure.com/2025/01/16/centre-approves-amaravati-outer-ring-road-project/",
+      "kind": "news",
+      "published_on": "2025-01-16",
+      "checked_on": "2026-10-12",
+      "access": "page_or_search_excerpt_reviewed"
+    },
+    {
+      "id": "dc-quantum-1205",
+      "title": "APCRDA clears Rs 1,205-cr Quantum Valley towers, ropeway projects",
+      "url": "https://www.deccanchronicle.com/amp/southern-states/andhra-pradesh/apcrda-clears-rs-1205-cr-quantum-valley-towers-ropeway-projects-for-amaravati-1976667",
+      "kind": "news",
+      "published_on": "2026-08-04",
+      "checked_on": "2026-10-12",
+      "access": "page_or_search_excerpt_reviewed"
+    },
+    {
+      "id": "dc-quantum-1280",
+      "title": "APCRDA clears key Amaravati projects, L&T bags quantum facility contract",
+      "url": "https://www.deccanchronicle.com/amp/southern-states/andhra-pradesh/apcrda-clears-key-amaravati-projects-lt-bags-quantum-facility-contract-1976758",
+      "kind": "news",
+      "published_on": "2026-08-05",
+      "checked_on": "2026-10-12",
+      "access": "page_or_search_excerpt_reviewed"
+    },
+    {
+      "id": "theweek-quantum-2026",
+      "title": "Quantum computing centre to begin operations in Amaravati by early 2026: CM",
+      "url": "https://www.theweek.in/wire-updates/national/2025/06/30/mes6-ap-quantum-valley-cm.html",
+      "kind": "news",
+      "published_on": "2025-06-30",
+      "checked_on": "2026-10-12",
+      "access": "page_or_search_excerpt_reviewed"
+    },
+    {
+      "id": "qcr-ibm-sept2026",
+      "title": "IBM to commission quantum computer in Amaravati by September 2026",
+      "url": "https://quantumcomputingreport.com/ibm-to-commission-one-of-indias-first-physical-quantum-computers-in-amaravati-by-september-2026/",
+      "kind": "news",
+      "published_on": "2026-07-03",
+      "checked_on": "2026-10-12",
+      "access": "page_or_search_excerpt_reviewed"
+    },
+    {
+      "id": "dc-nielit-730",
+      "title": "Naidu clears Rs 730.70-cr Quantum, AI university campus in Amaravati",
+      "url": "https://www.deccanchronicle.com/amp/southern-states/andhra-pradesh/naidu-clears-73070-cr-quantum-ai-university-campus-in-amaravati-1982842",
+      "kind": "news",
+      "published_on": "2026-08-27",
+      "checked_on": "2026-10-12",
+      "access": "page_or_search_excerpt_reviewed"
+    },
+    {
+      "id": "dc-fps2-stone",
+      "title": "Stone set for 2nd pumping station to strengthen Amaravati flood defence",
+      "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/stone-set-for-2nd-pumping-station-to-strengthen-amaravati-flood-defence-1979242",
+      "kind": "news",
+      "published_on": "2026-08-14",
+      "checked_on": "2026-10-12",
+      "access": "page_or_search_excerpt_reviewed"
+    },
+    {
+      "id": "dc-flood-safest",
+      "title": "Amaravati will be one of the safest cities from floods: Narayana",
+      "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/amaravati-will-be-one-of-the-safest-cities-from-floods-narayana-1992659",
+      "kind": "news",
+      "published_on": "2026-10-02",
+      "checked_on": "2026-10-12",
+      "access": "page_or_search_excerpt_reviewed"
+    },
+    {
+      "id": "pvmag-tabreed",
+      "title": "Tabreed India, GIZ and BEE support Andhra Pradesh district cooling",
+      "url": "https://www.pv-magazine-india.com/press-releases/tabreed-india-giz-and-bee-support-andhra-pradeshs-pioneering-vision-for-adoption-of-district-cooling/",
+      "kind": "partner",
+      "published_on": "2024-09-27",
+      "checked_on": "2026-10-12",
+      "access": "page_or_search_excerpt_reviewed"
+    },
+    {
+      "id": "infrappp-riverfront",
+      "title": "Andhra Pradesh plans iconic Amaravati Eye to transform riverfront tourism",
+      "url": "https://www.infrapppworld.com/update/andhra-pradesh-plans-iconic-amaravati-eye-to-transform-riverfront-tourism",
+      "kind": "news",
+      "published_on": "2026-06-29",
+      "checked_on": "2026-10-12",
+      "access": "page_or_search_excerpt_reviewed"
+    },
+    {
+      "id": "propnews-kandhari",
+      "title": "APCRDA signs agreement with Kandhari Hotels for three-star hotel",
+      "url": "https://propnewstime.com/latestnewsstories/Mjc3NjY=/apcrda-signs-agreement-with-kandhari-hotels-for-three-star-hotel-in-amaravati",
+      "kind": "news",
+      "published_on": "2026-03-18",
+      "checked_on": "2026-10-12",
+      "access": "page_or_search_excerpt_reviewed"
+    },
+    {
+      "id": "nbmcw-landpool-16000",
+      "title": "Andhra Pradesh approves 16,000-acre land pooling for Amaravati expansion",
+      "url": "https://www.nbmcw.com/news/andhra-pradesh-approves-16-000-acre-land-pooling-for-amaravati-expansion-plans-inner-ring-road-railway-hub-sports-city.html",
+      "kind": "news",
+      "published_on": "2025-12-01",
+      "checked_on": "2026-10-12",
+      "access": "page_or_search_excerpt_reviewed"
+    },
+    {
+      "id": "ap7am-ttd-260",
+      "title": "Andhra Pradesh CM lays foundation for Rs 260 crore temple project in Amaravati",
+      "url": "https://www.ap7am.com/en/115020/andhra-pradesh-cm-lays-foundation-for-rs-260-crore-temple-project-in-amaravati",
+      "kind": "news",
+      "published_on": "2025-11-27",
+      "checked_on": "2026-10-12",
+      "access": "page_or_search_excerpt_reviewed"
+    },
+    {
+      "id": "adb-loan",
+      "title": "ADB approves loan to support inclusive, sustainable capital city in India",
+      "url": "https://www.adb.org/news/adb-approves-loan-support-development-inclusive-sustainable-capital-city-india",
+      "kind": "official",
+      "published_on": "2024-12-12",
+      "checked_on": "2026-10-12",
+      "access": "page_or_search_excerpt_reviewed"
+    },
+    {
+      "id": "etv-wb-340",
+      "title": "World Bank releases USD 340 mn for Amaravati development",
+      "url": "https://www.etvbharat.com/en/bharat/world-bank-releases-usd-340-mn-for-amaravati-development-enn26041201472",
+      "kind": "news",
+      "published_on": "2026-04-12",
+      "checked_on": "2026-10-12",
+      "access": "page_or_search_excerpt_reviewed"
+    },
+    {
+      "id": "tsf-hudco-approve",
+      "title": "HUDCO approves Rs 11,000 crore loan for Amaravati development",
+      "url": "https://thesouthfirst.com/andhrapradesh/hudco-approves-rs-11000-crore-loan-for-amaravati-development-project/",
+      "kind": "news",
+      "published_on": null,
+      "checked_on": "2026-10-12",
+      "access": "page_or_search_excerpt_reviewed"
+    },
+    {
+      "id": "angelone-hudco-sign",
+      "title": "Andhra Pradesh inks Rs 11,000 crore loan deal with HUDCO for Amaravati",
+      "url": "https://www.angelone.in/news/share-market/andhra-pradesh-inks-11000-crore-loan-deal-with-hudco-for-amaravati-development",
+      "kind": "discovery_lead",
+      "published_on": null,
+      "checked_on": "2026-10-12",
+      "access": "page_or_search_excerpt_reviewed"
+    },
+    {
+      "id": "tsf-kfw-cabinet",
+      "title": "Andhra cabinet approves raising Rs 16,000 crore loan for Amaravati",
+      "url": "https://thesouthfirst.com/news/andhra-pradesh-cabinet-approves-raising-rs-16000-crore-loan-for-amaravati-development/",
+      "kind": "news",
+      "published_on": null,
+      "checked_on": "2026-10-12",
+      "access": "page_or_search_excerpt_reviewed"
+    },
+    {
+      "id": "dc-budget-15000",
+      "title": "FM announces Rs 15,000 crore for Amaravati capital development",
+      "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/fm-announces-rs-15000-crore-for-amaravati-capital-development-1811790",
+      "kind": "news",
+      "published_on": "2024-07-23",
+      "checked_on": "2026-10-12",
+      "access": "page_or_search_excerpt_reviewed"
+    },
+    {
+      "id": "tnm-2014-capital",
+      "title": "Vijayawada announced as capital (assembly statement)",
+      "url": "https://www.thenewsminute.com/article/its-rayalseema-vs-andhra-now-vijayawada-announced-capital-16150",
+      "kind": "news",
+      "published_on": "2014-09-04",
+      "checked_on": "2026-10-12",
+      "access": "page_or_search_excerpt_reviewed"
+    },
+    {
+      "id": "tnm-2019-target",
+      "title": "New Andhra capital will be ready by 2019, says Naidu",
+      "url": "https://www.thenewsminute.com/amp/story/andhra-pradesh/new-andhra-capital-will-be-ready-2019-says-chandrababu-naidu-16218",
+      "kind": "news",
+      "published_on": "2014-12-06",
+      "checked_on": "2026-10-12",
+      "access": "page_or_search_excerpt_reviewed"
+    },
+    {
+      "id": "bs-foundation-2015",
+      "title": "PM lays foundation stone for Andhra capital",
+      "url": "https://www.business-standard.com/article/news-ians/pm-lays-foundation-stone-for-andhra-capital-roundup-115102200780_1.html",
+      "kind": "news",
+      "published_on": "2015-10-22",
+      "checked_on": "2026-10-12",
+      "access": "page_or_search_excerpt_reviewed"
+    },
+    {
+      "id": "tnm-3cap-assent",
+      "title": "Andhra's three capital bills get Governor's assent",
+      "url": "https://www.thenewsminute.com/article/andhras-three-capital-bills-get-governor-s-assent-129802",
+      "kind": "news",
+      "published_on": "2020-07-31",
+      "checked_on": "2026-10-12",
+      "access": "page_or_search_excerpt_reviewed"
+    },
+    {
+      "id": "onmanorama-repeal",
+      "title": "Andhra Assembly passes bill to repeal three-capital Act",
+      "url": "https://onmanorama.com/news/india/2021/11/22/andhra-pradesh-reapeals-three-capitals-act.html",
+      "kind": "news",
+      "published_on": "2021-11-22",
+      "checked_on": "2026-10-12",
+      "access": "page_or_search_excerpt_reviewed"
+    },
+    {
+      "id": "dh-hc-verdict-2022",
+      "title": "Andhra Pradesh High Court orders development of Amaravati within 6 months",
+      "url": "https://www.deccanherald.com/amp/story/india%2Fandhra-pradesh-high-court-orders-development-of-amaravati-capital-region-within-6-months-1087663.html",
+      "kind": "news",
+      "published_on": "2022-03-03",
+      "checked_on": "2026-10-12",
+      "access": "page_or_search_excerpt_reviewed"
+    },
+    {
+      "id": "tsf-sc-stay",
+      "title": "Supreme Court stays AP HC order to develop Amaravati in 6 months",
+      "url": "https://thesouthfirst.com/andhrapradesh/supreme-court-stays-ap-hc-order-to-develop-amaravati-in-6-months-next-hearing-on-31-january",
+      "kind": "news",
+      "published_on": "2022-11-28",
+      "checked_on": "2026-10-12",
+      "access": "page_or_search_excerpt_reviewed"
+    },
+    {
+      "id": "tsf-30months",
+      "title": "Amaravati development works will be completed in 30 months: Narayana",
+      "url": "https://thesouthfirst.com/andhrapradesh/amaravati-development-works-will-be-completed-in-30-months-minister-p-narayana",
+      "kind": "news",
+      "published_on": "2024-06-16",
+      "checked_on": "2026-10-12",
+      "access": "page_or_search_excerpt_reviewed"
+    },
+    {
+      "id": "theweek-relaunch",
+      "title": "PM Modi lays foundation, inaugurates projects worth Rs 58,000 crore in Andhra",
+      "url": "https://www.theweek.in/wire-updates/national/2025/05/02/mds21-ap-pm-projects.html",
+      "kind": "news",
+      "published_on": "2025-05-02",
+      "checked_on": "2026-10-12",
+      "access": "page_or_search_excerpt_reviewed"
+    },
+    {
+      "id": "tsf-ls-capital-bill",
+      "title": "Lok Sabha passes AP Reorganisation Amendment Bill recognising Amaravati as sole capital",
+      "url": "https://thesouthfirst.com/andhrapradesh/lok-sabha-passes-ap-reorganisation-amendment-bill-to-recognise-amaravati-as-sole-capital",
+      "kind": "news",
+      "published_on": "2026-04-01",
+      "checked_on": "2026-10-12",
+      "access": "page_or_search_excerpt_reviewed"
+    }
+  ],
+  "open_questions": [
+    "Contract periods and agreement dates for secretariat, assembly and High Court packages (GOs give award only).",
+    "Quantum towers value: Rs 1,205 cr vs Rs 1,280 cr in consecutive Deccan Chronicle reports.",
+    "KfW Rs 5,000 crore loan: signing and disbursement status not found.",
+    "District cooling: whether the 2019 Tabreed concession was cancelled before the 2026 RFP.",
+    "Railway four-year target: confirm wording in PIB release (page returned 403).",
+    "ORR: civil estimate (10,595.70 cr) vs reported tender value (13,091.75 cr) differ in scope.",
+    "IRR: no current approved length or cost found; old AIIB figures unverified.",
+    "Seed access road: phase 1 opening date, contractor and phase 3 target not found.",
+    "Flood packages I-III: award dates and contractors not found.",
+    "Hotels: allotments beyond Kandhari Hotels (e.g. named chains) not confirmed.",
+    "Sports city: no design, cost or target found.",
+    "HUDCO and KfW sources are secondary; verify with NSE filing or APCRDA release."
+  ]
+}

@@ -18,3 +18,101 @@ dialog{border:1px solid #617c6b;background:#102a2b;color:var(--ink);width:min(66
 @media(max-width:760px){.hero-copy h1{font-size:54px}.hero-copy p{max-width:310px}.scene-vignette{background:linear-gradient(180deg,#0b2022 0%,#0b2022fa 24%,#0b2022b0 34%,transparent 49%,transparent 69%,#0b2022d9 82%,#0b2022 100%)}.hero-copy .primary-button{margin-top:13px}.scene-controls button{width:44px;height:44px}.layer-buttons button{min-height:44px}.landmark-label{min-height:40px}}
 @media(min-width:761px) and (max-width:1100px){.hero-copy h1{font-size:56px}}
 @media(max-width:760px){.scene-head{top:401px}.exploring .scene-head{top:115px}}
+
+/* --- 0.2: evidence tiers, timeline modes, legends, land and money ----------------------- */
+.landmark-label{left:0;top:0;will-change:transform}
+.landmark-label.project-label{background:#0b2022cc;border-style:dashed}
+.stage-badge.tier-site i{background:#a6c9b2}
+.stage-badge.tier-planned i{background:none;border:1px solid #e9bc72}
+.project-stage{display:flex;flex-direction:column;gap:7px;align-items:flex-start}
+.target-chip{font-size:9px;letter-spacing:.4px;padding:3px 7px;border:1px solid #e9bc7266;color:#e9d3a6}
+.target-chip.target-passed{border-color:#d18c7e99;color:#f0c1b6}
+.target-chip.target-met{border-color:#a6c9b299;color:#cfe3d4}
+.stale-flag{display:block;margin-top:6px;font-size:9px;color:#f0c1b6;letter-spacing:.3px}
+.stale-flag:before{content:'◷ '}
+.mapped-mark{color:var(--gold)}
+.project-row.current{background:#15312e}
+.project-date{display:block}
+.ledger-toolbar{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;align-items:center}
+.ledger-tools{display:flex;gap:22px;align-items:center;flex-wrap:wrap}
+.sort-field{display:flex;gap:10px;align-items:center;font-size:10px;color:var(--muted);letter-spacing:1px}
+.sort-field select{background:#102a2b;color:var(--ink);border:1px solid #829d8b55;padding:10px 12px;font:inherit;font-size:12px;min-height:44px}
+.search-field input{width:240px}
+.time-heading{display:flex;flex-direction:column;gap:8px;min-width:150px}
+.mode-switch{display:flex;flex-wrap:wrap;gap:4px;margin-top:4px}
+.mode-switch button{font-size:9px;padding:6px 8px;min-height:32px;background:none;border:1px solid #b3c5b633;color:var(--muted)}
+.mode-switch button.selected{border-color:var(--gold);color:var(--ink);background:#1c3533}
+.horizon-rule{position:absolute;left:7%;bottom:8px;margin:0;font-size:9px;color:#9fb5ad;z-index:7;max-width:60%}
+.scene-legend{position:absolute;right:5.5%;top:110px;z-index:4;display:flex;flex-direction:column;gap:8px;font-size:9px;color:#d2dcd2;background:#0b2022b0;padding:12px 14px;pointer-events:none}
+.scene-legend span{display:flex;gap:9px;align-items:center}
+.scene-legend i{width:16px;height:10px;display:inline-block}
+.lg-site{background:#e6d9bb}.lg-planned{border:1px solid #f4d38f}.lg-illustrative{background:#e3c18144}.lg-target{border:2px solid #f3cf86;border-radius:50%;width:10px!important}
+.due-list{position:absolute;right:5.5%;top:236px;z-index:6;display:flex;flex-direction:column;gap:4px;max-width:260px}
+.due-list button{text-align:left;font-size:10px;padding:8px 10px;background:#0b2022e0;border:1px solid #e9bc7255;color:var(--ink);min-height:36px}
+.due-list button span{display:block;color:var(--gold);font-size:9px;margin-top:3px}
+.city-stage:not(.exploring) .scene-legend,.city-stage:not(.exploring) .due-list{display:none}
+.land-tip{position:absolute;z-index:9;transform:translate(14px,-50%);background:#0b2022f2;border:1px solid #e9bc7266;padding:11px 13px;max-width:260px;font-size:11px;pointer-events:none}
+.land-tip b{display:block;font-weight:500;margin-bottom:4px}
+.land-tip span{display:block;color:var(--gold);font-size:10px}
+.land-tip small{display:block;color:var(--muted);font-size:9px;margin-top:6px;line-height:1.5}
+.map-legends{padding:0 7%;display:flex;gap:30px;flex-wrap:wrap;background:#0c2325}
+.map-legends>div{display:flex;flex-wrap:wrap;gap:14px;align-items:center;padding:14px 0;font-size:10px;color:var(--muted)}
+.map-legends>div[hidden]{display:none}
+.map-legends b{color:var(--ink);font-weight:500;font-size:10px;letter-spacing:1px}
+.map-legends span{display:flex;gap:7px;align-items:center}
+.map-legends i,.swatch{width:11px;height:11px;display:inline-block;background:var(--swatch);flex-shrink:0}
+.building-status{font-size:9px;color:#9fb5ad;margin:0;padding:12px 0;letter-spacing:.5px}
+.building-status:empty{display:none}
+/* Evidence panel facts */
+.facts{margin:0;display:grid;gap:10px}
+.facts div{border-bottom:1px solid var(--line);padding-bottom:10px}
+.facts dt{font-size:9px;color:var(--muted);letter-spacing:1px;text-transform:uppercase}
+.facts dd{margin:5px 0 0;font-size:12px;line-height:1.6;color:#dfe7da}
+.facts dd small{color:var(--muted);font-size:10px}
+.facts .fact-note{display:block;margin-top:3px}
+.facts .alt dd{font-size:11px;color:#c1d1c5}
+.confidence{font-size:8px;letter-spacing:.6px;text-transform:uppercase;padding:2px 5px;border:1px solid var(--line);color:var(--muted);white-space:nowrap}
+.confidence.c-high{border-color:#a6c9b266;color:#cfe3d4}.confidence.c-low{border-color:#d18c7e66;color:#f0c1b6}
+.cite{font-size:9px;color:var(--gold);white-space:nowrap}
+.target-history,.milestones{list-style:none;margin:0;padding:0}
+.target-history li,.milestones li{display:grid;grid-template-columns:92px 1fr;gap:4px 12px;padding:9px 0;border-bottom:1px solid var(--line);font-size:11px;color:#dfe7da}
+.target-history li>span,.milestones li>span{color:var(--muted);font-size:10px}
+.target-history li>b{font-weight:500;color:var(--gold)}
+.target-history li>small{grid-column:2;color:var(--muted);font-size:10px}
+.milestones li p{margin:0;font-size:11px!important;line-height:1.6!important}
+.stale-note{font-size:11px!important;color:#f0c1b6!important;border-left:2px solid #d18c7e;padding-left:12px}
+/* The land and the money */
+.land-section{margin:0 7% 40px;padding-top:40px}
+.insights{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-top:34px}
+.insight{border-top:1px solid var(--line);padding-top:24px;min-width:0}
+.insight h3{font-size:10px;letter-spacing:1.4px;color:var(--muted);font-weight:500;margin:24px 0 12px;text-transform:uppercase}
+.insight-head p{font-size:12px;line-height:1.7;color:#c1d1c5}
+.hero-number{display:block;font-family:LocalSerif,Georgia,serif;font-size:42px;font-weight:400;letter-spacing:-1px;margin:12px 0 4px}
+.bar-list{list-style:none;padding:0;margin:0;display:grid;gap:9px}
+.bar-list li{display:grid;grid-template-columns:minmax(110px,40%) 1fr auto;gap:10px;align-items:center;font-size:11px;padding:3px 0}
+.bar-list li:hover,.bar-list li:focus{background:#15312e;outline:none}
+.bar-label{display:flex;gap:7px;align-items:center;color:#dfe7da}
+.bar-track{height:8px;background:#ffffff0d;display:block}
+.bar{display:block;height:100%;width:var(--w);background:#e9bc72;border-radius:0 4px 4px 0}
+.bar-value{font-variant-numeric:tabular-nums;color:var(--muted);font-size:10px}
+.mini-table{width:100%;border-collapse:collapse;font-size:11px}
+.mini-table th{font-size:8px;letter-spacing:1.2px;color:var(--muted);text-align:left;font-weight:500;padding:6px 0;border-bottom:1px solid var(--line)}
+.mini-table td{padding:7px 6px 7px 0;border-bottom:1px solid var(--line);color:#dfe7da;vertical-align:top}
+.mini-table .num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.fine{font-size:10px;color:var(--muted);line-height:1.6}
+.funding{list-style:none;padding:0;margin:18px 0 0}
+.funding li{display:grid;gap:3px;padding:11px 0;border-bottom:1px solid var(--line)}
+.funding b{font-size:12px;font-weight:500}
+.funding span{font-family:LocalSerif,Georgia,serif;font-size:18px;color:var(--gold)}
+.funding small{font-size:9px;color:var(--muted)}
+.history{margin-top:60px;border-top:1px solid var(--line);padding-top:30px}
+.history h3{font-family:LocalSerif,Georgia,serif;font-size:32px;font-weight:400;letter-spacing:-1px;margin:12px 0 24px}
+.history-list{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:0 28px}
+.history-list li{border-left:1px solid #e9bc7255;padding:4px 0 18px 16px;position:relative}
+.history-list li:before{content:'';position:absolute;left:-4px;top:8px;width:7px;height:7px;border-radius:50%;background:var(--gold)}
+.history-list time{font-size:10px;letter-spacing:1px;color:var(--gold)}
+.history-list p{margin:6px 0 0;font-size:12px;line-height:1.6;color:#c1d1c5}
+footer a{color:var(--muted)}
+#notes-dialog code{font-size:11px;color:var(--gold)}
+@media(max-width:1100px){.insights{grid-template-columns:1fr 1fr}.scene-legend{top:96px}}
+@media(max-width:760px){.insights{grid-template-columns:1fr}.scene-legend,.due-list{display:none!important}.horizon-rule{display:none}.ledger-tools{width:100%}.search-field input{width:100%}.search-field{flex:1}.land-section{margin:0 6% 30px}.history h3{font-size:26px}.mode-switch{order:2}}

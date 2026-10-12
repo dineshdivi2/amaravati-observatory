@@ -1,262 +1,703 @@
 [
-  {
-    "id": "apcrda",
-    "title": "APCRDA",
-    "url": "https://crda.ap.gov.in/Apcrdav2/Views/Home.aspx",
-    "kind": "official",
-    "published_on": null,
-    "checked_on": "2026-10-12",
-    "access": "page_or_search_excerpt_reviewed",
-    "raw_snapshot": "See data/raw manifests where downloaded"
-  },
-  {
-    "id": "agicl",
-    "title": "AGICL tender listings",
-    "url": "https://www.agicl.org/",
-    "kind": "official",
-    "published_on": null,
-    "checked_on": "2026-10-12",
-    "access": "page_or_search_excerpt_reviewed",
-    "raw_snapshot": "See data/raw manifests where downloaded"
-  },
-  {
-    "id": "tenders",
-    "title": "APCRDA tender notices",
-    "url": "https://crda.ap.gov.in/APCRDAV2/Views/NotificationsView.aspx",
-    "kind": "official",
-    "published_on": null,
-    "checked_on": "2026-10-12",
-    "access": "page_or_search_excerpt_reviewed",
-    "raw_snapshot": "See data/raw manifests where downloaded"
-  },
-  {
-    "id": "lps",
-    "title": "APCRDA LPS GIS",
-    "url": "https://gis.apcrda.org/server/rest/services/LPS_Portal/MapServer",
-    "kind": "official_spatial",
-    "published_on": null,
-    "checked_on": "2026-10-12",
-    "access": "page_or_search_excerpt_reviewed",
-    "raw_snapshot": "See data/raw manifests where downloaded"
-  },
-  {
-    "id": "smartgis",
-    "title": "APCRDA SmartCityInfra GIS",
-    "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer",
-    "kind": "official_spatial",
-    "published_on": null,
-    "checked_on": "2026-10-12",
-    "access": "page_or_search_excerpt_reviewed",
-    "raw_snapshot": "See data/raw manifests where downloaded"
-  },
-  {
-    "id": "bbas",
-    "title": "BIM approval portal",
-    "url": "https://uat.bbas.ap.gov.in/",
-    "kind": "official_system_description",
-    "published_on": null,
-    "checked_on": "2026-10-12",
-    "access": "page_or_search_excerpt_reviewed",
-    "raw_snapshot": "See data/raw manifests where downloaded"
-  },
-  {
-    "id": "smartprojects",
-    "title": "ASSCCL project descriptions",
-    "url": "https://assccl.ap.gov.in/ASSCCL/Projects",
-    "kind": "official",
-    "published_on": null,
-    "checked_on": "2026-10-12",
-    "access": "page_or_search_excerpt_reviewed",
-    "raw_snapshot": "See data/raw manifests where downloaded"
-  },
-  {
-    "id": "review",
-    "title": "Capital works review reporting",
-    "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/cm-pushes-for-speedy-amaravati-capital-works-1987300",
-    "kind": "news",
-    "published_on": "2026-09-13",
-    "checked_on": "2026-10-12",
-    "access": "page_or_search_excerpt_reviewed",
-    "raw_snapshot": "See data/raw manifests where downloaded"
-  },
-  {
-    "id": "latest",
-    "title": "Latest minister review reporting",
-    "url": "https://timesofindia.indiatimes.com/city/vijayawada/polls-to-be-deferred-in-amaravati-villages-under-land-pooling-narayana/amp_articleshow/134857896.cms",
-    "kind": "news",
-    "published_on": "2026-10-10",
-    "checked_on": "2026-10-12",
-    "access": "page_or_search_excerpt_reviewed",
-    "raw_snapshot": "See data/raw manifests where downloaded"
-  },
-  {
-    "id": "seed",
-    "title": "Access road opening and housing handover reporting",
-    "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/naidu-inaugurates-seed-access-road-bridge-connecting-amaravati-1978818",
-    "kind": "news",
-    "published_on": "2026-08-13",
-    "checked_on": "2026-10-12",
-    "access": "page_or_search_excerpt_reviewed",
-    "raw_snapshot": "See data/raw manifests where downloaded"
-  },
-  {
-    "id": "ibm",
-    "title": "IBM Quantum Valley construction update",
-    "url": "https://www.ibm.com/quantum/blog/quantum-education-india",
-    "kind": "project_partner",
-    "published_on": "2026-02-07",
-    "checked_on": "2026-10-12",
-    "access": "page_or_search_excerpt_reviewed",
-    "raw_snapshot": "See data/raw manifests where downloaded"
-  },
-  {
-    "id": "quantumtarget",
-    "title": "Quantum operations target reporting",
-    "url": "https://www.theweek.in/news/biz-tech/2026/10/04/andhra-pradesh-quantum-computing-launch.html",
-    "kind": "news",
-    "published_on": "2026-10-04",
-    "checked_on": "2026-10-12",
-    "access": "page_or_search_excerpt_reviewed",
-    "raw_snapshot": "See data/raw manifests where downloaded"
-  },
-  {
-    "id": "nielit",
-    "title": "Quantum and AI university MoU",
-    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2231125&lang=1&reg=1",
-    "kind": "official",
-    "published_on": "2026-02-20",
-    "checked_on": "2026-10-12",
-    "access": "page_or_search_excerpt_reviewed",
-    "raw_snapshot": "See data/raw manifests where downloaded"
-  },
-  {
-    "id": "rail",
-    "title": "Rail line approval",
-    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2067967&lang=2&reg=48",
-    "kind": "official",
-    "published_on": "2024-10-24",
-    "checked_on": "2026-10-12",
-    "access": "page_or_search_excerpt_reviewed",
-    "raw_snapshot": "See data/raw manifests where downloaded"
-  },
-  {
-    "id": "railupdate",
-    "title": "Rail package 4 tender reporting",
-    "url": "https://telugu.oneindia.com/news/andhra-pradesh/amaravati-railway-development-tenders-for-package-4-of-errupalem-namburu-railway-line-at-rs-599-cro-509181.html",
-    "kind": "news",
-    "published_on": "2026-10-04",
-    "checked_on": "2026-10-12",
-    "access": "page_or_search_excerpt_reviewed",
-    "raw_snapshot": "See data/raw manifests where downloaded"
-  },
-  {
-    "id": "orrlead",
-    "title": "ORR tender register discovery lead",
-    "url": "https://www.pedaparimi.com/infrastructure/outer-ring-road-tenders",
-    "kind": "commercial_secondary_lead",
-    "published_on": "2026-10-02",
-    "checked_on": "2026-10-12",
-    "access": "page_or_search_excerpt_reviewed",
-    "raw_snapshot": "See data/raw manifests where downloaded"
-  },
-  {
-    "id": "orrnews",
-    "title": "ORR tender reporting",
-    "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/nhai-invites-tenders-for-amaravati-outer-ring-road-1563703.html",
-    "kind": "news",
-    "published_on": "2026-10-03",
-    "checked_on": "2026-10-12",
-    "access": "page_or_search_excerpt_reviewed",
-    "raw_snapshot": "See data/raw manifests where downloaded"
-  },
-  {
-    "id": "wb",
-    "title": "World Bank financing approval",
-    "url": "https://www.worldbank.org/en/news/press-release/2024/12/20/world-bank-supports-inclusive-and-sustainable-development-of-amaravati-city",
-    "kind": "official",
-    "published_on": "2024-12-20",
-    "checked_on": "2026-10-12",
-    "access": "page_or_search_excerpt_reviewed",
-    "raw_snapshot": "See data/raw manifests where downloaded"
-  },
-  {
-    "id": "wbplan",
-    "title": "World Bank city planning factsheet",
-    "url": "https://www.worldbank.org/en/brief/2024/12/20/world-bank-support-for-amaravati-as-a-growth-hub-in-andhra-pradesh",
-    "kind": "official",
-    "published_on": "2024-12-20",
-    "checked_on": "2026-10-12",
-    "access": "page_or_search_excerpt_reviewed",
-    "raw_snapshot": "See data/raw manifests where downloaded"
-  },
-  {
-    "id": "flood",
-    "title": "Flood infrastructure program document",
-    "url": "https://documents1.worldbank.org/curated/en/099010925161598187/pdf/P507508-34c45692-031e-4b34-a52c-db2db81ff1ac.pdf",
-    "kind": "official_document_search_excerpt",
-    "published_on": null,
-    "checked_on": "2026-10-12",
-    "access": "page_or_search_excerpt_reviewed",
-    "raw_snapshot": "See data/raw manifests where downloaded"
-  },
-  {
-    "id": "ttd",
-    "title": "TTD Venkatapalem construction inspection",
-    "url": "https://news.tirumala.org/ttd-jeo-reviews-construction-works-at-venkatpalem-srivari-temple-_-%E0%B0%B5%E0%B1%87%E0%B0%97%E0%B0%82%E0%B0%97%E0%B0%BE-%E0%B0%B8%E0%B0%BE%E0%B0%97%E0%B1%81%E0%B0%A4%E0%B1%81%E0%B0%A8%E0%B1%8D/",
-    "kind": "official",
-    "published_on": "2026-08-31",
-    "checked_on": "2026-10-12",
-    "access": "page_or_search_excerpt_reviewed",
-    "raw_snapshot": "See data/raw manifests where downloaded"
-  },
-  {
-    "id": "architect",
-    "title": "Foster and Partners masterplan reference",
-    "url": "https://www.fosterandpartners.com/projects/amaravati-masterplan",
-    "kind": "architect_reference_page",
-    "published_on": null,
-    "checked_on": "2026-10-12",
-    "access": "page_or_search_excerpt_reviewed",
-    "raw_snapshot": "See data/raw manifests where downloaded"
-  },
-  {
-    "id": "overture",
-    "title": "Building schema",
-    "url": "https://docs.overturemaps.org/schema/reference/buildings/building/",
-    "kind": "technical_primary",
-    "published_on": null,
-    "checked_on": "2026-10-12",
-    "access": "page_or_search_excerpt_reviewed",
-    "raw_snapshot": "See data/raw manifests where downloaded"
-  },
-  {
-    "id": "osm",
-    "title": "OSM attribution and licence",
-    "url": "https://www.openstreetmap.org/copyright/en?locale=en-GB",
-    "kind": "technical_primary",
-    "published_on": null,
-    "checked_on": "2026-10-12",
-    "access": "page_or_search_excerpt_reviewed",
-    "raw_snapshot": "See data/raw manifests where downloaded"
-  },
-  {
-    "id": "sentinel",
-    "title": "Sentinel-2 data specification",
-    "url": "https://dataspace.copernicus.eu/data-collections/copernicus-sentinel-missions/sentinel-2",
-    "kind": "technical_primary",
-    "published_on": null,
-    "checked_on": "2026-10-12",
-    "access": "page_or_search_excerpt_reviewed",
-    "raw_snapshot": "See data/raw manifests where downloaded"
-  },
-  {
-    "id": "dem",
-    "title": "DEM current access requirements",
-    "url": "https://documentation.dataspace.copernicus.eu/APIs/SentinelHub/Data/DEM.html",
-    "kind": "technical_primary",
-    "published_on": null,
-    "checked_on": "2026-10-12",
-    "access": "page_or_search_excerpt_reviewed",
-    "raw_snapshot": "See data/raw manifests where downloaded"
-  }
+ {
+  "id": "apcrda",
+  "title": "APCRDA",
+  "url": "https://crda.ap.gov.in/Apcrdav2/Views/Home.aspx",
+  "kind": "official",
+  "published_on": null,
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed",
+  "raw_snapshot": "See data/raw manifests where downloaded"
+ },
+ {
+  "id": "agicl",
+  "title": "AGICL tender listings",
+  "url": "https://www.agicl.org/",
+  "kind": "official",
+  "published_on": null,
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed",
+  "raw_snapshot": "See data/raw manifests where downloaded"
+ },
+ {
+  "id": "tenders",
+  "title": "APCRDA tender notices",
+  "url": "https://crda.ap.gov.in/APCRDAV2/Views/NotificationsView.aspx",
+  "kind": "official",
+  "published_on": null,
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed",
+  "raw_snapshot": "See data/raw manifests where downloaded"
+ },
+ {
+  "id": "lps",
+  "title": "APCRDA LPS GIS",
+  "url": "https://gis.apcrda.org/server/rest/services/LPS_Portal/MapServer",
+  "kind": "official_spatial",
+  "published_on": null,
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed",
+  "raw_snapshot": "See data/raw manifests where downloaded"
+ },
+ {
+  "id": "smartgis",
+  "title": "APCRDA SmartCityInfra GIS",
+  "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer",
+  "kind": "official_spatial",
+  "published_on": null,
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed",
+  "raw_snapshot": "See data/raw manifests where downloaded"
+ },
+ {
+  "id": "bbas",
+  "title": "BIM approval portal",
+  "url": "https://uat.bbas.ap.gov.in/",
+  "kind": "official_system_description",
+  "published_on": null,
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed",
+  "raw_snapshot": "See data/raw manifests where downloaded"
+ },
+ {
+  "id": "smartprojects",
+  "title": "ASSCCL project descriptions",
+  "url": "https://assccl.ap.gov.in/ASSCCL/Projects",
+  "kind": "official",
+  "published_on": null,
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed",
+  "raw_snapshot": "See data/raw manifests where downloaded"
+ },
+ {
+  "id": "review",
+  "title": "Capital works review reporting",
+  "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/cm-pushes-for-speedy-amaravati-capital-works-1987300",
+  "kind": "news",
+  "published_on": "2026-09-13",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed",
+  "raw_snapshot": "See data/raw manifests where downloaded"
+ },
+ {
+  "id": "latest",
+  "title": "Latest minister review reporting",
+  "url": "https://timesofindia.indiatimes.com/city/vijayawada/polls-to-be-deferred-in-amaravati-villages-under-land-pooling-narayana/amp_articleshow/134857896.cms",
+  "kind": "news",
+  "published_on": "2026-10-10",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed",
+  "raw_snapshot": "See data/raw manifests where downloaded"
+ },
+ {
+  "id": "seed",
+  "title": "Access road opening and housing handover reporting",
+  "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/naidu-inaugurates-seed-access-road-bridge-connecting-amaravati-1978818",
+  "kind": "news",
+  "published_on": "2026-08-13",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed",
+  "raw_snapshot": "See data/raw manifests where downloaded"
+ },
+ {
+  "id": "ibm",
+  "title": "IBM Quantum Valley construction update",
+  "url": "https://www.ibm.com/quantum/blog/quantum-education-india",
+  "kind": "project_partner",
+  "published_on": "2026-02-07",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed",
+  "raw_snapshot": "See data/raw manifests where downloaded"
+ },
+ {
+  "id": "quantumtarget",
+  "title": "Quantum operations target reporting",
+  "url": "https://www.theweek.in/news/biz-tech/2026/10/04/andhra-pradesh-quantum-computing-launch.html",
+  "kind": "news",
+  "published_on": "2026-10-04",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed",
+  "raw_snapshot": "See data/raw manifests where downloaded"
+ },
+ {
+  "id": "nielit",
+  "title": "Quantum and AI university MoU",
+  "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2231125&lang=1&reg=1",
+  "kind": "official",
+  "published_on": "2026-02-20",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed",
+  "raw_snapshot": "See data/raw manifests where downloaded"
+ },
+ {
+  "id": "rail",
+  "title": "Rail line approval",
+  "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2067967&lang=2&reg=48",
+  "kind": "official",
+  "published_on": "2024-10-24",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed",
+  "raw_snapshot": "See data/raw manifests where downloaded"
+ },
+ {
+  "id": "railupdate",
+  "title": "Rail package 4 tender reporting",
+  "url": "https://telugu.oneindia.com/news/andhra-pradesh/amaravati-railway-development-tenders-for-package-4-of-errupalem-namburu-railway-line-at-rs-599-cro-509181.html",
+  "kind": "news",
+  "published_on": "2026-10-04",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed",
+  "raw_snapshot": "See data/raw manifests where downloaded"
+ },
+ {
+  "id": "orrlead",
+  "title": "ORR tender register discovery lead",
+  "url": "https://www.pedaparimi.com/infrastructure/outer-ring-road-tenders",
+  "kind": "commercial_secondary_lead",
+  "published_on": "2026-10-02",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed",
+  "raw_snapshot": "See data/raw manifests where downloaded"
+ },
+ {
+  "id": "orrnews",
+  "title": "ORR tender reporting",
+  "url": "https://www.andhrajyothy.com/2026/andhra-pradesh/nhai-invites-tenders-for-amaravati-outer-ring-road-1563703.html",
+  "kind": "news",
+  "published_on": "2026-10-03",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed",
+  "raw_snapshot": "See data/raw manifests where downloaded"
+ },
+ {
+  "id": "wb",
+  "title": "World Bank financing approval",
+  "url": "https://www.worldbank.org/en/news/press-release/2024/12/20/world-bank-supports-inclusive-and-sustainable-development-of-amaravati-city",
+  "kind": "official",
+  "published_on": "2024-12-20",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed",
+  "raw_snapshot": "See data/raw manifests where downloaded"
+ },
+ {
+  "id": "wbplan",
+  "title": "World Bank city planning factsheet",
+  "url": "https://www.worldbank.org/en/brief/2024/12/20/world-bank-support-for-amaravati-as-a-growth-hub-in-andhra-pradesh",
+  "kind": "official",
+  "published_on": "2024-12-20",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed",
+  "raw_snapshot": "See data/raw manifests where downloaded"
+ },
+ {
+  "id": "flood",
+  "title": "Flood infrastructure program document",
+  "url": "https://documents1.worldbank.org/curated/en/099010925161598187/pdf/P507508-34c45692-031e-4b34-a52c-db2db81ff1ac.pdf",
+  "kind": "official_document_search_excerpt",
+  "published_on": null,
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed",
+  "raw_snapshot": "See data/raw manifests where downloaded"
+ },
+ {
+  "id": "ttd",
+  "title": "TTD Venkatapalem construction inspection",
+  "url": "https://news.tirumala.org/ttd-jeo-reviews-construction-works-at-venkatpalem-srivari-temple-_-%E0%B0%B5%E0%B1%87%E0%B0%97%E0%B0%82%E0%B0%97%E0%B0%BE-%E0%B0%B8%E0%B0%BE%E0%B0%97%E0%B1%81%E0%B0%A4%E0%B1%81%E0%B0%A8%E0%B1%8D/",
+  "kind": "official",
+  "published_on": "2026-08-31",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed",
+  "raw_snapshot": "See data/raw manifests where downloaded"
+ },
+ {
+  "id": "architect",
+  "title": "Foster and Partners masterplan reference",
+  "url": "https://www.fosterandpartners.com/projects/amaravati-masterplan",
+  "kind": "architect_reference_page",
+  "published_on": null,
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed",
+  "raw_snapshot": "See data/raw manifests where downloaded"
+ },
+ {
+  "id": "overture",
+  "title": "Building schema",
+  "url": "https://docs.overturemaps.org/schema/reference/buildings/building/",
+  "kind": "technical_primary",
+  "published_on": null,
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed",
+  "raw_snapshot": "See data/raw manifests where downloaded"
+ },
+ {
+  "id": "osm",
+  "title": "OSM attribution and licence",
+  "url": "https://www.openstreetmap.org/copyright/en?locale=en-GB",
+  "kind": "technical_primary",
+  "published_on": null,
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed",
+  "raw_snapshot": "See data/raw manifests where downloaded"
+ },
+ {
+  "id": "sentinel",
+  "title": "Sentinel-2 data specification",
+  "url": "https://dataspace.copernicus.eu/data-collections/copernicus-sentinel-missions/sentinel-2",
+  "kind": "technical_primary",
+  "published_on": null,
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed",
+  "raw_snapshot": "See data/raw manifests where downloaded"
+ },
+ {
+  "id": "dem",
+  "title": "DEM current access requirements",
+  "url": "https://documentation.dataspace.copernicus.eu/APIs/SentinelHub/Data/DEM.html",
+  "kind": "technical_primary",
+  "published_on": null,
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed",
+  "raw_snapshot": "See data/raw manifests where downloaded"
+ },
+ {
+  "id": "go315-2025",
+  "title": "GO Rt 315: L1 bids for Assembly and High Court buildings",
+  "url": "https://crda.ap.gov.in/APCRDADOCS/GOSACTSRULES/APCRDA/01~20432025MAUD_RT315_E.pdf",
+  "kind": "official",
+  "published_on": "2025-04-17",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed"
+ },
+ {
+  "id": "go629-2025",
+  "title": "GO Rt 629: L1 bids for Secretariat GAD tower and Towers 1-4",
+  "url": "https://crda.ap.gov.in/APCRDADOCS/GOSACTSRULES/Service Matters/01~16492025MAUD_37224_RT629_E.pdf",
+  "kind": "official",
+  "published_on": "2025-06-26",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed"
+ },
+ {
+  "id": "go223-2026",
+  "title": "GO Rt 223: Assembly building MEP administrative sanction",
+  "url": "https://crda.ap.gov.in/APCRDADOCS/GOSACTSRULES/APCRDA/01~13082026MAUD_40678_RT223_E.pdf",
+  "kind": "official",
+  "published_on": "2026-02-27",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed"
+ },
+ {
+  "id": "go224-2026",
+  "title": "GO Rt 224: High Court building MEP administrative sanction",
+  "url": "https://crda.ap.gov.in/APCRDADOCS/GOSACTSRULES/APCRDA/01~13072026MAUD_40679_RT224_E.pdf",
+  "kind": "official",
+  "published_on": "2026-02-27",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed"
+ },
+ {
+  "id": "go968-2024",
+  "title": "GO Rt 968: approval of 20 engineering works (Rs 11,467.27 cr)",
+  "url": "https://crda.ap.gov.in/APCRDADOCS/GOSACTSRULES/APCRDA/01~11572024MAUD_34525_RT968.pdf",
+  "kind": "official",
+  "published_on": "2024-12-10",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed"
+ },
+ {
+  "id": "go676-2025",
+  "title": "GO Rt 676: MLA/MLC/AIS quarters balance works sanction",
+  "url": "https://crda.ap.gov.in/APCRDADOCS/GOSACTSRULES/Capital%20City/01~16472025MAUD_RT676_E.pdf",
+  "kind": "official",
+  "published_on": "2025-07-13",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed"
+ },
+ {
+  "id": "go184-2026",
+  "title": "GO Rt 184: Flood Pumping Station-2 Undavalli finance concurrence",
+  "url": "https://crda.ap.gov.in/APCRDADOCS/GOSACTSRULES/APCRDA/01~13042026MAUD_40486_RT184_E.pdf",
+  "kind": "official",
+  "published_on": "2026-02-16",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed"
+ },
+ {
+  "id": "m9-assembly-hc-award",
+  "title": "Amaravati Assembly to L&T, High Court to NCC",
+  "url": "https://www.m9.news/politics/amaravati-assembly-to-lt-high-court-to-ncc/",
+  "kind": "news",
+  "published_on": "2025-04-04",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed"
+ },
+ {
+  "id": "tsf-24276",
+  "title": "CRDA to take up Amaravati development with Rs 24,276 crore",
+  "url": "https://thesouthfirst.com/andhrapradesh/crda-to-take-up-amaravati-development-with-rs-24276-crore/",
+  "kind": "news",
+  "published_on": "2024-12-17",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed"
+ },
+ {
+  "id": "nbmcw-three-years",
+  "title": "Amaravati's construction to be completed in three years",
+  "url": "https://www.nbmcw.com/news/amaravatis-construction-to-be-completed-in-three-years.html",
+  "kind": "news",
+  "published_on": "2024-12-18",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed"
+ },
+ {
+  "id": "tnm-hc-foundation-2019",
+  "title": "CJI Ranjan Gogoi lays foundation stone for Andhra High Court in Amaravati",
+  "url": "https://www.thenewsminute.com/article/chief-justice-ranjan-gogoi-lays-foundation-stone-andhra-high-court-amaravati-96162",
+  "kind": "news",
+  "published_on": "2019-02-04",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed"
+ },
+ {
+  "id": "tnm-secretariat-2018",
+  "title": "Foundation for permanent Andhra Secretariat to be laid on Dec 27",
+  "url": "https://www.thenewsminute.com/article/foundation-permanent-andhra-secretariat-be-laid-amaravati-dec-27-93986",
+  "kind": "news",
+  "published_on": "2018-12-26",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed"
+ },
+ {
+  "id": "siasat-hc-raft",
+  "title": "Andhra Pradesh High Court work commences in Amaravati",
+  "url": "https://www.siasat.com/andhra-pradesh-high-court-work-commences-in-amaravati-3316470/",
+  "kind": "news",
+  "published_on": "2025-12-26",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed"
+ },
+ {
+  "id": "dc-trunk-2027",
+  "title": "Amaravati: trunk road, layouts to be completed by 2027, says Narayana",
+  "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/amaravati-trunk-road-layouts-to-be-completed-by-2027-says-narayana-1973011",
+  "kind": "news",
+  "published_on": "2026-07-22",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed"
+ },
+ {
+  "id": "tnm-4000-homes",
+  "title": "Amaravati to deliver 4,000 homes by December, says Home Minister",
+  "url": "https://thenewsminute.com/andhra-pradesh/amaravati-to-deliver-4000-homes-by-december-says-andhra-home-minister",
+  "kind": "news",
+  "published_on": "2026-08-06",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed"
+ },
+ {
+  "id": "tsf-1732",
+  "title": "APCRDA clears tenders worth Rs 1,732 crore for residential towers",
+  "url": "https://thesouthfirst.com/andhrapradesh/amaravati-revival-apcrda-clears-tenders-worth-₹1732-crore-for-residential-towers-institutions-and-infrastructure/",
+  "kind": "news",
+  "published_on": "2025-05-06",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed"
+ },
+ {
+  "id": "theweek-staff-housing",
+  "title": "Tenders worth Rs 1,700 cr approved for Amaravati staff housing",
+  "url": "https://www.theweek.in/wire-updates/national/2025/05/06/mes24-ap-staff-housing-approval.html",
+  "kind": "news",
+  "published_on": "2025-05-06",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed"
+ },
+ {
+  "id": "propnews-ngo-lt",
+  "title": "AGICL awards Rs 83.99 crore contract to L&T for final phase of NGO housing towers",
+  "url": "https://propnewstime.com/latestnewsstories/MzM3NDg=/agicl-awards-inr-83-99-crore-contract-to-l-t-for-final-phase-of-amaravati-ngo-housing-towers",
+  "kind": "news",
+  "published_on": "2026-07-28",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed"
+ },
+ {
+  "id": "swarajya-e3",
+  "title": "Rs 1,519 crore Amaravati E-3 corridor: CM opens Phase 2",
+  "url": "https://swarajyamag.com/news-brief/rs-1519-crore-amaravati-e-3-corridor-takes-major-step-as-cm-naidu-opens-phase-2",
+  "kind": "news",
+  "published_on": "2026-08-13",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed"
+ },
+ {
+  "id": "hans-orr-cost",
+  "title": "Rs 30,491-cr Amaravati ORR takes shape",
+  "url": "https://www.thehansindia.com/news/cities/amaravati/rs-30491-cr-amaravati-orr-takes-shape-1126336",
+  "kind": "news",
+  "published_on": "2026-09-28",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed"
+ },
+ {
+  "id": "indinfra-orr-approval",
+  "title": "Centre approves Amaravati Outer Ring-Road project",
+  "url": "https://indianinfrastructure.com/2025/01/16/centre-approves-amaravati-outer-ring-road-project/",
+  "kind": "news",
+  "published_on": "2025-01-16",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed"
+ },
+ {
+  "id": "dc-quantum-1205",
+  "title": "APCRDA clears Rs 1,205-cr Quantum Valley towers, ropeway projects",
+  "url": "https://www.deccanchronicle.com/amp/southern-states/andhra-pradesh/apcrda-clears-rs-1205-cr-quantum-valley-towers-ropeway-projects-for-amaravati-1976667",
+  "kind": "news",
+  "published_on": "2026-08-04",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed"
+ },
+ {
+  "id": "dc-quantum-1280",
+  "title": "APCRDA clears key Amaravati projects, L&T bags quantum facility contract",
+  "url": "https://www.deccanchronicle.com/amp/southern-states/andhra-pradesh/apcrda-clears-key-amaravati-projects-lt-bags-quantum-facility-contract-1976758",
+  "kind": "news",
+  "published_on": "2026-08-05",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed"
+ },
+ {
+  "id": "theweek-quantum-2026",
+  "title": "Quantum computing centre to begin operations in Amaravati by early 2026: CM",
+  "url": "https://www.theweek.in/wire-updates/national/2025/06/30/mes6-ap-quantum-valley-cm.html",
+  "kind": "news",
+  "published_on": "2025-06-30",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed"
+ },
+ {
+  "id": "qcr-ibm-sept2026",
+  "title": "IBM to commission quantum computer in Amaravati by September 2026",
+  "url": "https://quantumcomputingreport.com/ibm-to-commission-one-of-indias-first-physical-quantum-computers-in-amaravati-by-september-2026/",
+  "kind": "news",
+  "published_on": "2026-07-03",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed"
+ },
+ {
+  "id": "dc-nielit-730",
+  "title": "Naidu clears Rs 730.70-cr Quantum, AI university campus in Amaravati",
+  "url": "https://www.deccanchronicle.com/amp/southern-states/andhra-pradesh/naidu-clears-73070-cr-quantum-ai-university-campus-in-amaravati-1982842",
+  "kind": "news",
+  "published_on": "2026-08-27",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed"
+ },
+ {
+  "id": "dc-fps2-stone",
+  "title": "Stone set for 2nd pumping station to strengthen Amaravati flood defence",
+  "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/stone-set-for-2nd-pumping-station-to-strengthen-amaravati-flood-defence-1979242",
+  "kind": "news",
+  "published_on": "2026-08-14",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed"
+ },
+ {
+  "id": "dc-flood-safest",
+  "title": "Amaravati will be one of the safest cities from floods: Narayana",
+  "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/amaravati-will-be-one-of-the-safest-cities-from-floods-narayana-1992659",
+  "kind": "news",
+  "published_on": "2026-10-02",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed"
+ },
+ {
+  "id": "pvmag-tabreed",
+  "title": "Tabreed India, GIZ and BEE support Andhra Pradesh district cooling",
+  "url": "https://www.pv-magazine-india.com/press-releases/tabreed-india-giz-and-bee-support-andhra-pradeshs-pioneering-vision-for-adoption-of-district-cooling/",
+  "kind": "partner",
+  "published_on": "2024-09-27",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed"
+ },
+ {
+  "id": "infrappp-riverfront",
+  "title": "Andhra Pradesh plans iconic Amaravati Eye to transform riverfront tourism",
+  "url": "https://www.infrapppworld.com/update/andhra-pradesh-plans-iconic-amaravati-eye-to-transform-riverfront-tourism",
+  "kind": "news",
+  "published_on": "2026-06-29",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed"
+ },
+ {
+  "id": "propnews-kandhari",
+  "title": "APCRDA signs agreement with Kandhari Hotels for three-star hotel",
+  "url": "https://propnewstime.com/latestnewsstories/Mjc3NjY=/apcrda-signs-agreement-with-kandhari-hotels-for-three-star-hotel-in-amaravati",
+  "kind": "news",
+  "published_on": "2026-03-18",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed"
+ },
+ {
+  "id": "nbmcw-landpool-16000",
+  "title": "Andhra Pradesh approves 16,000-acre land pooling for Amaravati expansion",
+  "url": "https://www.nbmcw.com/news/andhra-pradesh-approves-16-000-acre-land-pooling-for-amaravati-expansion-plans-inner-ring-road-railway-hub-sports-city.html",
+  "kind": "news",
+  "published_on": "2025-12-01",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed"
+ },
+ {
+  "id": "ap7am-ttd-260",
+  "title": "Andhra Pradesh CM lays foundation for Rs 260 crore temple project in Amaravati",
+  "url": "https://www.ap7am.com/en/115020/andhra-pradesh-cm-lays-foundation-for-rs-260-crore-temple-project-in-amaravati",
+  "kind": "news",
+  "published_on": "2025-11-27",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed"
+ },
+ {
+  "id": "adb-loan",
+  "title": "ADB approves loan to support inclusive, sustainable capital city in India",
+  "url": "https://www.adb.org/news/adb-approves-loan-support-development-inclusive-sustainable-capital-city-india",
+  "kind": "official",
+  "published_on": "2024-12-12",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed"
+ },
+ {
+  "id": "etv-wb-340",
+  "title": "World Bank releases USD 340 mn for Amaravati development",
+  "url": "https://www.etvbharat.com/en/bharat/world-bank-releases-usd-340-mn-for-amaravati-development-enn26041201472",
+  "kind": "news",
+  "published_on": "2026-04-12",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed"
+ },
+ {
+  "id": "tsf-hudco-approve",
+  "title": "HUDCO approves Rs 11,000 crore loan for Amaravati development",
+  "url": "https://thesouthfirst.com/andhrapradesh/hudco-approves-rs-11000-crore-loan-for-amaravati-development-project/",
+  "kind": "news",
+  "published_on": null,
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed"
+ },
+ {
+  "id": "angelone-hudco-sign",
+  "title": "Andhra Pradesh inks Rs 11,000 crore loan deal with HUDCO for Amaravati",
+  "url": "https://www.angelone.in/news/share-market/andhra-pradesh-inks-11000-crore-loan-deal-with-hudco-for-amaravati-development",
+  "kind": "discovery_lead",
+  "published_on": null,
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed"
+ },
+ {
+  "id": "tsf-kfw-cabinet",
+  "title": "Andhra cabinet approves raising Rs 16,000 crore loan for Amaravati",
+  "url": "https://thesouthfirst.com/news/andhra-pradesh-cabinet-approves-raising-rs-16000-crore-loan-for-amaravati-development/",
+  "kind": "news",
+  "published_on": null,
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed"
+ },
+ {
+  "id": "dc-budget-15000",
+  "title": "FM announces Rs 15,000 crore for Amaravati capital development",
+  "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/fm-announces-rs-15000-crore-for-amaravati-capital-development-1811790",
+  "kind": "news",
+  "published_on": "2024-07-23",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed"
+ },
+ {
+  "id": "tnm-2014-capital",
+  "title": "Vijayawada announced as capital (assembly statement)",
+  "url": "https://www.thenewsminute.com/article/its-rayalseema-vs-andhra-now-vijayawada-announced-capital-16150",
+  "kind": "news",
+  "published_on": "2014-09-04",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed"
+ },
+ {
+  "id": "tnm-2019-target",
+  "title": "New Andhra capital will be ready by 2019, says Naidu",
+  "url": "https://www.thenewsminute.com/amp/story/andhra-pradesh/new-andhra-capital-will-be-ready-2019-says-chandrababu-naidu-16218",
+  "kind": "news",
+  "published_on": "2014-12-06",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed"
+ },
+ {
+  "id": "bs-foundation-2015",
+  "title": "PM lays foundation stone for Andhra capital",
+  "url": "https://www.business-standard.com/article/news-ians/pm-lays-foundation-stone-for-andhra-capital-roundup-115102200780_1.html",
+  "kind": "news",
+  "published_on": "2015-10-22",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed"
+ },
+ {
+  "id": "tnm-3cap-assent",
+  "title": "Andhra's three capital bills get Governor's assent",
+  "url": "https://www.thenewsminute.com/article/andhras-three-capital-bills-get-governor-s-assent-129802",
+  "kind": "news",
+  "published_on": "2020-07-31",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed"
+ },
+ {
+  "id": "onmanorama-repeal",
+  "title": "Andhra Assembly passes bill to repeal three-capital Act",
+  "url": "https://onmanorama.com/news/india/2021/11/22/andhra-pradesh-reapeals-three-capitals-act.html",
+  "kind": "news",
+  "published_on": "2021-11-22",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed"
+ },
+ {
+  "id": "dh-hc-verdict-2022",
+  "title": "Andhra Pradesh High Court orders development of Amaravati within 6 months",
+  "url": "https://www.deccanherald.com/amp/story/india%2Fandhra-pradesh-high-court-orders-development-of-amaravati-capital-region-within-6-months-1087663.html",
+  "kind": "news",
+  "published_on": "2022-03-03",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed"
+ },
+ {
+  "id": "tsf-sc-stay",
+  "title": "Supreme Court stays AP HC order to develop Amaravati in 6 months",
+  "url": "https://thesouthfirst.com/andhrapradesh/supreme-court-stays-ap-hc-order-to-develop-amaravati-in-6-months-next-hearing-on-31-january",
+  "kind": "news",
+  "published_on": "2022-11-28",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed"
+ },
+ {
+  "id": "tsf-30months",
+  "title": "Amaravati development works will be completed in 30 months: Narayana",
+  "url": "https://thesouthfirst.com/andhrapradesh/amaravati-development-works-will-be-completed-in-30-months-minister-p-narayana",
+  "kind": "news",
+  "published_on": "2024-06-16",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed"
+ },
+ {
+  "id": "theweek-relaunch",
+  "title": "PM Modi lays foundation, inaugurates projects worth Rs 58,000 crore in Andhra",
+  "url": "https://www.theweek.in/wire-updates/national/2025/05/02/mds21-ap-pm-projects.html",
+  "kind": "news",
+  "published_on": "2025-05-02",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed"
+ },
+ {
+  "id": "tsf-ls-capital-bill",
+  "title": "Lok Sabha passes AP Reorganisation Amendment Bill recognising Amaravati as sole capital",
+  "url": "https://thesouthfirst.com/andhrapradesh/lok-sabha-passes-ap-reorganisation-amendment-bill-to-recognise-amaravati-as-sole-capital",
+  "kind": "news",
+  "published_on": "2026-04-01",
+  "checked_on": "2026-10-12",
+  "access": "page_or_search_excerpt_reviewed"
+ }
 ]

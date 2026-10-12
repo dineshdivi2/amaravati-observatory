@@ -5,3 +5,5 @@ data/raw/
 .agents/
 .env
 .env.*
+node_modules/
+.claude/

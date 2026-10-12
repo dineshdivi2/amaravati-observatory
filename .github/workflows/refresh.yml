@@ -1,0 +1,55 @@
+# Weekly dataset refresh. Opens a pull request for human review; never edits curated claims
+# (data/projects.json, sources.json, history.json, funding.json) and never merges itself.
+# Requires: Settings -> Actions -> General -> "Allow GitHub Actions to create and approve pull requests".
+name: Refresh datasets
+on:
+  schedule:
+    - cron: '30 2 * * 1'   # Mondays 02:30 UTC (08:00 IST)
+  workflow_dispatch:
+permissions:
+  contents: write
+  pull-requests: write
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Fetch APCRDA planning layers
+        run: python scripts/fetch_apcrda.py
+      - name: Fetch OpenStreetMap context
+        run: python scripts/fetch_osm.py
+      - name: Rebuild and validate site data
+        run: python scripts/build_site.py
+      - name: Summarise changes
+        id: summary
+        run: |
+          {
+            echo 'body<<EOF'
+            echo 'Automated dataset refresh. Review the diff before merging; geometry changes are not evidence of construction.'
+            echo
+            echo '```'
+            git diff --stat -- site/data data/layer-manifest.json data/osm-manifest.json | tail -25
+            echo '```'
+            echo
+            echo 'Curated project claims are unchanged. Update data/projects.json by hand after source review.'
+            echo 'EOF'
+          } >> "$GITHUB_OUTPUT"
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          branch: data-refresh
+          delete-branch: true
+          commit-message: 'Refresh APCRDA and OSM datasets'
+          title: 'Data refresh: APCRDA + OpenStreetMap'
+          body: ${{ steps.summary.outputs.body }}
+          labels: data-refresh
+          add-paths: |
+            site/data
+            data/layer-manifest.json
+            data/osm-manifest.json

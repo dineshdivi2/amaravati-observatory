@@ -1,0 +1,919 @@
+{
+ "layers": {
+  "boundary": {
+   "retrieved_at": "20261012T154019Z",
+   "licence": "APCRDA; redistribution permission not established",
+   "interpretation": "Planning geometry, not as-built evidence",
+   "sources": [
+    {
+     "layer": 0,
+     "name": "CapitalCityBoundary",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/0",
+     "server_count": 1,
+     "received": 1,
+     "published": 1,
+     "native_wkid": 32644,
+     "sha256_raw": "edd446c97909116d34d48c76dfb0e416006a07690e2ef62f794a867efd10f365"
+    }
+   ]
+  },
+  "zones": {
+   "retrieved_at": "20261012T154019Z",
+   "licence": "APCRDA; redistribution permission not established",
+   "interpretation": "Planning geometry, not as-built evidence",
+   "sources": [
+    {
+     "layer": 2,
+     "name": "PriorityZones",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/2",
+     "server_count": 6,
+     "received": 6,
+     "published": 6,
+     "native_wkid": 32644,
+     "sha256_raw": "e511c334e7d8dbd423e8155ab8cdfa73ea4973c799a9fb2b93a93aee3b912979"
+    }
+   ]
+  },
+  "bunds": {
+   "retrieved_at": "20261012T154019Z",
+   "licence": "APCRDA; redistribution permission not established",
+   "interpretation": "Planning geometry, not as-built evidence",
+   "sources": [
+    {
+     "layer": 6,
+     "name": "Bunds",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/6",
+     "server_count": 2,
+     "received": 2,
+     "published": 2,
+     "native_wkid": 32644,
+     "sha256_raw": "9d37ff8f2e0dbb0d6f3acbdc6314211cecae0763ec869a133b941f06dfe56028"
+    }
+   ]
+  },
+  "startup": {
+   "retrieved_at": "20261012T154019Z",
+   "licence": "APCRDA; redistribution permission not established",
+   "interpretation": "Planning geometry, not as-built evidence",
+   "sources": [
+    {
+     "layer": 8,
+     "name": "Start-Up Area",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/8",
+     "server_count": 3,
+     "received": 3,
+     "published": 3,
+     "native_wkid": 32644,
+     "sha256_raw": "7614a6562a6bd29f7d0bc59370848f6bc935378491afa7ed03f8a75500609de6"
+    }
+   ]
+  },
+  "roads": {
+   "retrieved_at": "20261012T154019Z",
+   "licence": "APCRDA; redistribution permission not established",
+   "interpretation": "Planning geometry, not as-built evidence",
+   "sources": [
+    {
+     "layer": 10,
+     "name": "E10RoadCenLine",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/10",
+     "server_count": 3,
+     "received": 3,
+     "published": 3,
+     "native_wkid": 32644,
+     "sha256_raw": "4ed827630263834f92b9f10ae51617155ec9c3d51378421dc281d35d74913c18"
+    },
+    {
+     "layer": 11,
+     "name": "E11RoadCenLine",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/11",
+     "server_count": 1,
+     "received": 1,
+     "published": 1,
+     "native_wkid": 32644,
+     "sha256_raw": "fbc496b6c4cd7255a9fa95449e69b70bc3eb13bba5ca2403075d1000cc420a18"
+    },
+    {
+     "layer": 12,
+     "name": "E14RoadCenLine",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/12",
+     "server_count": 9,
+     "received": 9,
+     "published": 9,
+     "native_wkid": 32644,
+     "sha256_raw": "1f6773c8f4bc2586a31387e41f08d97c5d0866aaa396adcecc90483d5907894b"
+    },
+    {
+     "layer": 13,
+     "name": "E13RoadCenLine",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/13",
+     "server_count": 10,
+     "received": 10,
+     "published": 10,
+     "native_wkid": 32644,
+     "sha256_raw": "fc8114527f971e6ae18b59a273e7ecf6d46c38a4d26595c81e53d81ae975a599"
+    },
+    {
+     "layer": 14,
+     "name": "E12RoadCenLine",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/14",
+     "server_count": 3,
+     "received": 3,
+     "published": 3,
+     "native_wkid": 32644,
+     "sha256_raw": "eed5012f39af11fc68056114f3cc3462276e6dd7e97240fa0e6a159ecee41f95"
+    },
+    {
+     "layer": 15,
+     "name": "E15RoadCenLine",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/15",
+     "server_count": 5,
+     "received": 5,
+     "published": 5,
+     "native_wkid": 32644,
+     "sha256_raw": "b9a2f8551625286c53d392ac97ed236dd0f2ea22532f91f8d5831dc0f8f91da5"
+    },
+    {
+     "layer": 16,
+     "name": "E16RoadCenLine",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/16",
+     "server_count": 2,
+     "received": 2,
+     "published": 2,
+     "native_wkid": 32644,
+     "sha256_raw": "589b14559f4c28a5e99125ba99a5972e4eb74a520167867595e5152e7cf7f032"
+    },
+    {
+     "layer": 17,
+     "name": "E1RoadCenLine",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/17",
+     "server_count": 21,
+     "received": 21,
+     "published": 21,
+     "native_wkid": 32644,
+     "sha256_raw": "11f0249dbd5a35ad3b757fde8f766b28ab46197fe5fff9dc633b47de7aeec57b"
+    },
+    {
+     "layer": 18,
+     "name": "E2RoadCenLine",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/18",
+     "server_count": 7,
+     "received": 7,
+     "published": 7,
+     "native_wkid": 32644,
+     "sha256_raw": "57ad8477f96181be0507def24711eeac96db44cf804a07d7e12fe6fce5c6c0a0"
+    },
+    {
+     "layer": 19,
+     "name": "E3RoadCenLine",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/19",
+     "server_count": 74,
+     "received": 74,
+     "published": 74,
+     "native_wkid": 32644,
+     "sha256_raw": "4825b17bcd35ea9aec8d45e7147f464a7365ace5509682a6a0fd933d15c90ca9"
+    },
+    {
+     "layer": 20,
+     "name": "E4RoadCenLine",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/20",
+     "server_count": 12,
+     "received": 12,
+     "published": 12,
+     "native_wkid": 32644,
+     "sha256_raw": "5c5a1e4b75b7ad385585341f471af8ae514070f1e16361875c30afbc7684891e"
+    },
+    {
+     "layer": 21,
+     "name": "E5RoadCenLine",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/21",
+     "server_count": 20,
+     "received": 20,
+     "published": 20,
+     "native_wkid": 32644,
+     "sha256_raw": "c46e4dcde46bb7a654dfa13cd7ddab1daef01ea1a35361a83bd4cd2a1453f4b0"
+    },
+    {
+     "layer": 22,
+     "name": "E6RoadCenLine",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/22",
+     "server_count": 11,
+     "received": 11,
+     "published": 11,
+     "native_wkid": 32644,
+     "sha256_raw": "f011450a32967f03a48eca0d5dd10aa9b1575421ef5f6fc55a0230d5b5d2ec52"
+    },
+    {
+     "layer": 23,
+     "name": "E7RoadCenLine",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/23",
+     "server_count": 11,
+     "received": 11,
+     "published": 11,
+     "native_wkid": 32644,
+     "sha256_raw": "815da37fca2263c4e909d708cf9a1927ab3d3698b220fbaefae97d65c605de21"
+    },
+    {
+     "layer": 24,
+     "name": "E8RoadCenLine",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/24",
+     "server_count": 1,
+     "received": 1,
+     "published": 1,
+     "native_wkid": 32644,
+     "sha256_raw": "24263fb53e6d07b29d060a93b27b7944e7658ee3068ea008d271a0023f4f196e"
+    },
+    {
+     "layer": 25,
+     "name": "E9RoadCenLine",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/25",
+     "server_count": 2,
+     "received": 2,
+     "published": 2,
+     "native_wkid": 32644,
+     "sha256_raw": "d35e7c1b250a039107e09b57150691a25ec9b62dab3f3e10d300b65a235e18f9"
+    },
+    {
+     "layer": 26,
+     "name": "N10RoadCenLine",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/26",
+     "server_count": 10,
+     "received": 10,
+     "published": 10,
+     "native_wkid": 32644,
+     "sha256_raw": "6fb2524faa4132fb0d63ffb1c884040ec35ef94ed9ba27b789cc1371ef1954eb"
+    },
+    {
+     "layer": 27,
+     "name": "N13RoadCenLine",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/27",
+     "server_count": 2,
+     "received": 2,
+     "published": 2,
+     "native_wkid": 32644,
+     "sha256_raw": "fe9d8ae53b426792665f53699d7d43693d8120b65f3349f7334409792a9fd076"
+    },
+    {
+     "layer": 28,
+     "name": "N12RoadCenLine",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/28",
+     "server_count": 2,
+     "received": 2,
+     "published": 2,
+     "native_wkid": 32644,
+     "sha256_raw": "90bab017536711aadcb091a5bd1f580a798c25e001b115c1a519ecefd0f318c7"
+    },
+    {
+     "layer": 29,
+     "name": "N11RoadCenLine",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/29",
+     "server_count": 3,
+     "received": 3,
+     "published": 3,
+     "native_wkid": 32644,
+     "sha256_raw": "a4155ea10a6f8460c8adb213a3df275f2df69ab3e1cf99b9dfcbe042026e3aee"
+    },
+    {
+     "layer": 30,
+     "name": "N14RoadCenLine",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/30",
+     "server_count": 2,
+     "received": 2,
+     "published": 2,
+     "native_wkid": 32644,
+     "sha256_raw": "d3d80273fcc81378dbfd79d98a781e0e416bc529a1cccfbf253d00f7994ee300"
+    },
+    {
+     "layer": 31,
+     "name": "N15RoadCenLine",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/31",
+     "server_count": 6,
+     "received": 6,
+     "published": 6,
+     "native_wkid": 32644,
+     "sha256_raw": "354fd5d0550124e5e874c5cf34717b0a381742dc96bcf3fb8dec1c6151b0b7a8"
+    },
+    {
+     "layer": 32,
+     "name": "N16RoadCenLine",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/32",
+     "server_count": 1,
+     "received": 1,
+     "published": 1,
+     "native_wkid": 32644,
+     "sha256_raw": "40eadd8697987357ddff487dd2a6ba00435dad67595e4c82135912b68fda11d5"
+    },
+    {
+     "layer": 33,
+     "name": "N17RoadCenLine",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/33",
+     "server_count": 3,
+     "received": 3,
+     "published": 3,
+     "native_wkid": 32644,
+     "sha256_raw": "c2aab39bbea669777eb9c6dbb90c4420c63fee56543aed4fe50938f33f7e0f8c"
+    },
+    {
+     "layer": 34,
+     "name": "N18RoadCenLine",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/34",
+     "server_count": 2,
+     "received": 2,
+     "published": 2,
+     "native_wkid": 32644,
+     "sha256_raw": "5ff67c297f6bb9c6ae1ce68d0c13eb6cad71719f3b00dcbaed2b532dde959dc0"
+    },
+    {
+     "layer": 35,
+     "name": "N1RoadCenLine",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/35",
+     "server_count": 5,
+     "received": 5,
+     "published": 5,
+     "native_wkid": 32644,
+     "sha256_raw": "347c7bc89df42d8c096137609d5dcec1e08d59d3ba490263e3ca4a5b1554748e"
+    },
+    {
+     "layer": 36,
+     "name": "N2RoadCenLine",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/36",
+     "server_count": 5,
+     "received": 5,
+     "published": 5,
+     "native_wkid": 32644,
+     "sha256_raw": "68658e3e891bb92d26c15e7a0304c9595e8f030b873094cc0344bb44d7768b0e"
+    },
+    {
+     "layer": 37,
+     "name": "N3ARoadCenLine",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/37",
+     "server_count": 17,
+     "received": 17,
+     "published": 17,
+     "native_wkid": 32644,
+     "sha256_raw": "d687389faa879acb780bd8c981cada5adc28db7a01f0b7fdcae3f01946937434"
+    },
+    {
+     "layer": 38,
+     "name": "N3BRoadCenLine",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/38",
+     "server_count": 2,
+     "received": 2,
+     "published": 2,
+     "native_wkid": 32644,
+     "sha256_raw": "9efd7535422250969eb7f646a139bd481bee47ce6d4de7789e9094be0e0486bb"
+    },
+    {
+     "layer": 39,
+     "name": "N4RoadCenLine",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/39",
+     "server_count": 6,
+     "received": 6,
+     "published": 6,
+     "native_wkid": 32644,
+     "sha256_raw": "cc5f30997eb1df724f228e832adc42ec2b8b2911ff2365301d07f2b21ff1b046"
+    },
+    {
+     "layer": 40,
+     "name": "N5RoadCenLine",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/40",
+     "server_count": 10,
+     "received": 10,
+     "published": 10,
+     "native_wkid": 32644,
+     "sha256_raw": "e00eb78c94a4d66cba5950d2be113d95363bbf48ed7a16e389a5d985888ac255"
+    },
+    {
+     "layer": 41,
+     "name": "N6RoadCenLine",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/41",
+     "server_count": 12,
+     "received": 12,
+     "published": 12,
+     "native_wkid": 32644,
+     "sha256_raw": "95a97b9eb8b662609495e93bd0293dc947ce1e4f4945ea278d13b2144fc06792"
+    },
+    {
+     "layer": 42,
+     "name": "N7RoadCenLine",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/42",
+     "server_count": 6,
+     "received": 6,
+     "published": 6,
+     "native_wkid": 32644,
+     "sha256_raw": "6242157faa26a1221c6b74273fd8b3badbb0c9bc2ad75e599c76068cd4ef594e"
+    },
+    {
+     "layer": 43,
+     "name": "N8RoadCenLine",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/43",
+     "server_count": 6,
+     "received": 6,
+     "published": 6,
+     "native_wkid": 32644,
+     "sha256_raw": "7ec054d2d7922ee44738d0f6b25c11766257818caa37a9495cbc3157b7342e30"
+    },
+    {
+     "layer": 44,
+     "name": "N9RoadCenLine",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/44",
+     "server_count": 6,
+     "received": 6,
+     "published": 6,
+     "native_wkid": 32644,
+     "sha256_raw": "adb232c08e65fcb8fbfa33fc3e3442c085e0474266b7d3419af8ebb10ce45622"
+    }
+   ]
+  },
+  "roadsurfaces": {
+   "retrieved_at": "20261012T154019Z",
+   "licence": "APCRDA; redistribution permission not established",
+   "interpretation": "Planning geometry, not as-built evidence",
+   "sources": [
+    {
+     "layer": 46,
+     "name": "E11RoadPoly",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/46",
+     "server_count": 1,
+     "received": 1,
+     "published": 1,
+     "native_wkid": 32644,
+     "sha256_raw": "6a3eef75f9c52fc4cd8749eead03ef7c7173d6e911c6067a8995b7ea45f0f4e1"
+    },
+    {
+     "layer": 47,
+     "name": "E10RoadPoly",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/47",
+     "server_count": 1,
+     "received": 1,
+     "published": 1,
+     "native_wkid": 32644,
+     "sha256_raw": "43dc3b454bda24057195ed5c64f52dbe5e6b872c4876cf0194fb9edaef707311"
+    },
+    {
+     "layer": 48,
+     "name": "E12RoadPoly",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/48",
+     "server_count": 1,
+     "received": 1,
+     "published": 1,
+     "native_wkid": 32644,
+     "sha256_raw": "5e3922d0f69a034dd431adf73420e452c5f99903dbe674af3fa45b20e5984b01"
+    },
+    {
+     "layer": 49,
+     "name": "E13RoadPoly",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/49",
+     "server_count": 1,
+     "received": 1,
+     "published": 1,
+     "native_wkid": 32644,
+     "sha256_raw": "10fb1ed72b94fe9b14121a47a478895cbc7e6169361408d76ece877234b2abf1"
+    },
+    {
+     "layer": 50,
+     "name": "E14RoadPoly",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/50",
+     "server_count": 1,
+     "received": 1,
+     "published": 1,
+     "native_wkid": 32644,
+     "sha256_raw": "e45df6e98f492b391337dcc05f51fb5dd4f93a881d3244284a51c97fe3c24617"
+    },
+    {
+     "layer": 51,
+     "name": "E15RoadPoly",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/51",
+     "server_count": 1,
+     "received": 1,
+     "published": 1,
+     "native_wkid": 32644,
+     "sha256_raw": "2894eb786edb55f526641de7a124d331ff7d8ade312e2d4928c48d2badb86332"
+    },
+    {
+     "layer": 52,
+     "name": "E16RoadPoly",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/52",
+     "server_count": 1,
+     "received": 1,
+     "published": 1,
+     "native_wkid": 32644,
+     "sha256_raw": "ddde5a1d702847b5dfd7f8d7f4b7f48a638b195b513e3ea3af7e48d061574087"
+    },
+    {
+     "layer": 53,
+     "name": "E1RoadPoly",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/53",
+     "server_count": 3,
+     "received": 3,
+     "published": 3,
+     "native_wkid": 32644,
+     "sha256_raw": "8a3b42a2eaa232023823288ba0291fd74f132a19205c873e47fe0204f029fde6"
+    },
+    {
+     "layer": 54,
+     "name": "E4RoadPoly",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/54",
+     "server_count": 1,
+     "received": 1,
+     "published": 1,
+     "native_wkid": 32644,
+     "sha256_raw": "dae663ad073023bb419d401728f02eef6a31741c9f3a8e2e8da7df0315122bd8"
+    },
+    {
+     "layer": 55,
+     "name": "E3RoadPoly",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/55",
+     "server_count": 1,
+     "received": 1,
+     "published": 1,
+     "native_wkid": 32644,
+     "sha256_raw": "e564845cf2d895e5d2a26c34f5f1f0b29f2d6d0238a17e36fe692cb6ef4ef45e"
+    },
+    {
+     "layer": 56,
+     "name": "E2RoadPoly",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/56",
+     "server_count": 1,
+     "received": 1,
+     "published": 1,
+     "native_wkid": 32644,
+     "sha256_raw": "aa25e60c84dc309d054f065a0818eb18168879d2a8511099c19a29ccd5f2b771"
+    },
+    {
+     "layer": 57,
+     "name": "E7RoadPoly",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/57",
+     "server_count": 1,
+     "received": 1,
+     "published": 1,
+     "native_wkid": 32644,
+     "sha256_raw": "b7fdbf8d62858970f9e4fd97ef75d2b5e46c77b63dec109466af350d520f3290"
+    },
+    {
+     "layer": 58,
+     "name": "E6RoadPoly",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/58",
+     "server_count": 1,
+     "received": 1,
+     "published": 1,
+     "native_wkid": 32644,
+     "sha256_raw": "4de422cb684f20647c7a36b8229ac1720c0a16309dc21afa7118e0751291bdfb"
+    },
+    {
+     "layer": 59,
+     "name": "E5RoadPoly",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/59",
+     "server_count": 1,
+     "received": 1,
+     "published": 1,
+     "native_wkid": 32644,
+     "sha256_raw": "cfab3bfb1bf360d1117416f9f2eff173f6fd7d168106e21529f070397e50f70f"
+    },
+    {
+     "layer": 60,
+     "name": "N10RoadPoly",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/60",
+     "server_count": 12,
+     "received": 12,
+     "published": 12,
+     "native_wkid": 32644,
+     "sha256_raw": "a5470fa8327e9862b56dee86618448cbb4a9347ea56211bd6bb991c8e6d788ac"
+    },
+    {
+     "layer": 61,
+     "name": "E9RoadPoly",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/61",
+     "server_count": 1,
+     "received": 1,
+     "published": 1,
+     "native_wkid": 32644,
+     "sha256_raw": "d535c8a31a57344caafb59f4675e68b2874f0244c8837ef96bea184b73de8fc4"
+    },
+    {
+     "layer": 62,
+     "name": "E8RoadPoly",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/62",
+     "server_count": 1,
+     "received": 1,
+     "published": 1,
+     "native_wkid": 32644,
+     "sha256_raw": "f14e59e749fd1427cf33cf709daf425d5d3d178466c59cbba4a9fd7d24e1c932"
+    },
+    {
+     "layer": 63,
+     "name": "N11RoadPoly",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/63",
+     "server_count": 7,
+     "received": 7,
+     "published": 7,
+     "native_wkid": 32644,
+     "sha256_raw": "2a7715c8902bea9d1772e56915a45955538d2d47e97a313e8feba12c52a0b352"
+    },
+    {
+     "layer": 64,
+     "name": "N12RoadPoly",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/64",
+     "server_count": 1,
+     "received": 1,
+     "published": 1,
+     "native_wkid": 32644,
+     "sha256_raw": "883bbae1fd0656fb30b0aae86eb0e0c95f03f4e1b13234acef9754848a6d012a"
+    },
+    {
+     "layer": 65,
+     "name": "N13RoadPoly",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/65",
+     "server_count": 2,
+     "received": 2,
+     "published": 2,
+     "native_wkid": 32644,
+     "sha256_raw": "a6e36c1129f3e57e8162d9805d224d8f27fb7876f97e61f1a0f723dece15a622"
+    },
+    {
+     "layer": 66,
+     "name": "N16RoadPoly",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/66",
+     "server_count": 1,
+     "received": 1,
+     "published": 1,
+     "native_wkid": 32644,
+     "sha256_raw": "0b74e515b178a0b301dafcd80f7e787c1aab8ff23770d472946c9761563d0a24"
+    },
+    {
+     "layer": 67,
+     "name": "N15RoadPoly",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/67",
+     "server_count": 1,
+     "received": 1,
+     "published": 1,
+     "native_wkid": 32644,
+     "sha256_raw": "1d2da23a638963b326fa6d1f8d0e4677dbbe5f414098b7828f29f0531d074c76"
+    },
+    {
+     "layer": 68,
+     "name": "N14RoadPoly",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/68",
+     "server_count": 1,
+     "received": 1,
+     "published": 1,
+     "native_wkid": 32644,
+     "sha256_raw": "4bb1a2aef5b6c2d9983d32ab29fbab62a87a1dcb9bcc1b64faa08ce48cdb1982"
+    },
+    {
+     "layer": 69,
+     "name": "N17RoadPoly",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/69",
+     "server_count": 1,
+     "received": 1,
+     "published": 1,
+     "native_wkid": 32644,
+     "sha256_raw": "cb39fdce03e69b69e97d024fe689403d2bd8eff2703d375404b7f023eca98e2a"
+    },
+    {
+     "layer": 70,
+     "name": "N18RoadPoly",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/70",
+     "server_count": 1,
+     "received": 1,
+     "published": 1,
+     "native_wkid": 32644,
+     "sha256_raw": "813e77a9a7b973df954c6f7b1e138606c8dece2332f722fe64fcb3dda7aa79ee"
+    },
+    {
+     "layer": 71,
+     "name": "N1RoadPoly",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/71",
+     "server_count": 1,
+     "received": 1,
+     "published": 1,
+     "native_wkid": 32644,
+     "sha256_raw": "4a046df8bf3fa2e6e0b83b75debfa0401cfbaaa59c0f8bf56ff43dbb87156736"
+    },
+    {
+     "layer": 72,
+     "name": "N2RoadPoly",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/72",
+     "server_count": 1,
+     "received": 1,
+     "published": 1,
+     "native_wkid": 32644,
+     "sha256_raw": "dfbb8dbc5220f4ede7fde94cc1e9b2841a25f1a042fed239064e51433c1148c3"
+    },
+    {
+     "layer": 73,
+     "name": "N3ARoadPoly",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/73",
+     "server_count": 1,
+     "received": 1,
+     "published": 1,
+     "native_wkid": 32644,
+     "sha256_raw": "30df20ba539bfa2eebec2305fc617e9df447af416d40ad89ba7e116b0a670681"
+    },
+    {
+     "layer": 74,
+     "name": "N3BRoadPoly",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/74",
+     "server_count": 1,
+     "received": 1,
+     "published": 1,
+     "native_wkid": 32644,
+     "sha256_raw": "fd16ea7f50ec1735aa220bc05dff6e15b993334a2677e7c8b1dce86d97a0d213"
+    },
+    {
+     "layer": 75,
+     "name": "N5RoadPoly",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/75",
+     "server_count": 1,
+     "received": 1,
+     "published": 1,
+     "native_wkid": 32644,
+     "sha256_raw": "25d9e83e8026f0a529198a52ff22e995b1a0a3084f3272681102d7d8aed21710"
+    },
+    {
+     "layer": 76,
+     "name": "N4RoadPoly",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/76",
+     "server_count": 1,
+     "received": 1,
+     "published": 1,
+     "native_wkid": 32644,
+     "sha256_raw": "42e3e3a16e91bc63912c7772440355349d4b13b0e926d52b881d74076a8b5538"
+    },
+    {
+     "layer": 77,
+     "name": "N6RoadPoly",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/77",
+     "server_count": 1,
+     "received": 1,
+     "published": 1,
+     "native_wkid": 32644,
+     "sha256_raw": "109eff822e27489a19053452f241eadce48fc43d6ef090da852420d2e9861ec2"
+    },
+    {
+     "layer": 78,
+     "name": "N7RoadPoly",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/78",
+     "server_count": 1,
+     "received": 1,
+     "published": 1,
+     "native_wkid": 32644,
+     "sha256_raw": "889b05c475fec102ab90c3befe8d614e5e2f9d93ced2b358e3a24954bee00815"
+    },
+    {
+     "layer": 79,
+     "name": "N8RoadPoly",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/79",
+     "server_count": 1,
+     "received": 1,
+     "published": 1,
+     "native_wkid": 32644,
+     "sha256_raw": "8b3e9c593e4bac37314e45a3c9c7aebff83f24fcf11064fa89d3532b487c21f5"
+    },
+    {
+     "layer": 80,
+     "name": "N9RoadPoly",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/80",
+     "server_count": 3,
+     "received": 3,
+     "published": 3,
+     "native_wkid": 32644,
+     "sha256_raw": "38596959d14447a185b6d8424a36a768b10e268142bbd7fd5dfdaa71f9e4c990"
+    }
+   ]
+  },
+  "water": {
+   "retrieved_at": "20261012T154019Z",
+   "licence": "APCRDA; redistribution permission not established",
+   "interpretation": "Planning geometry, not as-built evidence",
+   "sources": [
+    {
+     "layer": 81,
+     "name": "BlueNetwork",
+     "url": "https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer/81",
+     "server_count": 102,
+     "received": 102,
+     "published": 102,
+     "native_wkid": 32644,
+     "sha256_raw": "dead56fefe9eb68fb62ea4addae1a379a1c7773be1f6045acdcc358b2e9df0f6"
+    }
+   ]
+  },
+  "government": {
+   "retrieved_at": "20261012T154019Z",
+   "licence": "APCRDA; redistribution permission not established",
+   "interpretation": "Planning geometry, not as-built evidence",
+   "sources": [
+    {
+     "layer": 4,
+     "name": "Amaravati_Government_Complex",
+     "url": "https://gis.apcrda.org/server/rest/services/LPS_Portal/MapServer/4",
+     "server_count": 152,
+     "received": 152,
+     "published": 152,
+     "native_wkid": 32644,
+     "sha256_raw": "b15a72704aa08c78324826197dffdd7971946e5cdc91dae218427e0d07882409"
+    }
+   ]
+  },
+  "parcels": {
+   "retrieved_at": "20261012T154019Z",
+   "licence": "APCRDA; redistribution permission not established",
+   "interpretation": "Planning geometry, not as-built evidence",
+   "sources": [
+    {
+     "layer": 7,
+     "name": "AGC_Housing_and_Buildings",
+     "url": "https://gis.apcrda.org/server/rest/services/LPS_Portal/MapServer/7",
+     "server_count": 21,
+     "received": 21,
+     "published": 21,
+     "native_wkid": 32644,
+     "sha256_raw": "36379c7c27838a80f4db03d25b38071c0f202e399c2ca6161e26af6ec9dddf9e"
+    }
+   ]
+  },
+  "allotments": {
+   "retrieved_at": "20261012T154147Z",
+   "licence": "APCRDA; redistribution permission not established",
+   "interpretation": "Planning geometry, not as-built evidence",
+   "sources": [
+    {
+     "layer": 13,
+     "name": "Land_Allotments_As_feb_2025",
+     "url": "https://gis.apcrda.org/server/rest/services/LPS_Portal/MapServer/13",
+     "server_count": 115,
+     "received": 115,
+     "published": 115,
+     "native_wkid": 32644,
+     "sha256_raw": "33a67eaf61c0c89c9c0448bc85a2d0c07cabf5e51428d4ea2038863ae7aad552"
+    }
+   ]
+  },
+  "allotments2019": {
+   "retrieved_at": "20261012T154147Z",
+   "licence": "APCRDA; redistribution permission not established",
+   "interpretation": "Planning geometry, not as-built evidence",
+   "sources": [
+    {
+     "layer": 8,
+     "name": "Land_Allotments_before_2019",
+     "url": "https://gis.apcrda.org/server/rest/services/LPS_Portal/MapServer/8",
+     "server_count": 137,
+     "received": 137,
+     "published": 137,
+     "native_wkid": 32644,
+     "sha256_raw": "a08b60ce9531b1878217028c28a88233c3ec99b4be390f089cf2563d290f77ff"
+    }
+   ]
+  },
+  "landprogrammes": {
+   "retrieved_at": "20261012T154019Z",
+   "licence": "APCRDA; redistribution permission not established",
+   "interpretation": "Planning geometry, not as-built evidence",
+   "sources": [
+    {
+     "layer": 9,
+     "name": "Land_for_Monetization",
+     "url": "https://gis.apcrda.org/server/rest/services/LPS_Portal/MapServer/9",
+     "server_count": 581,
+     "received": 581,
+     "published": 581,
+     "native_wkid": 32644,
+     "sha256_raw": "b51056de935483e3b8ee00a0318348c04a832f51de00bc9358c0bbf4c66eb13e"
+    },
+    {
+     "layer": 10,
+     "name": "Industrial_Area",
+     "url": "https://gis.apcrda.org/server/rest/services/LPS_Portal/MapServer/10",
+     "server_count": 14,
+     "received": 14,
+     "published": 14,
+     "native_wkid": 32644,
+     "sha256_raw": "b8a9e15aa442a39f88338fe4bbe7f02e907f8b6286517f56de189e9e4fa5d748"
+    },
+    {
+     "layer": 11,
+     "name": "Land_Under_R5_Zone",
+     "url": "https://gis.apcrda.org/server/rest/services/LPS_Portal/MapServer/11",
+     "server_count": 33,
+     "received": 33,
+     "published": 33,
+     "native_wkid": 32644,
+     "sha256_raw": "bf606da2d9bfcff5012639d7d26c215636e71b6f2609cc762d3eef29a7ab660f"
+    },
+    {
+     "layer": 12,
+     "name": "Land_Mortagaged_to_Hudco",
+     "url": "https://gis.apcrda.org/server/rest/services/LPS_Portal/MapServer/12",
+     "server_count": 18,
+     "received": 18,
+     "published": 18,
+     "native_wkid": 32644,
+     "sha256_raw": "075d89948a694d01458fb5adcd12c9d82e267c2bff0068bfab118fca45e85f21"
+    }
+   ]
+  }
+ },
+ "updated_at": "20261012T154147Z"
+}

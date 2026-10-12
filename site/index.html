@@ -4,17 +4,25 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#0b2022">
-  <meta name="description" content="Explore Amaravati through a cinematic 3D planning model, sourced project updates, and clearly labelled future scenarios.">
   <title>Amaravati — A capital, taking shape</title>
+  <meta name="description" content="Explore Amaravati, Andhra Pradesh's capital under construction: a 3D planning study on real APCRDA and OpenStreetMap geometry, a sourced project ledger, land allotments and clearly labelled future scenarios.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Amaravati Observatory — A capital, taking shape">
+  <meta property="og:description" content="A 3D planning study and sourced evidence ledger for Amaravati's capital projects. Every update keeps its source and its date.">
+  <meta property="og:image" content="/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230b2022'/%3E%3Cpath d='M17 48 32 12 47 48M23 36h18' fill='none' stroke='%23e9bc72' stroke-width='4'/%3E%3C/svg%3E">
+  <link rel="modulepreload" href="./vendor/three.module.min.js">
+  <link rel="modulepreload" href="./vendor/three.core.min.js">
   <link rel="stylesheet" href="./styles.css">
-  <script type="importmap">{"imports":{"three":"./vendor/three.module.js"}}</script>
 </head>
 <body>
   <header class="masthead">
-    <a class="brand" href="#"><svg viewBox="0 0 32 38" aria-hidden="true"><path d="M3 34 16 3 29 34M8 23h16M16 3v31"/></svg><span>AMARAVATI<small>THE CITY OBSERVATORY</small></span></a>
-    <nav aria-label="Main navigation"><a href="#city" class="active">The city</a><a href="#progress">The progress <span class="nav-count">18</span></a><button id="about-button" class="nav-button">The evidence ↗</button></nav>
-    <div class="edition"><span class="live-dot"></span>RESEARCH EDITION <span class="edition-date">12 OCT 2026</span></div>
+    <a class="brand" href="#city"><svg viewBox="0 0 32 38" aria-hidden="true"><path d="M3 34 16 3 29 34M8 23h16M16 3v31"/></svg><span>AMARAVATI<small>THE CITY OBSERVATORY</small></span></a>
+    <nav aria-label="Main navigation"><a href="#city" class="active">The city</a><a href="#progress">The progress <span class="nav-count" data-stat="project-count">—</span></a><a href="#land">The land</a><button id="about-button" class="nav-button">The evidence ↗</button></nav>
+    <div class="edition">RESEARCH EDITION <span class="edition-date" data-stat="edition-date">—</span></div>
   </header>
 
   <main>
@@ -28,51 +36,71 @@
         <h1>A capital,<br>taking <em>shape.</em></h1>
         <p>A new chapter on the banks of the Krishna.<br>Explore the city being built — and the possibilities ahead.</p>
         <button class="primary-button" id="explore-button">Explore the city <span>↗</span></button>
-        <div class="hero-footnote"><span>16.53° N</span><span>80.49° E</span><i></i><span>A LIVING PLAN</span></div>
+        <div class="hero-footnote"><span>16.53° N</span><span>80.49° E</span><i></i><span>EVIDENCE AS OF <span data-stat="edition-date">—</span></span></div>
       </div>
 
       <div class="scene-head"><span class="view-number">01 /</span><div><b id="view-title">The government spine</b><span id="view-subtitle">An architectural massing study</span></div></div>
-      <div class="scene-controls"><button id="reset-view" title="Reset the camera" aria-label="Reset the camera">⌖</button><button id="tour-button" title="Toggle slow camera orbit" aria-label="Start slow camera orbit" aria-pressed="false">▷</button><button id="close-explore" title="Return to introduction" aria-label="Return to introduction" hidden>×</button></div>
+      <div class="scene-controls"><button id="reset-view" title="Reset the camera" aria-label="Reset the camera">⌖</button><button id="tour-button" title="Toggle slow camera orbit" aria-label="Start slow camera orbit" aria-pressed="false">▷</button><button id="copy-link" title="Copy a link to this view" aria-label="Copy a link to this view">⧉</button><button id="close-explore" title="Return to introduction" aria-label="Return to introduction" hidden>×</button></div>
       <div id="labels" class="landmark-labels"></div>
+      <div id="land-tip" class="land-tip" role="status" hidden></div>
       <div class="north-indicator" aria-hidden="true"><span>N</span><svg viewBox="0 0 40 55"><path d="M20 5 10 35 20 27 30 35Z"/></svg></div>
-      <div class="scene-note"><span class="note-mark">◇</span><div><b id="scene-mode">TODAY · PLANNING MODEL</b><span id="scene-disclaimer">Mapped parcels. Illustrative buildings and heights.</span></div></div>
+      <div class="scene-note"><span class="note-mark">◇</span><div><b id="scene-mode">TODAY · EVIDENCE</b><span id="scene-disclaimer">Mapped planning geometry. Illustrative building models.</span></div></div>
+      <div class="scene-legend" aria-label="How evidence is drawn">
+        <span><i class="lg-site"></i>Work reported on site</span><span><i class="lg-planned"></i>Procured or planned</span><span><i class="lg-illustrative"></i>Illustrative scenario</span><span><i class="lg-target"></i>Target falls due</span>
+      </div>
+      <div id="due-list" class="due-list" aria-label="Projects with targets due by this date" hidden></div>
       <div class="drag-hint">DRAG TO ORBIT <span>·</span> SCROLL TO ZOOM</div>
       <div id="fallback" class="fallback" hidden><h2>The city, in evidence.</h2><p>The 3D view is unavailable on this device. All project updates and sources remain available below.</p><a href="#progress">Explore the project ledger ↓</a></div>
 
       <div class="timeline-dock">
-        <div class="time-heading"><span class="eyebrow">A CITY OVER TIME</span><b id="selected-date">12 Oct 2026</b></div>
-        <div class="time-stops" role="group" aria-label="Choose a scenario horizon">
-          <button data-time="0" class="selected" aria-pressed="true"><span class="stop-dot"></span><b>Today</b><small>Oct 2026</small></button>
-          <button data-time="1" aria-pressed="false"><span class="stop-dot"></span><b>6 months</b><small>Apr 2027</small></button>
-          <button data-time="2" aria-pressed="false"><span class="stop-dot"></span><b>1 year</b><small>Oct 2027</small></button>
-          <button data-time="3" aria-pressed="false"><span class="stop-dot"></span><b>2 years</b><small>Oct 2028</small></button>
-          <button data-time="4" aria-pressed="false"><span class="stop-dot"></span><b>The vision</b><small>Masterplan</small></button>
-        </div>
+        <div class="time-heading"><span class="eyebrow">A CITY OVER TIME</span><b id="selected-date">—</b><span class="mode-switch" role="group" aria-label="What future views show"></span></div>
+        <div class="time-stops" role="group" aria-label="Choose a scenario horizon"></div>
         <button id="compare-button" class="compare-button" aria-pressed="false"><svg viewBox="0 0 22 22" aria-hidden="true"><rect x="2" y="4" width="18" height="14" rx="2"/><path d="M11 2v18"/></svg>Compare<span>↔</span></button>
       </div>
+      <p id="horizon-rule" class="horizon-rule"></p>
     </section>
 
     <div class="explorer-strip"><div class="layer-heading">THE LAYERS <span>／</span></div><div class="layer-buttons" role="group" aria-label="Visible scene layers">
-      <button data-layer="landmarks" class="on" aria-pressed="true"><span>◇</span>Landmarks</button><button data-layer="roads" class="on" aria-pressed="true"><span>╱</span>Roads</button><button data-layer="water" class="on" aria-pressed="true"><span>≈</span>Water</button><button data-layer="footprints" class="on" aria-pressed="true"><span>▦</span>Existing footprints</button><button data-layer="parcels" class="on" aria-pressed="true"><span>▱</span>Planning parcels</button>
+      <button data-layer="landmarks" class="on" aria-pressed="true"><span>◇</span>Landmarks</button><button data-layer="buildings" class="on" aria-pressed="true"><span>▦</span>Existing buildings</button><button data-layer="roads" class="on" aria-pressed="true"><span>═</span>Existing roads &amp; rail</button><button data-layer="planned" class="on" aria-pressed="true"><span>╱</span>Planned roads</button><button data-layer="water" class="on" aria-pressed="true"><span>≈</span>River &amp; planned canals</button><button data-layer="landuse" class="on" aria-pressed="true"><span>❋</span>Land use &amp; trees</button><button data-layer="parcels" class="on" aria-pressed="true"><span>▱</span>Government parcels</button><button data-layer="allotments" aria-pressed="false"><span>◫</span>Land allotments</button><button data-layer="programmes" aria-pressed="false"><span>◩</span>Land programmes</button>
     </div><button id="data-button">Model notes ↗</button></div>
+    <div class="map-legends"><div data-legend="allotments" hidden><b>Land allotments</b><span><i style="--swatch:#7fa8c9"></i>Central government</span><span><i style="--swatch:#c99a5b"></i>State government</span><span><i style="--swatch:#9cc28a"></i>Education &amp; health</span><span><i style="--swatch:#d18c7e"></i>Hotels &amp; commerce</span><span><i style="--swatch:#b3a7c9"></i>Other</span><small>Select a plot for its allottee and area.</small></div><div data-legend="programmes" hidden><b>Land programmes</b><span><i style="--swatch:#d8b25f"></i>Monetisation</span><span><i style="--swatch:#c0705f"></i>Mortgaged to HUDCO</span><span><i style="--swatch:#8fb3a1"></i>R5 zone housing</span><span><i style="--swatch:#8e8aa8"></i>Industrial area</span></div><p id="building-status" class="building-status" role="status"></p></div>
 
     <section class="progress-section" id="progress">
       <div class="section-top"><div><div class="eyebrow"><span class="tiny-line"></span>FROM A PLAN TO A PLACE</div><h2>The work.<br><em>The evidence.</em></h2></div><p>A city is more than its skyline.<br>Follow the projects shaping its next chapter.<br><span>Each update keeps its source and its date.</span></p></div>
-      <div class="metric-band"><div><b>18</b><span>MAJOR PROJECT GROUPS</span></div><div><b>26</b><span>RESEARCH REFERENCES</span></div><div><b>300</b><span>SAMPLED BUILDING FOOTPRINTS</span></div><div><b>2028</b><span>REPORTED CAPITAL TARGET*</span></div></div>
-      <p class="metric-note">*October 2028 is a reported government target. Project delivery remains subject to confirmation.</p>
-      <div class="ledger-toolbar"><div class="filter-buttons" role="group" aria-label="Filter projects"><button data-filter="all" class="selected">All projects <span>18</span></button><button data-filter="government">Government</button><button data-filter="transport">Mobility</button><button data-filter="housing">Housing</button><button data-filter="other">City life</button></div><label class="search-field"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8" cy="8" r="5"/><path d="m12 12 5 5"/></svg><input id="project-search" type="search" placeholder="Find a project" aria-label="Search projects"></label></div>
-      <div class="ledger-header"><span>PROJECT / FOCUS</span><span>LATEST EVIDENCE</span><span>REPORTED STAGE</span><span></span></div>
+      <div class="metric-band"><div><b data-stat="project-count">—</b><span>MAJOR PROJECT GROUPS</span></div><div><b data-stat="source-count">—</b><span>RESEARCH REFERENCES</span></div><div><b data-stat="building-count">—</b><span>MAPPED BUILDINGS (OSM)</span></div><div><b data-stat="target-year">—</b><span>REPORTED CAPITAL TARGET*</span></div></div>
+      <p class="metric-note">*A reported government target for the capital. Project delivery remains subject to confirmation. <span data-stat="mapped-count">—</span> project groups are located on real planning geometry.</p>
+      <div class="ledger-toolbar"><div class="filter-buttons" role="group" aria-label="Filter projects"></div>
+        <div class="ledger-tools"><label class="sort-field"><span>Sort</span><select id="project-sort" aria-label="Sort projects"><option value="ledger">Ledger order</option><option value="latest">Latest evidence</option><option value="oldest">Oldest evidence</option><option value="target">Announced target</option></select></label>
+        <label class="search-field"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8" cy="8" r="5"/><path d="m12 12 5 5"/></svg><input id="project-search" type="search" placeholder="Project, contractor, status, source" aria-label="Search projects"></label></div></div>
+      <div class="ledger-header"><span>PROJECT / FOCUS</span><span>LATEST EVIDENCE</span><span>REPORTED STAGE / TARGET</span><span></span></div>
       <div id="project-list" class="project-list" aria-live="polite"></div>
-      <div class="ledger-bottom"><span id="result-count">18 projects</span><span>Dates describe the evidence, not the page retrieval.</span></div>
+      <div class="ledger-bottom"><span id="result-count">—</span><span>Dates describe the evidence, not the page retrieval. Evidence older than four months is flagged.</span></div>
     </section>
 
-    <section class="future-note"><div class="eyebrow">THE FUTURE HAS FOOTNOTES</div><h2>See the possibility.<br><em>Know the difference.</em></h2><div class="future-columns"><p><b>01 / Observed evidence</b>Published construction, procurement and handover updates retain their dates and sources.</p><p><b>02 / Announced targets</b>A promised opening is a milestone to track. It becomes an achievement when confirmed.</p><p><b>03 / Illustrative scenarios</b>The future city is a visual exploration. Building massing and timing are not measured predictions.</p></div><button id="method-button" class="text-button">Read the model notes <span>↗</span></button></section>
+    <section class="land-section" id="land">
+      <div class="section-top"><div><div class="eyebrow"><span class="tiny-line"></span>THE LAND AND THE MONEY</div><h2>Who holds the ground.<br><em>Who pays for it.</em></h2></div><p>The authority's own GIS records who has been allotted land, and lenders publish what they have approved.<br><span>Allotment, approval and disbursement are different things.</span></p></div>
+      <div id="land-insights" class="insights"></div>
+      <div class="history"><div class="eyebrow">THE CAPITAL SO FAR</div><h3>Twelve years, with a pause.</h3><ol id="history-list" class="history-list"></ol></div>
+    </section>
+
+    <section class="future-note"><div class="eyebrow">THE FUTURE HAS FOOTNOTES</div><h2>See the possibility.<br><em>Know the difference.</em></h2><div class="future-columns"><p><b>01 / Observed evidence</b>Published construction, procurement and handover updates retain their dates and sources. Solid in the 3D study.</p><p><b>02 / Announced targets</b>A promised opening is a milestone to track, drawn as an outline and a pulsing marker. It becomes an achievement when confirmed.</p><p><b>03 / Illustrative scenarios</b>The future city is a visual exploration, drawn translucent. Building massing and timing are not measured predictions.</p></div><button id="method-button" class="text-button">Read the model notes <span>↗</span></button></section>
   </main>
 
-  <footer><a class="footer-wordmark" href="#">AMARAVATI<span> / OBSERVATORY</span></a><span>Built to explore. Grounded in evidence.</span><span>LOCAL RESEARCH EDITION · 2026</span></footer>
-  <aside id="project-panel" class="project-panel" aria-label="Project evidence" hidden><button id="close-panel" class="panel-close" aria-label="Close project details">×</button><div id="panel-content"></div></aside>
-  <dialog id="notes-dialog"><button id="close-notes" class="panel-close" aria-label="Close model notes">×</button><div class="eyebrow">BEHIND THE SCENE</div><h2>Reality, with<br><em>a clear legend.</em></h2><p>The geography comes from APCRDA planning layers and a capped OpenStreetMap footprint sample. Landmark placement uses development parcels; buildings are original illustrative massing, not official architectural models.</p><dl><div><dt>Mapped geometry</dt><dd>Government parcels, capital boundary, 72 road features and 102 water-network planning features.</dd></div><div><dt>Buildings</dt><dd>300 sampled OSM footprints have no height or floor-count tags. Their display height is a visual placeholder. Landmark dimensions and facades are illustrative.</dd></div><div><dt>Future views</dt><dd>6 months, 1 year, 2 years and the masterplan are scenarios. The controls vary visual treatments, not factual project status. Compare keeps today's geometry alongside the chosen scenario.</dd></div><div><dt>Coverage and freshness</dt><dd>Research checked 12 October 2026. Road geometry is partial: 19 of 35 sublayers downloaded. No automatic live refresh, detailed BIM models or current photographic textures.</dd></div><div><dt>Rendering</dt><dd>Locally bundled Three.js 0.184.0. Procedural landscape, trees and building details are artistic context. No satellite imagery is used.</dd></div></dl><p class="licence-note">© OpenStreetMap contributors · <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">ODbL</a>. APCRDA geometry is retained for local research; redistribution permission has not been established. Three.js is MIT licensed.</p><div class="note-links"><a href="https://gis.apcrda.org/server/rest/services/LPS_Portal/MapServer" target="_blank" rel="noopener noreferrer">APCRDA parcel sources ↗</a><a href="https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer" target="_blank" rel="noopener noreferrer">Infrastructure sources ↗</a></div></dialog>
+  <footer><a class="footer-wordmark" href="#city">AMARAVATI<span> / OBSERVATORY</span></a><span>Built to explore. Grounded in evidence.</span><span>RESEARCH EDITION · <span data-stat="edition-date-short">—</span> · <a href="https://github.com/dineshdivi2/amaravati-observatory" target="_blank" rel="noopener noreferrer">SOURCE ↗</a></span></footer>
+  <aside id="project-panel" class="project-panel" aria-labelledby="panel-title" hidden><button id="close-panel" class="panel-close" aria-label="Close project details">×</button><div id="panel-content"></div></aside>
+  <dialog id="notes-dialog" aria-labelledby="notes-title"><button id="close-notes" class="panel-close" aria-label="Close model notes">×</button><div class="eyebrow">BEHIND THE SCENE</div><h2 id="notes-title">Reality, with<br><em>a clear legend.</em></h2>
+    <p>The geography comes from APCRDA planning layers and OpenStreetMap. Landmark placement uses development parcels; landmark buildings are original illustrative massing, not official architectural models.</p>
+    <dl>
+      <div><dt>Planning geometry</dt><dd>APCRDA layers retrieved <span data-stat="gis-date">—</span>: capital boundary, government parcels, <span data-stat="road-count">—</span> trunk-road centreline segments from <span data-stat="road-layer-count">—</span> road layers, true-width road polygons, <span data-stat="water-count">—</span> blue-network features, bunds and <span data-stat="allotment-count">—</span> land allotments. Planning geometry is not proof of construction.</dd></div>
+      <div><dt>Existing city</dt><dd><span data-stat="building-count">—</span> OpenStreetMap building footprints inside the capital boundary (OSM data as of <span data-stat="osm-date">—</span>). Only <span data-stat="building-levels">—</span> carry a floor count; the rest are drawn as an assumed single storey. <span data-stat="landuse-count">—</span> land-use polygons, the Krishna river, existing roads and rail come from the same source.</dd></div>
+      <div><dt>Evidence styles</dt><dd>Solid models mark work reported on site. Outlined models mark procured or planned work. Translucent masses are illustrative. A pulsing ring marks a project whose announced target falls due by the chosen date.</dd></div>
+      <div><dt>Future views</dt><dd>Evidence only shows nothing beyond published evidence. Announced targets marks projects due by the chosen date; a target is not delivery. Illustrative growth adds speculative massing. Compare keeps today's evidence on the left.</dd></div>
+      <div><dt>Coverage and freshness</dt><dd>Project evidence checked <span data-stat="edition-date-short">—</span>. Datasets refresh through a reviewed pull request; project claims are curated by hand. No detailed BIM models or photographic textures.</dd></div>
+      <div><dt>Rendering</dt><dd>Locally bundled Three.js 0.184.0 with a physical sky and image-based lighting. Land-use colours, trees, water ripples and building tones are artistic. No satellite imagery is used. Quality adapts to the device; add <code>?quality=low</code> to the address to force the lightest mode.</dd></div>
+    </dl>
+    <p class="licence-note">© OpenStreetMap contributors · <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">ODbL</a>. APCRDA geometry is shown for research; redistribution permission has not been established. Two individual land allottees' names are withheld. Three.js is MIT licensed.</p>
+    <div class="note-links"><a href="https://gis.apcrda.org/server/rest/services/LPS_Portal/MapServer" target="_blank" rel="noopener noreferrer">APCRDA parcel sources ↗</a><a href="https://gis.apcrda.org/server/rest/services/APCRDASmartCity/SmartCityInfra/MapServer" target="_blank" rel="noopener noreferrer">Infrastructure sources ↗</a></div></dialog>
   <div id="toast" role="status" aria-live="polite"></div>
-  <script type="module" src="./app.js"></script>
+  <script type="module" src="./js/main.js"></script>
 </body>
 </html>

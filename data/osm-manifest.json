@@ -1,0 +1,57 @@
+{
+ "osm_base": "2026-10-12T15:58:51Z",
+ "river": {
+  "features": 355,
+  "river_polygons": 1
+ },
+ "landuse": {
+  "features": 902,
+  "by_kind": {
+   "wood": 62,
+   "scrub": 22,
+   "forest": 20,
+   "industrial": 31,
+   "residential": 282,
+   "religious": 7,
+   "grassland": 23,
+   "retail": 5,
+   "commercial": 4,
+   "farmland": 367,
+   "construction": 38,
+   "cemetery": 3,
+   "quarry": 2,
+   "education": 1,
+   "grass": 12,
+   "orchard": 5,
+   "meadow": 12,
+   "heath": 6
+  }
+ },
+ "osmroads": {
+  "features": 5811,
+  "by_kind": {
+   "trunk": 249,
+   "primary": 346,
+   "rail": 310,
+   "tertiary": 892,
+   "secondary": 288,
+   "residential": 3546,
+   "unclassified": 179,
+   "motorway": 1
+  }
+ },
+ "retrieved_at": "2026-10-12T18:38:48+00:00",
+ "licence": "ODbL 1.0; (c) OpenStreetMap contributors",
+ "origin": [
+  80.49,
+  16.53
+ ],
+ "buildings": {
+  "partial": true,
+  "missing_tiles": 25,
+  "in_capital_boundary": 26137,
+  "with_levels_tag": 280,
+  "with_height_tag": 0,
+  "format": "AOB1 binary; see scripts/fetch_osm.py"
+ }
+}

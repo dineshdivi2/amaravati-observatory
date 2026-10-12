@@ -1,0 +1,89 @@
+{
+ "as_of": "2026-10-12",
+ "lines": [
+  {
+   "lender": "World Bank (IBRD)",
+   "amount": 800,
+   "currency": "USD",
+   "unit": "million",
+   "status": "approved",
+   "as_of": "2024-12-20",
+   "source_id": "wb",
+   "confidence": "high"
+  },
+  {
+   "lender": "World Bank (IBRD)",
+   "amount": 340,
+   "currency": "USD",
+   "unit": "million",
+   "status": "disbursed",
+   "as_of": "2026-04-12",
+   "source_id": "etv-wb-340",
+   "confidence": "medium"
+  },
+  {
+   "lender": "Asian Development Bank",
+   "amount": 788.8,
+   "currency": "USD",
+   "unit": "million",
+   "status": "approved",
+   "as_of": "2024-12-12",
+   "source_id": "adb-loan",
+   "confidence": "high",
+   "note": "Results-based loan in yen"
+  },
+  {
+   "lender": "HUDCO",
+   "amount": 11000,
+   "currency": "INR",
+   "unit": "crore",
+   "status": "board approved",
+   "as_of": "2025-01-22",
+   "source_id": "tsf-hudco-approve",
+   "confidence": "medium"
+  },
+  {
+   "lender": "HUDCO",
+   "amount": 11000,
+   "currency": "INR",
+   "unit": "crore",
+   "status": "agreement signed",
+   "as_of": "2025-03-16",
+   "source_id": "angelone-hudco-sign",
+   "confidence": "medium",
+   "note": "Board approval 2025-01-22 per tsf-hudco-approve"
+  },
+  {
+   "lender": "KfW",
+   "amount": 5000,
+   "currency": "INR",
+   "unit": "crore",
+   "status": "state cabinet approved borrowing; signing unconfirmed",
+   "as_of": "2024-12-19",
+   "source_id": "tsf-kfw-cabinet",
+   "confidence": "low"
+  },
+  {
+   "lender": "Government of India (via MDBs)",
+   "amount": 15000,
+   "currency": "INR",
+   "unit": "crore",
+   "status": "announced in Union Budget",
+   "as_of": "2024-07-23",
+   "source_id": "dc-budget-15000",
+   "confidence": "high",
+   "note": "Arranged through multilateral agencies, not a direct grant"
+  },
+  {
+   "lender": "All lenders (aggregate)",
+   "amount": 41187.7,
+   "currency": "INR",
+   "unit": "crore",
+   "status": "loans mobilised (reported)",
+   "as_of": "2026-09-13",
+   "source_id": "review",
+   "confidence": "medium",
+   "note": "Spent since 2024: Rs 12,731.13 crore"
+  }
+ ]
+}
